@@ -1,43 +1,78 @@
-#Headcanon's HTML5 Middleman + Bower template
-This is a (somewhat opinionated) [Middleman](http://middlemanapp.com) template I made to help speed up static site building. It encourages asset management with [Bower](http://github.com/twitter/bower) and includes a default bower.json. This template also makes it easy to add [Typekit](http://typekit.com) and [Google Analytics](http://google.com/analytics) to your site. 
+# middleman-blog-bootstrap-template
 
-a lot of credit goes to [Danny Prose's Middleman HTML5BP-HAML](https://github.com/dannyprose/Middleman-HTML5BP-HAML) template, as well as the general [HTML5 Boilerplate](http://html5boilerplate.com) for helping me make this template.
-
-This bad boy is distributed under the MIT license.
-
+This is a [Middleman](http://middlemanapp.com) template speed up building blog.
+It encourages asset management with [Bower](http://github.com/twitter/bower) and includes a default bower.json. 
+Select the themes from [Bootswatch](http://bootswatch.com/), then you can easily build bootstrap-based blogs.
 
 ##Features:
-* [Markdown](http://daringfireball.net/projects/markdown/) rendering
-* [SCSS](http://sass-lang.com)
-* [Coffeescript](http://coffeescript.org)
-* a [Favicon Maker](http://github.com/follmann/middleman-favicon-maker)
-* Middleman [Live Reload](http://github.com/middleman/middleman-livereload)
-* [Modernizr](http://modernizr.com)
-* [Normalize.css](http://necolas.github.com/normalize.css) 
+* Rendering engine
+ - [Markdown](http://daringfireball.net/projects/markdown/) in posts
+ - [Slim](http://slim-lang.com/) in layout
+* Middleman plugins
+ - [middleman-blog](http://github.com/middleman/middleman-blog/)
+ - [middleman-livereload](http://github.com/middleman/middleman-livereload)
+ - [middleman-target](http://github.com/xunker/middleman-target) 
+ - [middleman-deploy](http://github.com/tvaughan/middleman-deploy) config snippet to ease FTP/SFTP deployment
 * [Bower](http://github.com/twitter/bower) package management
-* A Gemfile.ru for easy Heroku deployment
-* A [middleman-deploy](http://github.com/tvaughan/middleman-deploy) config snippet to ease FTP deployment
-
+ - [Normalize.css](http://necolas.github.com/normalize.css) 
+ - [Modernizr](http://modernizr.com)
+ - [Bootswatch](http://bootswatch.com/)
+ - [Font-awesome](http://fontawesome.io/)
+ - [jQuery](http://jquery.com/)
+ - [Respond.js](http://github.com/scottjehl/Respond)
+* [SCSS](http://sass-lang.com)
+* [Coffeescript](http://coffeescript.org/)
 
 ##Installation
-1. Download/clone to: `~/.middleman/html5bower`
-2. Create your new Middleman project: `middleman init my_new_project --template=html5bower`
-3. `bower install` to install the assets in the `components/` directory.
+1. If you're just getting started, install the `middleman` gem and generate a new project:
 
+```
+gem install middleman
+```
+2. Download/clone to: 
 
+```
+/.middleman/blog-bootstrap`
+```
+
+3. Create your new Middleman project with thie template:
+
+```
+middleman init my_new_project --template=blog-bootstrap
+```
+
+4. Install the assets in the `bower_components/` directory.
+```
+bower install
+```
 *Note: You can name the template whatever you like, so long as you call the same name in the `middleman init` command*
 
+##Configuration
+Edit `config.rb` as you like.
 
-##Adding a package with bower
-By default, all bower packages are put in the ```components/``` directory outside of the source. This is to prevent all of the extra files bower downloads being copied over to ```build/```.
+1. Edit site settings
+```
+# Set site setting, used in helpers / sitemap.xml / feed.xml.
+set :site_url, 'http://blog.url.com'
+set :site_author, 'Blog author'
+set :site_title, 'Blog title'
+set :site_subtitle, 'Blog subtitle'
+# Select the theme from bootswatch.com.
+# If false, you can get plain bootstrap style.
+# set :theme_name, 'cyborg'
+set :theme_name, false
+@analytics_account = false
+```
+
+2. Add packages with bower
+By default, all bower packages are put in the ```bower_components/``` directory outside of the source. This is to prevent all of the extra files bower downloads being copied over to ```build/```.
 We used to have to symlink the files we wanted in the components directory over to our assets path in ```source/```, but no longer.
 
 Now when you want to install a package, simply ```bower install <somepackage>``` and include it like you would any other file in sprockets.
 
 If you want to reference the asset directly in your HTML, then you will need to create a file in the asset path that includes the asset via sprockets. It's not ideal, but I think thats the best I can do right now.  An example of this is ```source/assets/js/vendor/modernizr.js``` and ```source/assets/css/vendor/universal-ie6.css```.
 
-
-##On the SCSS organization
+3. Edit SCSS
 I have not included a CSS grid at this time, mostly because it seems like everyone's got their own preference, and I haven't found one I really like yet.
 
 However, I have included a file organization that has worked for me so far:
@@ -58,4 +93,6 @@ Also remember to add the site name, keywords, and description in ```helpers/meta
 ##Contribute
 Have a better idea for middleman defaults? Give it a fork! Don't hesitate to create an issue if you have a problem or question.
 
-*Happy Building!*
+## License
+
+Copyright (c) 2014 [Biblichor](http://github.com/biblichor) MIT Licenced, see [LICENSE] for details.

@@ -1,18 +1,17 @@
 def page_title
-  title = "Middleman" #Set site title here
-
-  if data.page.title
-    title << " | " + data.page.title
+  title = site_title
+  if current_article && current_article.title
+    title = site_title + " | " +  current_article.title
   end
 
   title
 end
 
 def page_description
-  description = "A Static Site Generator" # Set site description here
+  description = site_description
 
-  if data.page.description
-    description = data.page.description
+  if current_article && current_article.summary(100)
+    description = current_article.summary(100)
   end
 
   description
@@ -21,8 +20,8 @@ end
 def page_keywords
   keywords = [] # Set site keywords here
 
-  if data.page.keywords
-    keywords.concat(dat.page.keywords)
+  if current_article && current_article.tags
+    keywords.concat(current_article.data.tags)
   end
 
   keywords.uniq.join(", ")

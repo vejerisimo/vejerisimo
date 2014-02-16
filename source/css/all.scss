@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+@import "settings";
+@import "imports";
+
+header {
+  padding: $paddingHeader;
+}
+header i {
+  font-size: $iconSizeHeader;
+}
