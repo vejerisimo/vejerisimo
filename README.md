@@ -55,12 +55,9 @@ set :site_url, 'http://blog.url.com'
 set :site_author, 'Blog author'
 set :site_title, 'Blog title'
 set :site_subtitle, 'Blog subtitle'
-<<<<<<< HEAD
 # Select the theme from bootswatch.com.
 # If false, you can get plain bootstrap style.
 # set :theme_name, 'flatly'
-=======
->>>>>>> 8700a95098e15386813ea023f165a00885a452dc
 set :theme_name, false
 # set @analytics_account, like 'XX-12345678-9'
 @analytics_account = false
@@ -87,12 +84,10 @@ You can edit `_settings.scss`, `_imports.scss` as you like.
 * any variables (like colors and such) go into _settings.scss
 * any packages/imports go into _imports.scss
 
-<<<<<<< HEAD
 ##Requirements
 Confirmed in ruby 2.0.0p247, rubygem 2.0.3, middleman 3.2.2
-=======
+
 ###Helpers configuration, etc.
->>>>>>> 8700a95098e15386813ea023f165a00885a452dc
 
 * In ```helpers/```, a few helpers are inclueded to help out with organizing the following information on your site.
  - title
