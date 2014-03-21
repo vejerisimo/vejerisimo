@@ -23,24 +23,22 @@ Select the themes from [Bootswatch](http://bootswatch.com/), then you can easily
 * [SCSS](http://sass-lang.com)
 * [Coffeescript](http://coffeescript.org/)
 
+[Preview](source/images/sample-theme-flatly.png) the sample image which is made in Bootswatch "flatly" theme.
+
 ##Installation
 1. If you're just getting started, install the `middleman` gem and generate a new project:
-
 ```
 gem install middleman
 ```
 2. Download/clone to: 
-
 ```
 /.middleman/blog-bootstrap`
 ```
 
 3. Create your new Middleman project with thie template:
-
 ```
 middleman init my_new_project --template=blog-bootstrap
 ```
-
 4. Install the assets in the `bower_components/` directory.
 ```
 bower install
@@ -59,8 +57,9 @@ set :site_title, 'Blog title'
 set :site_subtitle, 'Blog subtitle'
 # Select the theme from bootswatch.com.
 # If false, you can get plain bootstrap style.
-# set :theme_name, 'cyborg'
+# set :theme_name, 'flatly'
 set :theme_name, false
+# set @analytics_account, like 'XX-12345678-9'
 @analytics_account = false
 ```
 
@@ -89,6 +88,8 @@ To get typekit or analytics inclusion, simply add your account name/code to the 
 
 Also remember to add the site name, keywords, and description in ```helpers/meta. If you want to include a page-specific one of these, they will be appended to the overall site's.
 
+##Requirements
+Confirmed in ruby 2.0.0p247, rubygem 2.0.3, middleman 3.2.2
 
 ##Contribute
 Have a better idea for middleman defaults? Give it a fork! Don't hesitate to create an issue if you have a problem or question.

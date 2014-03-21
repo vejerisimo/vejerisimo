@@ -3,9 +3,6 @@
 @import "settings";
 @import "imports";
 
-header {
-  padding: $paddingHeader;
-}
-header i {
-  font-size: $iconSizeHeader;
+body {
+  margin-top: $marginTopBody;
 }

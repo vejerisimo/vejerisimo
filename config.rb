@@ -109,8 +109,9 @@ set :site_title, 'Blog title'
 set :site_description, 'Blog description'
 # Select the theme from bootswatch.com.
 # If false, you can get plain bootstrap style.
-# set :theme_name, 'cyborg'
+# set :theme_name, 'flatly'
 set :theme_name, false
+# set @analytics_account, like "XX-12345678-9"
 @analytics_account = false
 
 # Asset Settings

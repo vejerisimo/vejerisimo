@@ -1,20 +1,22 @@
-.col-sm-3.hidden-xs.navbar-brand.affix
-  header.text-center
-    a.text-center href="/"
-      i.glyphicon.glyphicon-camera    
-    p.text-center
-      = site_title
-    #contact-list.text-center
-      ul.list-unstyled.list-inline.text-center
+.col-lg-3.col-md-3
+  .well
+    h4 Tags
+    ul.list-unstyled
+      - blog.tags.each do |tag, articles|
         li
-          i.fa.fa-github-square.fa-lg
+          = link_to tag, tag_path(tag)
+          |  (
+          = articles.size
+          | )
+  .well
+    h4 By year
+    ol
+      - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
         li
-          i.fa.fa-bitbucket-square.fa-lg
-        li
-          i.fa.fa-twitter-square.fa-lg
-        li
-          i.fa.fa-facebook-square.fa-lg
-        li
-          i.fa.fa-google-plus-square.fa-lg
-        li
-          i.fa.fa-linkedin-square.fa-lg
+          = link_to year, blog_year_path(year)
+          |  (
+          = articles.size
+          | )
+  .well
+    h4 Side Widget Well
+    p Bootstrap's default well for sidebar
