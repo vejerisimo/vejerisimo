@@ -37,6 +37,7 @@ section {
 	}
 }
 
+
 section.blue {
 	background-color: #5983C3;
 	color: white;
@@ -77,6 +78,11 @@ h3 {
 }
 
 // top
+
+.carousel {
+	height: 600px;
+	overflow: hidden;
+}
 
 #carousel-top {
 	// position: absolute;
