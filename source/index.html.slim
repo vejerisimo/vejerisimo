@@ -1,40 +1,217 @@
----
-pageable: true
-per_page: 10
----
-- page_articles.each_with_index do |article, i|
-  h1
-    = link_to article.title, article
-  p
-    - article.tags.each do |tag|
-      small.label.label-default
-        = tag
-  hr
-  p
-    span.glyphicon.glyphicon-time
-    |  Posted on 
-    = article.date.strftime('%b %e')
-  hr
-  - if article.data.image_src
-    img.img-responsive src=article.data.image_src
-    hr
-  = article.summary
-  a.btn.btn-primary href=article.url
-    | Read More
-    span.glyphicon.glyphicon-chevron-right
-  hr
-- if paginate
-  - if num_pages > 1
-    .well-sm
-      ul.pager
-        - if page_number > 1
-          li.previous
-            = link_to '&larr;', prev_page
-        span.text-center
-          | Page 
-          = page_number
-          |  of 
-          = num_pages
-        - if page_number < num_pages
-          li.next
-            = link_to '&rarr;', next_page
+
+
+.carousel.slide id="carousel-top" data-ride="carousel"
+  /! Indicators
+  ol.carousel-indicators
+    li.active data-slide-to="0" data-target="#carousel-top" 
+    li        data-slide-to="1" data-target="#carousel-top" 
+  /! Wrapper for slides
+  .carousel-inner role="listbox" 
+    .item.active   
+      .carrousel-container
+        img alt="Arco" src="http://www.decobizz.com/pictures/20140318/gc-spain-white-bedroom-furniture.jpg" 
+      .carousel-caption
+        | Arco | €75
+    .item
+      .carrousel-container
+        img alt="Doble" src="http://www.sertplast.com/wp-content/uploads/2014/06/Lovely-Interior-Living-Room-Decorating-Ideas-feat-soft-yellow-couch-and-vintage-arc-floor-lamp-ideas.jpg" 
+      .carousel-caption
+        | Doble | €95        
+  /! Controls
+  a.left.carousel-control data-slide="prev" href="#carousel-top" role="button" 
+    span.glyphicon.glyphicon-chevron-left aria-hidden="true" 
+    span.sr-only Previous
+  a.right.carousel-control data-slide="next" href="#carousel-top" role="button" 
+    span.glyphicon.glyphicon-chevron-right aria-hidden="true" 
+    span.sr-only Next
+
+  .jumbotron 
+    h1 
+      | VEJERÍSIMO
+    h4
+      small
+        | Overnachten in het Hart van Andalusie
+
+
+.carousel.slide id="carousel-about" data-ride="carousel"
+  /! Indicators
+  ol.carousel-indicators
+    li.active data-slide-to="0" data-target="#carousel-about" 
+    li        data-slide-to="1" data-target="#carousel-about" 
+    li        data-slide-to="2" data-target="#carousel-about" 
+  /! Wrapper for slides
+  .carousel-inner role="listbox" 
+    .item.active   
+      section.white
+        .content
+          h2.text-left Vejer behoort tot de mooiste authentieke steden van Spanje. Gezeligheid en echtheid troef.
+          p De vele bartjes. De gezellige restaurantjes. Loop verloren in de smalle steegjes en ontdekt elke keer weer opnieuw iets.    
+          p Het dorp is met zijn kenmerkende witte huisjes een van de vele 'Pueblos Blanco's' die je overal in Andalusië ziet. In 2013 werd Vejer de la Frontera door Tripadvisor verkozen tot tweede mooiste dorp van Spanje, na Ronda.
+          p Bij ons overnacht je in het hartje van de stad. Alles ligt op wandelafstand. 
+    .item
+      section.yellow
+        .content
+          h2.text-left De Costa de la Luz dankt zijn naam aan het felle zonlicht dat meer dan 3000 zonuren per jaar weerkaatst op de oceaan en de witte zandstranden. 
+          p De Atlantische kust strekt zich uit van Tarifa in het zuidwesten tot de grens van Portugal in het noordwesten en omvat de provincies van Cádiz en Huelva. De kust 
+          p De Costa de la Luz is een populaire vakantiebestemming bij Spanjaarden en trekt de laatste jaren ook steeds meer buitenlandse toeristen, maar heeft zijn authentieke Andalusische karakter nog grotendeels bewaard.    
+          p Vejer ligt in de provincie Cádiz, met gelijknamige hoofdstad Cádiz dat tijdens het grootste deel van het jaar bezit Cádiz een van de aangenaamste klimaten van het Iberisch Schiereiland. 
+    .item
+      section.blue
+        .content      
+          h2.text-left  Andalusië is de meest Spaanse streek van heel Spanje. Veel van wat we typisch Spaans noemen vindt haar oorsprong hier.             
+          p Het is de bakermat van de flamencomuziek. De exacte ontstaansgeschiedenis is niet bekend, maar vermoed wordt dat zigeunermuziek als basis vermengd werd met Indiase, christelijke, Joodse en Moorse invloeden.
+          p Het is ook de bakermat van de sherry. De druiven waarvan sherry gemaakt wordt, verbouwt men in de buurt van Jerez de la Frontera. Voor sherry worden voornamelijk twee druivensoorten gebruikt: de Palomino druif en de Pedro Ximénez. Bij de sherry worden vaak tapas gegeten. Dit zijn typisch Spaanse aperitiefhapjes die tijdens het borreluurtje genuttigd worden.
+          p Hier ligt ook de bakermat van het stierenvechten en staat bij paardenliefhebbers bekend om de fokkerij van paardenrassen als de Andalusiër en de Lusitano, die diep verworteld zijn in de Berber en door de eeuwen heen van grote invloed waren op de fokkerij van vele andere Europese rassen van barokpaarden, zoals de Lipizzaner, de Kladruber en de Fries.
+
+  /! Controls
+  a.left.carousel-control data-slide="prev" href="#carousel-about" role="button" 
+    span.glyphicon.glyphicon-chevron-left aria-hidden="true" 
+    span.sr-only Previous
+  a.right.carousel-control data-slide="next" href="#carousel-about" role="button" 
+    span.glyphicon.glyphicon-chevron-right aria-hidden="true" 
+    span.sr-only Next
+
+.carousel.slide id="carousel-city" data-ride="carousel"
+  /! Indicators
+  ol.carousel-indicators
+    li.active data-slide-to="0" data-target="#carousel-city" 
+    li        data-slide-to="1" data-target="#carousel-city" 
+    li        data-slide-to="2" data-target="#carousel-city" 
+    li        data-slide-to="3" data-target="#carousel-city" 
+    / li data-slide-to="2" data-target="#carousel-example-generic" 
+  /! Wrapper for slides
+  .carousel-inner role="listbox" 
+    .item
+      .carrousel-container
+        img alt="Plaza de Espana" src="http://static.panoramio.com/photos/original/24898368.jpg" 
+      .carousel-caption
+        | Plaza de Espana
+    .item.active 
+      .carrousel-container
+        img alt="View on the Cascso" src="http://calordevejer.com/wp-content/uploads/2013/03/IMG_33542.jpg" 
+      .carousel-caption
+        | View on the Casco
+    .item
+      .carrousel-container
+        img alt="Zahara de los Atunes" src="http://www.blogcdn.com/slideshows/images/slides/262/864/5/S2628645/slug/l/zahara-de-los-atunes-beach-in-barbate-costa-de-la-luz-cadiz-andalusia-spain-1.jpg" 
+      .carousel-caption
+        | Zahara de los Atunes
+    .item
+      .carrousel-container
+        img alt="Costa de la luz" src="http://content.itaka.pl/cms/img/u/kraj/1/costa_de_la_luz_17.jpg" 
+      .carousel-caption
+        | Costa de la luz
+
+
+  /! Controls
+  a.left.carousel-control data-slide="prev" href="#carousel-city" role="button" 
+    span.glyphicon.glyphicon-chevron-left aria-hidden="true" 
+    span.sr-only Previous
+  a.right.carousel-control data-slide="next" href="#carousel-city" role="button" 
+    span.glyphicon.glyphicon-chevron-right aria-hidden="true" 
+    span.sr-only Next
+
+
+section.white
+  .content
+    h3 Gastenkamers
+
+    .row.rooms
+      .col-lg-6.col-md-6
+        .center
+          img.room src="http://www.hotelesoaxaca.org/img/sys/hotel/Hotel_Casa_de_Siete_Balcones/PRINCIPAL_SIETE_BALCONES.png"
+        h4 Cueva | €75 
+
+      .col-lg-6.col-md-6
+        .center
+          img.room src="http://media-cdn.tripadvisor.com/media/photo-s/03/ab/95/3f/siete-balcones-y-un-patio.jpg"
+        h4 Doble | €95 
+
+    .row.rooms
+      .col-lg-6.col-md-6
+        .center
+          img.room src="http://www.escapada.eu/wp-content/uploads/2014/01/Siete-Balcones-kamer-02.jpg"
+        h4 Chico | €65 
+
+      .col-lg-6.col-md-6
+        .center
+          img.room src="http://www.andalucia.org/media/fotos/image_146408_jpeg_800x600_q85.jpg"
+        h4 Arco | €75 
+
+
+section.red
+  .content
+    h1
+      | VEJERÍSIMO
+    h4
+      small
+        | Overnachten in het Hart van Andalousie
+    p.center 
+      a href="mailto:info@vejerisimo.com" 
+        | info@vejerisimo.com
+    p.center 
+      a href="tel:+34 638 18 86 82" 
+        | +34 638 18 86 82
+    p.center 
+      | Calle Trafalgar 28
+      br
+      | 11150 Vejer de la Frontera
+
+
+iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Calle%20Trafalgar%2C%2028%2C%2011150%20Vejer%20de%20la%20Frontera%2C%20Spanje&key=AIzaSyDLS0koEGBQpHWQIEknCNyL2q3qYqD1nVs"
+
+
+
+
+
+/ section.vejer
+/   .content
+/     h2.text-left Vejer behoort tot de mooiste authentieke steden van Spanje. Gezeligheid en echtheid troef.
+/     p De vele bartjes. De gezellige restaurantjes. Loop verloren in de smalle steegjes en ontdekt elke keer weer opnieuw iets.    
+/     p Het dorp is met zijn kenmerkende witte huisjes een van de vele 'Pueblos Blanco's' die je overal in Andalusië ziet. In 2013 werd Vejer de la Frontera door Tripadvisor verkozen tot tweede mooiste dorp van Spanje, na Ronda.
+/     p Bij ons overnacht je in het hartje van de stad. Alles ligt op wandelafstand. 
+
+/ section.white
+/     .content
+/       h2.text-left De Costa de la Luz dankt zijn naam aan het felle zonlicht dat meer dan 3000 zonuren per jaar weerkaatst op de oceaan en de witte zandstranden. 
+/       p De Atlantische kust strekt zich uit van Tarifa in het zuidwesten tot de grens van Portugal in het noordwesten en omvat de provincies van Cádiz en Huelva. De kust 
+/       p De Costa de la Luz is een populaire vakantiebestemming bij Spanjaarden en trekt de laatste jaren ook steeds meer buitenlandse toeristen, maar heeft zijn authentieke Andalusische karakter nog grotendeels bewaard.    
+
+
+/ .carousel.slide id="carousel-laluz" data-ride="carousel"
+/   /! Indicators
+/   ol.carousel-indicators
+/     li.active data-slide-to="0" data-target="#carousel-laluz" 
+/     li        data-slide-to="1" data-target="#carousel-laluz" 
+/     / li data-slide-to="2" data-target="#carousel-example-generic" 
+/   /! Wrapper for slides
+/   .carousel-inner role="listbox" 
+/     .item
+/       .carrousel-container
+/         img alt="Zahara de los Atunes" src="http://www.blogcdn.com/slideshows/images/slides/262/864/5/S2628645/slug/l/zahara-de-los-atunes-beach-in-barbate-costa-de-la-luz-cadiz-andalusia-spain-1.jpg" 
+/       .carousel-caption
+/         | Zahara de los Atunes
+/     .item.active 
+/       .carrousel-container
+/         img alt="Costa de la luz" src="http://content.itaka.pl/cms/img/u/kraj/1/costa_de_la_luz_17.jpg" 
+/       .carousel-caption
+/         | Costa de la luz
+
+/   /! Controls
+/   a.left.carousel-control data-slide="prev" href="#carousel-laluz" role="button" 
+/     span.glyphicon.glyphicon-chevron-left aria-hidden="true" 
+/     span.sr-only Previous
+/   a.right.carousel-control data-slide="next" href="#carousel-laluz" role="button" 
+/     span.glyphicon.glyphicon-chevron-right aria-hidden="true" 
+/     span.sr-only Next      
+
+/ section.yellow
+/   .content      
+/     h2.text-left  Andalusië is de meest Spaanse streek van heel Spanje. Veel van wat we typisch Spaans noemen vindt haar oorsprong hier.             
+/     p Andalusië is de bakermat van de flamencomuziek. De exacte ontstaansgeschiedenis is niet bekend, maar vermoed wordt dat zigeunermuziek als basis vermengd werd met Indiase, christelijke, Joodse en Moorse invloeden.
+/     p Andalusië is het land van de sherry. De druiven waarvan sherry gemaakt wordt, verbouwt men in de buurt van Jerez de la Frontera. Voor sherry worden voornamelijk twee druivensoorten gebruikt: de Palomino druif en de Pedro Ximénez. Bij de sherry worden vaak tapas gegeten. Dit zijn typisch Spaanse aperitiefhapjes die tijdens het borreluurtje genuttigd worden.
+/     p Hier ligt ook de bakermat van het stierenvechten. Alhoewel deze culturele traditie door protesten vanuit dierenrechten-organisaties bedreigd wordt, blijft ze immens populair in Andalusië.
+/     p Andalusië staat bij paardenliefhebbers bekend om de fokkerij van paardenrassen als de Andalusiër en de Lusitano, die diep verworteld zijn in de Berber en door de eeuwen heen van grote invloed waren op de fokkerij van vele andere Europese rassen van barokpaarden, zoals de Lipizzaner, de Kladruber en de Fries.
+
+
+

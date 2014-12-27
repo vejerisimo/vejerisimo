@@ -103,10 +103,10 @@ activate :livereload
 # Site Settings
 ###
 # Set site setting, used in helpers / sitemap.xml / feed.xml.
-set :site_url, 'http://blog.url.com'
-set :site_author, 'Blog author'
-set :site_title, 'Blog title'
-set :site_description, 'Blog description'
+set :site_url, 'http://www.vejerísimo.com'
+set :site_author, 'Wim & Marie'
+set :site_title, 'VEJERÍSIMO'
+set :site_description, 'Vejerísimo'
 # Select the theme from bootswatch.com.
 # If false, you can get plain bootstrap style.
 # set :theme_name, 'flatly'

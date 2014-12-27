@@ -6,3 +6,130 @@
 body {
   margin-top: $marginTopBody;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h2 {
+	padding-top: 20px;
+}
+
+section {
+	@extend .row;
+	// background-color: #CFB367;
+	// color: white;
+	// min-height: 800px;
+	padding: 0px;
+	margin: 0px;
+	// width: 100%;	
+	.content {
+		h1 { 
+			// padding: 20px;
+		}
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;		
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+}
+
+section.blue {
+	background-color: #5983C3;
+	color: white;
+	a {
+		color: white;
+	}
+}
+
+section.yellow {
+	background-color: #CFB367;
+	color: white;
+	a {
+		color: white;
+	}
+}
+
+section.red {
+	background-color: #784448;
+	color: white;
+	a {
+		color: white;
+	}	
+	h1 { 
+		font-weight: light;
+		font-size: 5em;	
+		font-family: 'Antic Didone';
+	}	
+}
+
+section.white {
+	background-color: white;
+}
+
+
+h3 {
+	color: #2179C1;
+	// border-bottom: 3px dashed #2179C1;
+}
+
+// top
+
+#carousel-top {
+	// position: absolute;
+	height: 600px;
+
+	.jumbotron {
+		// float: left;
+		// width: 100%;
+		pointer-events:none;
+		position: relative;
+		top: -600px;
+		// margin-top: -600px;
+		// margin-bottom: -600px;
+		background-color: rgba(200,200,200,0.5);
+		padding: 50px;
+		margin: 0px;
+		
+		h1 {
+			font-family: 'Antic Didone';	
+		}
+		small {
+			color: black;	
+		}
+	} 
+
+}
+
+.carrousel-container { max-height: 600px; width: auto; overflow: hidden; }
+.carrousel-container img { width: 100%; }
+
+// jumbotron
+
+// ROOMS
+
+.row {
+	.rooms {
+		padding-bottom: 20px;
+		padding-top: 40px;
+	}
+}
+
+.center {
+	text-align: center;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;	
+	display: table;
+}
+
+img.room {
+	@extend .img-circle;
+	// @extend .img-responsive;
+	// margin-bottom: 20px;
+	width: 250px;
+	height: 250px;
+}

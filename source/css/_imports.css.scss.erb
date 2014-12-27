@@ -4,12 +4,12 @@
 */
 
 <% if theme_name %> 
-@import "sass-bootstrap/lib/variables";
-@import "bootswatch-scss/<%=theme_name%>/variables";
+	@import "sass-bootstrap/lib/variables";
+	@import "bootswatch-scss/<%=theme_name%>/variables";
 <% end %>
 @import "sass-bootstrap/lib/bootstrap";
 <% if theme_name %> 
-@import "bootswatch-scss/<%=theme_name%>/bootswatch";
+	@import "bootswatch-scss/<%=theme_name%>/bootswatch";
 <% end %>
 
 @import "font-awesome/scss/font-awesome";
