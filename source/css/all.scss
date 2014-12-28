@@ -65,17 +65,20 @@ section.red {
 		font-size: 5em;	
 		font-family: 'Antic Didone';
 	}	
+	h2, h3, h4 { 
+		font-weight: light;
+		font-family: 'Antic Didone';
+	}	
 }
 
 section.white {
 	background-color: white;
+	h2 {
+		color: #784448;
+		// border-bottom: 3px dashed #2179C1;
+	}
 }
 
-
-h3 {
-	color: #2179C1;
-	// border-bottom: 3px dashed #2179C1;
-}
 
 // top
 
