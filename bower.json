@@ -13,6 +13,7 @@
     "sass-bootstrap": "~3.0",
     "jquery": "~2.0",
     "jquery-mobile-bower": "~1.4",
+    "bootstrap-touch-carousel": "", 
     "modernizr": "~2.6.3",
     "respond": "~1.4.2",
     "bootswatch-scss": "~3.0.0",
