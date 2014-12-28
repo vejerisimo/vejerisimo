@@ -7,6 +7,7 @@
     <meta content="Vejerísimo" name="description" />
     <!--[if lt IE 9]><script src="js/ie8.js" type="text/javascript"></script><![endif]--><link href="css/all.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand" rel="stylesheet" type="text/css" />
+    <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
   </head>
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -36,7 +37,7 @@
       </div>
     </nav>
     <div class="container-fluid">
-      <div class="carousel slide" data-ride="carousel" id="carousel-top">
+      <div class="carousel slide" data-keyboard="true" data-ride="carousel" id="carousel-top">
         <!--Indicators-->
         <ol class="carousel-indicators">
           <li class="active" data-slide-to="0" data-target="#carousel-top"></li>
@@ -71,122 +72,20 @@
           </h4>
         </div>
       </div>
-      <div class="carousel slide" data-ride="carousel" id="carousel-about">
-        <!--Indicators-->
-        <ol class="carousel-indicators">
-          <li class="active" data-slide-to="0" data-target="#carousel-about"></li>
-          <li data-slide-to="1" data-target="#carousel-about"></li>
-          <li data-slide-to="2" data-target="#carousel-about"></li>
-        </ol>
-        <!--Wrapper for slides-->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <section class="white">
-              <div class="content">
-                <h2 class="text-left">
-                  Vejer behoort tot de mooiste authentieke steden van Spanje. Gezeligheid en echtheid troef.
-                </h2>
-                <p>
-                  De vele bartjes. De gezellige restaurantjes. Loop verloren in de smalle steegjes en ontdekt elke keer weer opnieuw iets.    
-                </p>
-                <p>
-                  Het dorp is met zijn kenmerkende witte huisjes een van de vele 'Pueblos Blanco's' die je overal in Andalusië ziet. In 2013 werd Vejer de la Frontera door Tripadvisor verkozen tot tweede mooiste dorp van Spanje, na Ronda.
-                </p>
-                <p>
-                  Bij ons overnacht je in het hartje van de stad. Alles ligt op wandelafstand. 
-                </p>
-              </div>
-            </section>
-          </div>
-          <div class="item">
-            <section class="yellow">
-              <div class="content">
-                <h2 class="text-left">
-                  De Costa de la Luz dankt zijn naam aan het felle zonlicht dat meer dan 3000 zonuren per jaar weerkaatst op de oceaan en de witte zandstranden. 
-                </h2>
-                <p>
-                  De Atlantische kust strekt zich uit van Tarifa in het zuidwesten tot de grens van Portugal in het noordwesten en omvat de provincies van Cádiz en Huelva. De kust 
-                </p>
-                <p>
-                  De Costa de la Luz is een populaire vakantiebestemming bij Spanjaarden en trekt de laatste jaren ook steeds meer buitenlandse toeristen, maar heeft zijn authentieke Andalusische karakter nog grotendeels bewaard.    
-                </p>
-                <p>
-                  Vejer ligt in de provincie Cádiz, met gelijknamige hoofdstad Cádiz dat tijdens het grootste deel van het jaar bezit Cádiz een van de aangenaamste klimaten van het Iberisch Schiereiland. 
-                </p>
-              </div>
-            </section>
-          </div>
-          <div class="item">
-            <section class="blue">
-              <div class="content">
-                <h2 class="text-left">
-                  Andalusië is de meest Spaanse streek van heel Spanje. Veel van wat we typisch Spaans noemen vindt haar oorsprong hier.             
-                </h2>
-                <p>
-                  Het is de bakermat van de flamencomuziek. De exacte ontstaansgeschiedenis is niet bekend, maar vermoed wordt dat zigeunermuziek als basis vermengd werd met Indiase, christelijke, Joodse en Moorse invloeden.
-                </p>
-                <p>
-                  Het is ook de bakermat van de sherry. De druiven waarvan sherry gemaakt wordt, verbouwt men in de buurt van Jerez de la Frontera. Voor sherry worden voornamelijk twee druivensoorten gebruikt: de Palomino druif en de Pedro Ximénez. Bij de sherry worden vaak tapas gegeten. Dit zijn typisch Spaanse aperitiefhapjes die tijdens het borreluurtje genuttigd worden.
-                </p>
-                <p>
-                  Hier ligt ook de bakermat van het stierenvechten en staat bij paardenliefhebbers bekend om de fokkerij van paardenrassen als de Andalusiër en de Lusitano, die diep verworteld zijn in de Berber en door de eeuwen heen van grote invloed waren op de fokkerij van vele andere Europese rassen van barokpaarden, zoals de Lipizzaner, de Kladruber en de Fries.
-                </p>
-              </div>
-            </section>
-          </div>
-        </div>
-        <!--Controls--><a class="left carousel-control" data-slide="prev" href="#carousel-about" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" data-slide="next" href="#carousel-about" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span><span class="sr-only">Next</span></a>
-      </div>
-      <div class="carousel slide" data-ride="carousel" id="carousel-city">
-        <!--Indicators-->
-        <ol class="carousel-indicators">
-          <li class="active" data-slide-to="0" data-target="#carousel-city"></li>
-          <li data-slide-to="1" data-target="#carousel-city"></li>
-          <li data-slide-to="2" data-target="#carousel-city"></li>
-          <li data-slide-to="3" data-target="#carousel-city"></li>
-        </ol>
-        <!--Wrapper for slides-->
-        <div class="carousel-inner" role="listbox">
-          <div class="item">
-            <div class="carrousel-container">
-              <img alt="Plaza de Espana" src="http://static.panoramio.com/photos/original/24898368.jpg" />
-            </div>
-            <div class="carousel-caption">
-              Plaza de Espana
-            </div>
-          </div>
-          <div class="item active">
-            <div class="carrousel-container">
-              <img alt="View on the Cascso" src="http://calordevejer.com/wp-content/uploads/2013/03/IMG_33542.jpg" />
-            </div>
-            <div class="carousel-caption">
-              View on the Casco
-            </div>
-          </div>
-          <div class="item">
-            <div class="carrousel-container">
-              <img alt="Zahara de los Atunes" src="http://www.blogcdn.com/slideshows/images/slides/262/864/5/S2628645/slug/l/zahara-de-los-atunes-beach-in-barbate-costa-de-la-luz-cadiz-andalusia-spain-1.jpg" />
-            </div>
-            <div class="carousel-caption">
-              Zahara de los Atunes
-            </div>
-          </div>
-          <div class="item">
-            <div class="carrousel-container">
-              <img alt="Costa de la luz" src="http://content.itaka.pl/cms/img/u/kraj/1/costa_de_la_luz_17.jpg" />
-            </div>
-            <div class="carousel-caption">
-              Costa de la luz
-            </div>
-          </div>
-        </div>
-        <!--Controls--><a class="left carousel-control" data-slide="prev" href="#carousel-city" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" data-slide="next" href="#carousel-city" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span><span class="sr-only">Next</span></a>
-      </div>
       <section class="white">
         <div class="content">
-          <h3>
-            Gastenkamers
-          </h3>
+          <h2 class="text-left">
+            Vejer behoort tot de mooiste authentieke steden van Spanje. Gezeligheid en echtheid troef.
+          </h2>
+          <p>
+            De vele bartjes. De gezellige restaurantjes. Loop verloren in de smalle steegjes en ontdekt elke keer weer opnieuw iets. Het dorp is met zijn kenmerkende witte huisjes een van de vele 'Pueblos Blanco's' die je overal in Andalusië ziet. In 2013 werd Vejer de la Frontera door Tripadvisor verkozen tot tweede mooiste dorp van Spanje, na Ronda.
+          </p>
+          <p>
+            Bij ons overnacht je in het hartje van de stad. Alles ligt op wandelafstand. De oude stad is auto luw maar parkeren kan je toch dichtbij. Bovendien is parkeren gratis. Bij ontvangst helpen we je even zo dat nodig is.
+          </p>
+          <p>
+            We hebben 4 unieke kamers waar we je van harte welkom heten.
+          </p>
           <div class="row rooms">
             <div class="col-lg-6 col-md-6">
               <div class="center">
@@ -242,9 +141,228 @@
           <p class="center">
             Calle Trafalgar 28<br />11150 Vejer de la Frontera
           </p>
+          <p class="center">
+            <a class="btn btn-default" href="mailto:info@vejerisimo.com" title="voor meer info of beschikbaarheid">Email</a>
+          </p>
         </div>
       </section>
-      <iframe frameborder="0" height="450" src="https://www.google.com/maps/embed/v1/place?q=Calle%20Trafalgar%2C%2028%2C%2011150%20Vejer%20de%20la%20Frontera%2C%20Spanje&key=AIzaSyDLS0koEGBQpHWQIEknCNyL2q3qYqD1nVs" style="border:0" width="100%"></iframe>
+      <div style="overflow:hidden;height:400px;width:100%;">
+        <div id="gmap_canvas" style="height:400px;width:100%;"></div>
+        <style type="text/css">
+          #gmap_canvas img {
+              | max-width: none!important;
+              | background: none!important
+          | }
+        </style>
+      </div>
+      <script type="text/javascript">
+        function init_map() {
+            var myOptions = {
+                scrollwheel: false,
+                zoom: 9,
+                center: new google.maps.LatLng(36.520919, -4.963301900000033)          
+            };
+            map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
+            marker = new google.maps.Marker({
+                map: map,
+                position: new google.maps.LatLng(36.2520919, -5.963301900000033)
+            });
+            infowindow = new google.maps.InfoWindow({
+                content: "<b>VEJER&Iacute;SIMO</b><br/>Calle Trafalgar 28 <br/>11150 Vejer de la Frontera"
+            });
+            google.maps.event.addListener(marker, "click", function() {
+                map.setOptions({ zoom: 15, center: new google.maps.LatLng(36.2520919, -5.963301900000033)});          
+                infowindow.open(map, marker);
+            });      
+        }
+        google.maps.event.addDomListener(window, 'load', init_map);
+      </script>
+      <section class="white">
+        <div class="content">
+          <h2 class="text-left">
+            De Costa de la Luz dankt zijn naam aan het felle zonlicht dat meer dan 3000 zonuren per jaar weerkaatst op de oceaan en de witte zandstranden. 
+          </h2>
+          <p>
+            De Atlantische kust strekt zich uit van Tarifa in het zuidwesten tot de grens van Portugal in het noordwesten en omvat de provincies van Cádiz en Huelva. De kust 
+          </p>
+          <p>
+            De Costa de la Luz is een populaire vakantiebestemming bij Spanjaarden en trekt de laatste jaren ook steeds meer buitenlandse toeristen, maar heeft zijn authentieke Andalusische karakter nog grotendeels bewaard.    
+          </p>
+          <p>
+            Vejer ligt in de provincie Cádiz, met gelijknamige hoofdstad Cádiz dat tijdens het grootste deel van het jaar bezit Cádiz een van de aangenaamste klimaten van het Iberisch Schiereiland. 
+          </p>
+        </div>
+        <!--Controls-->
+      </section>
+      <div class="carousel slide" data-ride="carousel" id="carousel-city">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+          <li class="active" data-slide-to="0" data-target="#carousel-city"></li>
+          <li data-slide-to="1" data-target="#carousel-city"></li>
+          <li data-slide-to="2" data-target="#carousel-city"></li>
+          <li data-slide-to="3" data-target="#carousel-city"></li>
+        </ol>
+        <!--Wrapper for slides-->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="carrousel-container">
+              <img alt="Plaza de Espana" src="http://static.panoramio.com/photos/original/24898368.jpg" />
+            </div>
+            <div class="carousel-caption">
+              Plaza de Espana
+            </div>
+          </div>
+          <div class="item">
+            <div class="carrousel-container">
+              <img alt="View on the Cascso" src="http://calordevejer.com/wp-content/uploads/2013/03/IMG_33542.jpg" />
+            </div>
+            <div class="carousel-caption">
+              View on the Casco
+            </div>
+          </div>
+          <div class="item">
+            <div class="carrousel-container">
+              <img alt="Zahara de los Atunes" src="http://www.blogcdn.com/slideshows/images/slides/262/864/5/S2628645/slug/l/zahara-de-los-atunes-beach-in-barbate-costa-de-la-luz-cadiz-andalusia-spain-1.jpg" />
+            </div>
+            <div class="carousel-caption">
+              Zahara de los Atunes
+            </div>
+          </div>
+        </div>
+        <!--Controls--><a class="left carousel-control" data-slide="prev" href="#carousel-city" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" data-slide="next" href="#carousel-city" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span><span class="sr-only">Next</span></a>
+      </div>
+      <section class="white">
+        <div class="content">
+          <h2 class="text-left">
+            Andalusië is de meest Spaanse streek van heel Spanje. Veel van wat we typisch Spaans noemen vindt haar oorsprong hier.             
+          </h2>
+          <p>
+            Het is de bakermat van de flamencomuziek en van de sherry. De druiven waarvan sherry gemaakt wordt, verbouwt men in de buurt van Jerez de la Frontera. Voor sherry worden voornamelijk twee druivensoorten gebruikt: de Palomino druif en de Pedro Ximénez. Bij de sherry worden vaak tapas gegeten. Dit zijn typisch Spaanse aperitiefhapjes die tijdens het borreluurtje genuttigd worden.
+          </p>
+          <p>
+            Hier ligt ook de bakermat van het stierenvechten en staat bij paardenliefhebbers bekend om de fokkerij van paardenrassen als de Andalusiër en de Lusitano, die diep verworteld zijn in de Berber en door de eeuwen heen van grote invloed waren op de fokkerij van vele andere Europese rassen van barokpaarden, zoals de Lipizzaner, de Kladruber en de Fries.
+          </p>
+        </div>
+      </section>
+      <section class="red">
+        <div class="content">
+          <h2>
+            In de regio
+          </h2>
+        </div>
+      </section>
+      <section class="white">
+        <div class="content">
+          <h2>
+            Sevilla
+          </h2>
+          <p>
+            Eén van de grootste en mooiste pleinen van Sevilla is het Plaza de España. Midden op het plein staat een fontein en om het plein zijn er diverse bruggetjes. Dit plein, wat de vorm heeft van een halve cirkel, wordt omringd door gebouwen waar de overheid grotendeels gebruik van maakt. De redelijk groene binnenstad heeft zeer mooie monumenten en kerken. Ook zijn er vele parken te bezoeken waar enige verkoeling te vinden is op warme dagen.
+          </p>
+          <p>
+            www.vistasevilla.es
+          </p>
+        </div>
+      </section>
+      <section class="white">
+        <div class="content">
+          <h2>
+            Jerez de la Frontera
+          </h2>
+          <p>
+            Jerez de la Frontera wordt de sherry hoofdstad van de wereld genoemd, maar is ook zeer bekend om de paardrijkunst en de flamenco. Een bodega moet dan ook zeker bezocht worden. Een paar beroemde bodega’s zijn onder andere Osborne, Sandeman en Pedro Domecq. De paardrijkunsten zijn te bewonderen in de Koninklijke Andalusische school voor paardrijkunst “Real Escuela Andaluza del Arte Ecuestre”. Hier zijn regelmatig voorstellingen voor paardenliefhebbers. Voor de flamenco moet u zijn in het Centro Andaluz de Flamenco. Midden in de oude zigeunerwijk Barrio de Santiago bevindt zich dit danscentrum. Al in de ochtend galmt de muziek door de straten.
+          </p>
+          <p>
+            www.realescuela.org
+          </p>
+        </div>
+      </section>
+      <section class="white">
+        <div class="content">
+          <h2>
+            Bodega’s
+          </h2>
+          <p>
+            Om een heerlijke sherry te proeven, is het aan te bevelen een bodega te bezoeken in Jerez. Vaak zijn er ook rondleidingen en krijg je een goed beeld van het gehele proces. De oudste bodega is Bodegas Bundador Pedro Domecq. Een rondleiding op dit landgoed van deze bodega zal zeker een goede indruk achterlaten.
+          </p>
+          <p>
+            www.bodegasfundadorpedrodomecq.com
+          </p>
+        </div>
+      </section>
+      <section class="white">
+        <div class="content">
+          <h2>
+            Sierra Nevada
+          </h2>
+          <p>
+            Dit gebergte in Andalusië telt 16 bergtoppen boven de 3000 meter. Het is dan ook een prima skigebied wat goed te combineren is met een zonvakantie. Er is meer dan 65 km aan skipistes waar ongeveer 5 maanden sneeuw ligt. Ook is er een natuurpark in dit gebied “Parque National Sierra Nevada”. Het is mogelijk om er te wandelen, bergbeklimmen, vissen, paardrijden en natuurlijk skiën.
+          </p>
+        </div>
+      </section>
+      <section class="white">
+        <div class="content">
+          <h2>
+            Ronda
+          </h2>
+          <p>
+            De stad Ronda ligt in Costa de la Luz. Deze stad behoort tot één van de oudste steden van Spanje. Er zijn veel monumenten, kerken en musea te vinden. De Arabische Baden van Ronda “Baños de los Arabes” zijn de best bewaarde van heel Spanje. Hier werd vroeger water gepompt uit de rivier wat via het aquaduct naar de baden liep. Indrukwekkend is te weten dat dit is bedacht en ontwikkeld tussen 1136 en 1206 door engineer Abu al Tz ibn Razaz Al-Jazari. Er zijn verschillende tours te boeken in Ronda voor een bezoek aan het mooie historische centrum van Spanje
+          </p>
+          <p>
+            www.turismoderonda.es
+          </p>
+        </div>
+      </section>
+      <section class="white">
+        <div class="content">
+          <h2>
+            Tarifa
+          </h2>
+          <p>
+            Deze meest zuidelijkste stad van Spanje ligt aan de Costa de la Luz en de Straat van Gibraltar en is maar 14 kilometer van Afrika vandaan. Vaak zijn het fanatieke kiteboarders en windsurfers die de stranden van Tarifa bezoeken. Ook komen er veel vogelspotters voor de observatie van de vogeltrek in met name de lente en de herfst. Vanaf de toren van het kasteel Castillo de Guzmán zijn de bergen en kust van Marokko te zien. Dit ruim 800 jaar oude kasteel wordt ook wel Tarifa kasteel genoemd.
+          </p>
+        </div>
+      </section>
+      <section class="white">
+        <div class="content">
+          <h2>
+            Granada
+          </h2>
+          <p>
+            In het zuid-oosten van Granada ligt het middeleeuws paleis “Alhambra”, wat gezien wordt als één van de beroemdste monumenten van Spanje. Het paleis trekt buiten de toeristen ook vele kunststudenten om zijn grote kunstschatten, waaronder bijzondere islamitische kunst. Een andere bekend monument is de Kathedraal van Granada. Deze zeer grote Kathedraal is uit de renaissancetijd en heeft onder andere Koninklijke graftombes.
+          </p>
+        </div>
+      </section>
+      <section class="white">
+        <div class="content">
+          <h2>
+            Córdoba
+          </h2>
+          <p>
+            Córdoba is de warmste stad van Europa die regelmatig temperaturen registreert van boven de 35 graden. Deze stad aan rivier Guadalquivir heeft vele monumenten en andere bezienswaardigheden. Tot de streekproducten behoren onder meer honderd soorten olijfolie, Moors keramiek, wijn en sherry. Het voorbeeld voor de Spaanse moslimarchitectuur is terug te vinden in de grote moskee de Mezquita, die in 1236 tot katholieke kathedraal werd gewijd. Door de zeer lange bouw van deze moskee zijn er meerdere bouwstijlen in terug te vinden.
+          </p>
+        </div>
+      </section>
+      <section class="white">
+        <div class="content">
+          <h2>
+            Cádiz
+          </h2>
+          <p>
+            Cádiz wordt ook wel klein Havanna genoemd. Deze havenstad in zuidwest-Spanje wordt vaak vergeleken met Havanna de hoofdstad van Cuba. Dit komt door de Malecon, een lange boulevard die zowel in Havanna als in Cádiz ligt. Het militaire fort Castillo de Santa Catalina mag niet ontbreken bij een bezoek aan Cádiz. Vanuit de prachtige tuin heb je een fraai zicht over Cádiz en het strand. Regelmatig worden er ook concerten gegeven.
+          </p>
+        </div>
+      </section>
+      <section class="white">
+        <div class="content">
+          <h2>
+            Marbella
+          </h2>
+          <p>
+            Het mondaine Marbella behoort tot één van de belangrijkste badplaatsen van de Costa del Sol. Doordat het grootste deel van het jaar er de zon schijnt en de temperatuur aangenaam is, verblijven er veel en met name welgestelde toeristen. Avenida del Mar is een weg richting de zee, waar je veel sculpturen tegenkomt van Salvador Dali de wereldberoemde Spaanse kunstenaar. Marbella telt nogal wat havens. Eén van de grotere havens is de Puerto José Banús. Veel van het nachtleven speelt zich af in en rond deze haven, wat haast een dorp op zich is.          
+          </p>
+        </div>
+      </section>
       <hr>
         <p class="text-center">
           2014 <a href="/">VEJERÍSIMO</a>
