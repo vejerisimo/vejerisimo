@@ -81,10 +81,10 @@ $navbar-inverse-link-color:                 white;
 // $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 
 $brand-primary:         #784448 !default;
-$brand-success:         #5cb85c !default;
-$brand-info:            #5bc0de !default;
-$brand-warning:         #f0ad4e !default;
-$brand-danger:          #d9534f !default;
+$brand-success:         #5983C3 !default;
+$brand-info:            #5983C3 !default;
+$brand-warning:         #5983C3 !default;
+$brand-danger:          #5983C3 !default;
 
 
 // //== Scaffolding
@@ -214,9 +214,9 @@ $headings-font-family:    'Quicksand' !default;
 
 // $btn-font-weight:                normal !default;
 
-// $btn-default-color:              #333 !default;
-// $btn-default-bg:                 #fff !default;
-// $btn-default-border:             #ccc !default;
+// $btn-default-color:              #5983C3 !default;
+// $btn-default-bg:                 #5983C3 !default;
+// $btn-default-border:             #5983C3 !default;
 
 // $btn-primary-color:              #fff !default;
 // $btn-primary-bg:                 $brand-primary !default;
@@ -238,7 +238,7 @@ $headings-font-family:    'Quicksand' !default;
 // $btn-danger-bg:                  $brand-danger !default;
 // $btn-danger-border:              darken($btn-danger-bg, 5%) !default;
 
-// $btn-link-disabled-color:        $gray-light !default;
+$btn-link-disabled-color:         #5983C3 !default;
 
 
 // //== Forms
