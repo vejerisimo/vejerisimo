@@ -29,7 +29,7 @@ section {
 		h1 { 
 			// padding: 20px;
 		}
-		width: 50%;
+		width: 75%;
 		margin-left: auto;
 		margin-right: auto;		
 		padding-top: 100px;
@@ -55,7 +55,7 @@ section.yellow {
 }
 
 section.red {
-	background-color: #784448;
+	background-color: rgb(128,63,66);
 	color: white;
 	a {
 		color: white;
@@ -93,27 +93,54 @@ section.white {
 #carousel-top {
 	// position: absolute;
 	height: 600px;
-
-	.jumbotron {
-		// float: left;
-		// width: 100%;
+	.logos {
+		float: left;
 		pointer-events:none;
 		position: relative;
 		top: -600px;
-		// margin-top: -600px;
-		// margin-bottom: -600px;
-		background-color: rgba(200,200,200,0.5);
-		padding: 50px;
-		margin: 0px;
+		left: 200px;		
+			.logo {
+				padding-top: 40px;
+				background-color: rgb(128,63,66);
+				max-width: 200px;		
+			}
+			.pueblos {
+				max-width: 200px;		
+			}
+	}
+	.title {
+		float: left;
+		pointer-events:none;
+		position: relative;
+		top: -400px;
+		left: 400px;		
+		background-color: rgba(128,63,66,0.5);
+		color: white;
+		h2 { 
+			text-align: left;
+			padding: 10px;
+			margin: 10px;
+		}
+	}	
+	// .jumbotron {
+	// 	// float: left;
+	// 	// width: 100%;
+	// 	pointer-events:none;
+	// 	position: relative;
+	// 	top: -600px;
+	// 	// margin-top: -600px;
+	// 	// margin-bottom: -600px;
+	// 	background-color: rgba(200,200,200,0.5);
+	// 	padding: 50px;
+	// 	margin: 0px;
 		
-		h1 {
-			font-family: 'Antic Didone';	
-		}
-		small {
-			color: #606060;	
-		}
-	} 
-
+	// 	h1 {
+	// 		font-family: 'Antic Didone';	
+	// 	}
+	// 	small {
+	// 		color: #606060;	
+	// 	}
+	// } 
 }
 
 .carrousel-container { max-height: 600px; width: auto; overflow: hidden; }
@@ -139,7 +166,7 @@ section.white {
 }
 
 img.room {
-	@extend .img-circle;
+	@extend .img-rounded;
 	// @extend .img-responsive;
 	// margin-bottom: 20px;
 	width: 250px;

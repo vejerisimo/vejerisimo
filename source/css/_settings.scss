@@ -40,8 +40,8 @@ $marginTopBody: 40px;
 // Inverted navbar
 // Reset inverted navbar basics
 $navbar-inverse-color:                      white;
-$navbar-inverse-bg:                         #784448 !default;
-// $navbar-inverse-border:                     darken($navbar-inverse-bg, 10%) !default;
+$navbar-inverse-bg:                         rgb(128,63,66) !default;
+$navbar-inverse-border:                     darken($navbar-inverse-bg, 0%) !default;
 
 // // Inverted navbar links
 $navbar-inverse-link-color:                 white;
