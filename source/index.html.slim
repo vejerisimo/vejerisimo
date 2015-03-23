@@ -28,9 +28,9 @@
     br
     img.pueblos src="images/pueblos.jpg"
 
-  .title
-    h2 Our Guesthouse
-    h2 In Vejer de la Frontera
+  / .title
+    / h2 Rooms
+    / h2 In Vejer de la Frontera
 
   / .jumbotron 
   /   h1 
@@ -49,30 +49,204 @@ section.white
 
     / h2.text-left
       / p Vejer te ofrece
+    p#menu
+      .menu
+        a href="#cultural" 
+          img.room src="images/turismo-cultural.jpg"
+          h6 turismo cultural 
+      .menu
+        a href="#cultural" 
+          img.room src="images/turismo-gastronomia.jpg"
+          h6 gastronomía 
+      .menu
+        a href="#cultural" 
+          img.room src="images/turismo-playas.jpg"
+          h6 playas vírgines
+      .menu
+        a href="#cultural" 
+          img.room src="images/turismo-activo.jpg"
+          h6 turismo activo y de aventura
 
-    .row.rooms
-      .col-lg-3.col-md-3
-        .center
-          img.room src="/images/turismo-cultural.jpg"
-        h4 turismo cultural 
+section.yellow
+  h2 Turismo Cultural
+a name="cultural" 
 
-      .col-lg-3.col-md-3
-        .center
-          img.room src="/images/turismo-gastronomia.jpg"
-        h4 gastronomía 
+section.white
+  .content
+    / h2.text-left Turismo Cultural 
+    ul
+      li declarado Monumento Histórico Artístico
+      li ganó el I Premio de Embellecimiento de Pueblos
+      li declarado 2ª pueblo más bonita de España por TripAdviser    
 
-      .col-lg-3.col-md-3
-        .center
-          img.room src="/images/turismo-playas.jpg"
-        h4 playas vírgines espectaculares
 
-      .col-lg-3.col-md-3
-        .center
-          img.room src="/images/turismo-activo.jpg"
-        h4 turismo activo y de aventura
+.carousel.slide id="carousel-city" data-ride="carousel"
+  /! Indicators
+  ol.carousel-indicators
+    li.active data-slide-to="0" data-target="#carousel-city" 
+    / li        data-slide-to="1" data-target="#carousel-city" 
+    / li        data-slide-to="2" data-target="#carousel-city" 
+    / li        data-slide-to="3" data-target="#carousel-city" 
+    / li data-slide-to="2" data-target="#carousel-example-generic" 
+  /! Wrapper for slides
+  .carousel-inner role="listbox" 
+    .item.active 
+      .carrousel-container
+        img alt="View on the Cascso" src="http://calordevejer.com/wp-content/uploads/2013/03/IMG_33542.jpg" 
+      .carousel-caption
+        | View on the Casco
+    / .item.active
+    /   .carrousel-container
+    /     img alt="Zahara de los Atunes" src="http://www.blogcdn.com/slideshows/images/slides/262/864/5/S2628645/slug/l/zahara-de-los-atunes-beach-in-barbate-costa-de-la-luz-cadiz-andalusia-spain-1.jpg" 
+    /   .carousel-caption
+    /     | Zahara de los Atunes
 
+  /! Controls
+  a.left.carousel-control data-slide="prev" href="#carousel-city" role="button" 
+    span.glyphicon.glyphicon-chevron-left aria-hidden="true" 
+    span.sr-only Previous
+  a.right.carousel-control data-slide="next" href="#carousel-city" role="button" 
+    span.glyphicon.glyphicon-chevron-right aria-hidden="true" 
+    span.sr-only Next
+
+
+a name="gastronomia" 
+
+section.yellow
+  / .content
+  h2 gastronomía
+
+section.white
+  .content
+    p Vejer tiene una gastronomía de gran calidad. Disfruta de los productos del campo, el pescado (atún y mariscos), la carne de retinto y vinos típicos de la tierra. Descubre restaurantes de cocina típica andaluza y platos Vejeriegos. También los restaurantes innovadores le sorprenderá con sus platos creativos y cocina moderna.
+
+
+.carousel.slide id="carousel-city" data-ride="carousel"
+  /! Indicators
+  ol.carousel-indicators
+    li.active data-slide-to="0" data-target="#carousel-city" 
+    / li        data-slide-to="1" data-target="#carousel-city" 
+    / li        data-slide-to="2" data-target="#carousel-city" 
+    / li        data-slide-to="3" data-target="#carousel-city" 
+    / li data-slide-to="2" data-target="#carousel-example-generic" 
+  /! Wrapper for slides
+  .carousel-inner role="listbox" 
+    .item.active
+      .carrousel-container
+        img alt="Plaza de Espana" src="http://1.bp.blogspot.com/-gXm7abUnRHA/VAgDzSj_lRI/AAAAAAAA2UE/NkK-MLBYX-w/s1600/IMG_2620.JPG" 
+      .carousel-caption
+        | Plaza de Espana
+    / .item 
+    /   .carrousel-container
+    /     img alt="View on the Cascso" src="http://calordevejer.com/wp-content/uploads/2013/03/IMG_33542.jpg" 
+    /   .carousel-caption
+    /     | View on the Casco
+    / .item.active
+    /   .carrousel-container
+    /     img alt="Zahara de los Atunes" src="http://www.blogcdn.com/slideshows/images/slides/262/864/5/S2628645/slug/l/zahara-de-los-atunes-beach-in-barbate-costa-de-la-luz-cadiz-andalusia-spain-1.jpg" 
+    /   .carousel-caption
+    /     | Zahara de los Atunes
+
+  /! Controls
+  a.left.carousel-control data-slide="prev" href="#carousel-city" role="button" 
+    span.glyphicon.glyphicon-chevron-left aria-hidden="true" 
+    span.sr-only Previous
+  a.right.carousel-control data-slide="next" href="#carousel-city" role="button" 
+    span.glyphicon.glyphicon-chevron-right aria-hidden="true" 
+    span.sr-only Next
+
+
+a name="playas" 
+
+section.yellow
+  / .content
+  h2 playas vírgines espectaculares
+
+
+section.white
+  .content
+    h2.text-left El paraíso de playa y sol en Andalucía
+    p La Costa de la Luz debe su nombre a su vivísima luz y el intenso reflejo del sol en la arena y el mar. Sus costas bordean el océano Atlántico y sus playas extensas con arena dorada fina tienen muchas dunas y vegetación en estado casi salvaje. Con más de 300 días de sol al año, la Costa de la Luz permite disfrutar casi todo el año de las mejores playas de España.  
+
+
+.carousel.slide id="carousel-city" data-ride="carousel"
+  /! Indicators
+  ol.carousel-indicators
+    li.active data-slide-to="0" data-target="#carousel-city" 
+    / li        data-slide-to="1" data-target="#carousel-city" 
+    / li        data-slide-to="2" data-target="#carousel-city" 
+    / li        data-slide-to="3" data-target="#carousel-city" 
+    / li data-slide-to="2" data-target="#carousel-example-generic" 
+  /! Wrapper for slides
+  .carousel-inner role="listbox" 
+    / .item.active
+    /   .carrousel-container
+    /     img alt="Plaza de Espana" src="http://static.panoramio.com/photos/original/24898368.jpg" 
+    /   .carousel-caption
+    /     | Plaza de Espana
+    / .item 
+    /   .carrousel-container
+    /     img alt="View on the Cascso" src="http://calordevejer.com/wp-content/uploads/2013/03/IMG_33542.jpg" 
+    /   .carousel-caption
+    /     | View on the Casco
+    .item.active
+      .carrousel-container
+        img alt="Zahara de los Atunes" src="http://www.blogcdn.com/slideshows/images/slides/262/864/5/S2628645/slug/l/zahara-de-los-atunes-beach-in-barbate-costa-de-la-luz-cadiz-andalusia-spain-1.jpg" 
+      .carousel-caption
+        | Zahara de los Atunes
+
+  /! Controls
+  a.left.carousel-control data-slide="prev" href="#carousel-city" role="button" 
+    span.glyphicon.glyphicon-chevron-left aria-hidden="true" 
+    span.sr-only Previous
+  a.right.carousel-control data-slide="next" href="#carousel-city" role="button" 
+    span.glyphicon.glyphicon-chevron-right aria-hidden="true" 
+    span.sr-only Next
+
+a name="activo" 
+
+section.yellow
+  / .content
+  h2 turismo activo y de aventura
+
+section.white
+  .content
+    p#menu
+      .menu
+        a href="#cultural" 
+          img.room src="images/turismo-cultural.jpg"    
+          h6 Deporte y turismo activo
+          / h6 senderismo, equitación, bicicleta y mountainbike, cuad, escalada en roca, golf, deportes acuatico (surf, windsurf, kitesurf, padel surf, bodyboard, kayak, buceo), recorridos aereos, parapente, excursión a Marruecos 
+      .menu
+        a href="#cultural" 
+          img.room src="images/turismo-cultural.jpg"    
+          h6 Oleotursimo
+          / h6 visitas a bodegas
+      .menu
+        a href="#cultural" 
+          img.room src="images/turismo-cultural.jpg"      
+          h6 Naturaleza
+          / h6 ballenas y delfines, Parques Naturales, ruinas Romanas, Faro de trafalgar, acueducto romano de Santa Lucía, ornitología
+      .menu
+        a href="#cultural" 
+          img.room src="images/turismo-cultural.jpg"      
+          h6 Otros
+          / h6 Curso de cocina (www.anniebspain.com), Learn spanish (www.formacionbabel.com; www.lajanda.org) 
+   
 
 section.red
+  / .content
+  h2 VEJERÍSIMO  
+
+section.white
+  .content
+    h2.text-left 
+      p VEJERÍSIMO  
+      / p un ambiente íntimo y un atención personalizada
+    
+    p Vejerísimo es una casa rural ubicada en un callejón tranquilo en el corazón del casco antiguo de Vejer de la Frontera, muy cerca de los restaurantes, bares y lugares de interés. Al lado de la casa empieza la muralla antigua con “La Puerta Cerrada”, una de las 4 puertas principales. La casa dispone de 4 habitaciónes dobles situadas alrededor de un patio típico de arcos. Es una casa de estilo único: conserva su autenticidad pero ofrece todas las comodidades de este tiempo. La casa tiene muchos rincones acogedores: lée un libro en el patio típico al lado de la biblioteca o disfruta de la terraza con tumbonas y rincones chill-out. Le offrecemos una estancia exeptional y inolvidable.
+
+section.red.contact
   .content
     h1
       | VEJERÍSIMO
@@ -139,40 +313,6 @@ section.white
   / a.right.carousel-control data-slide="next" href="#carousel-about" role="button" 
   /   span.glyphicon.glyphicon-chevron-right aria-hidden="true" 
   /   span.sr-only Next
-
-.carousel.slide id="carousel-city" data-ride="carousel"
-  /! Indicators
-  ol.carousel-indicators
-    li.active data-slide-to="0" data-target="#carousel-city" 
-    li        data-slide-to="1" data-target="#carousel-city" 
-    li        data-slide-to="2" data-target="#carousel-city" 
-    li        data-slide-to="3" data-target="#carousel-city" 
-    / li data-slide-to="2" data-target="#carousel-example-generic" 
-  /! Wrapper for slides
-  .carousel-inner role="listbox" 
-    .item.active
-      .carrousel-container
-        img alt="Plaza de Espana" src="http://static.panoramio.com/photos/original/24898368.jpg" 
-      .carousel-caption
-        | Plaza de Espana
-    .item 
-      .carrousel-container
-        img alt="View on the Cascso" src="http://calordevejer.com/wp-content/uploads/2013/03/IMG_33542.jpg" 
-      .carousel-caption
-        | View on the Casco
-    .item
-      .carrousel-container
-        img alt="Zahara de los Atunes" src="http://www.blogcdn.com/slideshows/images/slides/262/864/5/S2628645/slug/l/zahara-de-los-atunes-beach-in-barbate-costa-de-la-luz-cadiz-andalusia-spain-1.jpg" 
-      .carousel-caption
-        | Zahara de los Atunes
-
-  /! Controls
-  a.left.carousel-control data-slide="prev" href="#carousel-city" role="button" 
-    span.glyphicon.glyphicon-chevron-left aria-hidden="true" 
-    span.sr-only Previous
-  a.right.carousel-control data-slide="next" href="#carousel-city" role="button" 
-    span.glyphicon.glyphicon-chevron-right aria-hidden="true" 
-    span.sr-only Next
 
 section.white
   .content      

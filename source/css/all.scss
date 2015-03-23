@@ -24,16 +24,23 @@ section {
 	// min-height: 800px;
 	padding: 0px;
 	margin: 0px;
-	// width: 100%;	
+	// width: 50%;	
 	.content {
 		h1 { 
 			// padding: 20px;
 		}
-		width: 75%;
+		width: 700px;
 		margin-left: auto;
 		margin-right: auto;		
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	h2 {
+		padding: 0px;
 	}
 }
 
@@ -74,6 +81,10 @@ section.red {
 	}	
 }
 
+section.red.contact {
+	margin-bottom: 0px;
+}
+
 section.white {
 	background-color: white;
 	h2 {
@@ -86,13 +97,15 @@ section.white {
 // top
 
 .carousel {
-	height: 600px;
+	// max-height: 600px;
 	overflow: hidden;
+	margin-bottom: 150px;
 }
 
 #carousel-top {
 	// position: absolute;
 	height: 600px;
+	margin-bottom: 0px;
 	.logos {
 		float: left;
 		pointer-events:none;
@@ -100,7 +113,7 @@ section.white {
 		top: -600px;
 		left: 200px;		
 			.logo {
-				padding-top: 40px;
+				padding-top: 20px;
 				background-color: rgb(128,63,66);
 				max-width: 200px;		
 			}
@@ -112,11 +125,12 @@ section.white {
 		float: left;
 		pointer-events:none;
 		position: relative;
-		top: -400px;
+		top: -500px;
 		left: 400px;		
 		background-color: rgba(128,63,66,0.5);
 		color: white;
 		h2 { 
+			font-family: 'Antic Didone';
 			text-align: left;
 			padding: 10px;
 			margin: 10px;
@@ -148,14 +162,39 @@ section.white {
 
 // jumbotron
 
-// ROOMS
+// .row-no-padding {
+//   [class*="col-"] {
+//     padding-left: 0 !important;
+//     padding-right: 0 !important;
+//   }
+// }
 
-.row {
-	.rooms {
-		padding-bottom: 20px;
-		padding-top: 40px;
-	}
+p#menu {
+	margin-top: 40px;
 }
+// .row {
+// .rooms {
+	// padding-bottom: 20px;
+	// padding-top: 40px;
+	.menu {
+		float: left;
+		background-color: rgb(128,63,66);
+		// border-color: rgb(128,63,66);
+		// background-color: white;
+		color: white;
+		max-width: 170px;	
+		a { 
+			h6 {
+				height: 100px;
+				padding: 10px;
+				color: white;
+			}
+		}
+		// padding: 2px;
+		margin: 1px;
+	}
+// }
+// }
 
 .center {
 	text-align: center;
@@ -163,12 +202,14 @@ section.white {
 	margin-left: auto;
 	margin-right: auto;	
 	display: table;
+	// padding: 0px;
+	// margin: 0px;
 }
 
 img.room {
-	@extend .img-rounded;
+	// @extend .img-rounded;
 	// @extend .img-responsive;
 	// margin-bottom: 20px;
-	width: 250px;
-	height: 250px;
+	width: 170px;
+	height: 270px;
 }
