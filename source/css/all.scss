@@ -7,6 +7,10 @@ body {
   margin-top: $marginTopBody;
 }
 
+.navbar {
+	font-family: 'Quicksand';
+}
+
 h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -93,21 +97,27 @@ section.white {
 	}
 }
 
-
 // top
 
 .carousel {
 	// max-height: 600px;
-	overflow: hidden;
+	// overflow: hidden;
 	margin-bottom: 150px;
 }
+
+// .logo {
+// 	position:absolute;
+// 	padding-top: 20px;
+// 	background-color: rgb(128,63,66);
+// 	max-width: 200px;		
+// }
 
 #carousel-top {
 	// position: absolute;
 	height: 600px;
 	margin-bottom: 0px;
 	.logos {
-		float: left;
+		float: left;		
 		pointer-events:none;
 		position: relative;
 		top: -600px;
@@ -169,7 +179,7 @@ section.white {
 //   }
 // }
 
-p#menu {
+.center#menu {
 	margin-top: 40px;
 }
 // .row {
