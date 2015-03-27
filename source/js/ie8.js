@@ -1,2 +1,2 @@
 //= require modernizr/modernizr
-//= require respond
+//= require respond/dest/respond.min

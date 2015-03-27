@@ -1,3 +1,6 @@
+npm install -g bower
+bower install
+
 bundle exec middleman
 
 bundle exec middleman build
@@ -11,14 +14,14 @@ cd build
 git add . --all
 git commit -m "update"
 (publish)
-git push origin gh-pages 
+git push origin gh-pages
 
 # middleman-blog-bootstrap-template
 
 * This is a [middleman](http://middlemanapp.com) template for bootstrap-based blogs.
 * This aims at the easy & speedy blog-building for who don't know much about ruby / middleman.
 * Select the themes from [Bootswatch](http://bootswatch.com/), then you can easily build bootstrap-based blogs!
-* And it encourages asset management with [Bower](http://github.com/twitter/bower). 
+* And it encourages asset management with [Bower](http://github.com/twitter/bower).
 
 ##Features:
 * Rendering engine
@@ -27,10 +30,10 @@ git push origin gh-pages
 * Middleman plugins
  - [middleman-blog](http://github.com/middleman/middleman-blog/)
  - [middleman-livereload](http://github.com/middleman/middleman-livereload)
- - [middleman-target](http://github.com/xunker/middleman-target) 
+ - [middleman-target](http://github.com/xunker/middleman-target)
  - [middleman-deploy](http://github.com/tvaughan/middleman-deploy) config snippet to ease FTP/SFTP deployment
 * [Bower](http://github.com/twitter/bower) package management
- - [Normalize.css](http://necolas.github.com/normalize.css) 
+ - [Normalize.css](http://necolas.github.com/normalize.css)
  - [Modernizr](http://modernizr.com)
  - [Bootswatch](http://bootswatch.com/)
  - [Font-awesome](http://fontawesome.io/)
@@ -44,7 +47,7 @@ git push origin gh-pages
 ##Installation
 
 1. If you're just getting started, install the `middleman` gem and generate a new project:
-1. Download/clone to `.middleman/blog-bootstrap`: 
+1. Download/clone to `.middleman/blog-bootstrap`:
 1. Create your new Middleman project with thie template:
 1. Install the assets in the `bower_components/` directory.
 
@@ -81,9 +84,9 @@ set :theme_name, false
 ###Bower configuration
 
 * With bower, you can prevent unnecessary files being copied over to ```build/```.
-* All bower packages are put in the ```bower_components/``` directory outside of the source. 
+* All bower packages are put in the ```bower_components/``` directory outside of the source.
 * By default, these assets are included:
- - [Normalize.css](http://necolas.github.com/normalize.css) 
+ - [Normalize.css](http://necolas.github.com/normalize.css)
  - [Modernizr](http://modernizr.com)
  - [Bootswatch](http://bootswatch.com/)
  - [Font-awesome](http://fontawesome.io/)
@@ -111,7 +114,7 @@ Confirmed in ruby 2.0.0p247, rubygem 2.0.3, middleman 3.2.2
 * ```feed.xml``` and ```sitemap.xml``` enables you to tell your readers / search engines the update of articles.
 
 ##Misc
-This project is forked from [headcanon's middleman-bower-template](https://github.com/headcanon/middleman-bower-template)  (Big thanks to headcanon). 
+This project is forked from [headcanon's middleman-bower-template](https://github.com/headcanon/middleman-bower-template)  (Big thanks to headcanon).
 
-All the problems or questions are welcome. And of cource if you have a better idea, give it a fork! 
+All the problems or questions are welcome. And of cource if you have a better idea, give it a fork!
 Thanks!
