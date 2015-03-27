@@ -36,8 +36,8 @@ section {
 		width: 700px;
 		margin-left: auto;
 		margin-right: auto;		
-		padding-top: 50px;
-		padding-bottom: 50px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -101,9 +101,18 @@ section.white {
 
 .carousel {
 	// max-height: 600px;
-	// overflow: hidden;
+	overflow: hidden;
+	max-height: 600px;
 	margin-bottom: 150px;
+	// max-width: 2000px;
+	// margin-left: auto;
+	// margin-right: auto;
 }
+
+// .carousel-inner,.carousel,.item,.container,.fill {
+  // height:100%;
+  // width:100%;
+// }
 
 // .logo {
 // 	position:absolute;
@@ -112,16 +121,55 @@ section.white {
 // 	max-width: 200px;		
 // }
 
+.carrousel-container {
+	.img {
+		background-position: center; 
+		background-repeat: no-repeat;
+		background-size: auto 600px;
+		height: 600px;			
+	}
+}
+
+#arco {
+	// @extend .carousel-img;
+	background-image: url('http://www.decobizz.com/pictures/20140318/gc-spain-white-bedroom-furniture.jpg');
+}
+
+#doble {
+	// @extend .carousel-img;
+	background-image: url('http://www.sertplast.com/wp-content/uploads/2014/06/Lovely-Interior-Living-Room-Decorating-Ideas-feat-soft-yellow-couch-and-vintage-arc-floor-lamp-ideas.jpg');	
+}
+
+#room2 {
+	// @extend .carousel-img;
+	background-image: url('../images/room2_wide.jpg');
+}
+
+#breakfast1 {
+	// @extend .carousel-img;
+	background-image: url('../images/breakfast1_wide.jpg');	
+}
+
+#breakfast2 {
+	// @extend .carousel-img;
+	background-image: url('../images/breakfast2_wide.jpg');	
+}
+
+#vejer5 {
+	// @extend .carousel-img;
+	background-image: url('../images/vejer5.jpg');	
+}
+
+
 #carousel-top {
-	// position: absolute;
-	height: 600px;
+	// position: absolute;	
 	margin-bottom: 0px;
 	.logos {
 		float: left;		
 		pointer-events:none;
 		position: relative;
 		top: -600px;
-		left: 200px;		
+		left: 20px;		
 			.logo {
 				padding-top: 20px;
 				background-color: rgb(128,63,66);
@@ -167,8 +215,18 @@ section.white {
 	// } 
 }
 
-.carrousel-container { max-height: 600px; width: auto; overflow: hidden; }
-.carrousel-container img { width: 100%; }
+.carrousel-container { max-height: 600px; width: auto; overflow: hidden; vertical-align: center; padding-left: auto; padding-right: auto; text-align: center; }
+.carrousel-container img { 
+	overflow: hidden;  display:block; margin:auto; vertical-align: center; max-height: 600px; padding-left: auto; padding-right: auto; text-align: center; 
+	// position:absolute;
+    left: 50%;
+    // right: -100%;
+    // top: -100%;
+    // bottom: -100%;
+    // margin: auto; 
+    // min-height: 100%;
+    // min-width: 100%;
+}
 
 // jumbotron
 
@@ -180,7 +238,7 @@ section.white {
 // }
 
 .center#menu {
-	margin-top: 40px;
+	margin-top: 80px;
 }
 // .row {
 // .rooms {
@@ -214,6 +272,15 @@ section.white {
 	display: table;
 	// padding: 0px;
 	// margin: 0px;
+}
+
+.max-center {
+	// background-color: rgb(128,63,66);
+	// border: solid 20px rgb(128,63,66);
+	margin-left: auto;
+	margin-right: auto;	
+	// max-width: 2000px;
+
 }
 
 img.room {

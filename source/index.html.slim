@@ -1,32 +1,57 @@
-.carousel.slide id="carousel-top" data-ride="carousel" data-keyboard="true"
-  /! Indicators
-  ol.carousel-indicators
-    li.active data-slide-to="0" data-target="#carousel-top" 
-    li        data-slide-to="1" data-target="#carousel-top" 
-  /! Wrapper for slides
-  .carousel-inner role="listbox" 
-    .item.active   
-      .carrousel-container
-        img alt="Arco" src="http://www.decobizz.com/pictures/20140318/gc-spain-white-bedroom-furniture.jpg" 
-      .carousel-caption
-        | Arco | €75
-    .item
-      .carrousel-container
-        img alt="Doble" src="http://www.sertplast.com/wp-content/uploads/2014/06/Lovely-Interior-Living-Room-Decorating-Ideas-feat-soft-yellow-couch-and-vintage-arc-floor-lamp-ideas.jpg" 
-      .carousel-caption
-        | Doble | €95        
-  /! Controls
-  a.left.carousel-control data-slide="prev" href="#carousel-top" role="button" 
-    span.glyphicon.glyphicon-chevron-left aria-hidden="true" 
-    span.sr-only Previous
-  a.right.carousel-control data-slide="next" href="#carousel-top" role="button" 
-    span.glyphicon.glyphicon-chevron-right aria-hidden="true" 
-    span.sr-only Next
+.max-center
+  .carousel.slide id="carousel-top" data-ride="carousel" data-keyboard="true"
+    /! Indicators
+    ol.carousel-indicators
+      li.active data-slide-to="0" data-target="#carousel-top" 
+      li        data-slide-to="1" data-target="#carousel-top" 
+      li        data-slide-to="2" data-target="#carousel-top" 
+      li        data-slide-to="3" data-target="#carousel-top" 
+      li        data-slide-to="4" data-target="#carousel-top" 
+      li        data-slide-to="5" data-target="#carousel-top" 
+    /! Wrapper for slides
+    .carousel-inner role="listbox" 
+      .item.active
+        .carrousel-container
+          .img#breakfast1
+        .carousel-caption
+          | Breakfast 
+      .item
+        .carrousel-container
+          .img#breakfast2
+        .carousel-caption
+          | Dejuno | €85
+      .item
+        .carrousel-container
+          .img#vejer5
+        .carousel-caption
+          | Vejer
+      .item
+        .carrousel-container
+          .img#room2
+        .carousel-caption
+          | Alterna | €65
+      .item
+        .carrousel-container
+          .img#arco
+        .carousel-caption
+          | Arco | €75
+      .item
+        .carrousel-container
+          .img#doble
+        .carousel-caption
+          | Doble | €95        
+    /! Controls
+    a.left.carousel-control data-slide="prev" href="#carousel-top" role="button" 
+      span.glyphicon.glyphicon-chevron-left aria-hidden="true" 
+      span.sr-only Previoushttp://localhost:4567/#carousel-top
+    a.right.carousel-control data-slide="next" href="#carousel-top" role="button" 
+      span.glyphicon.glyphicon-chevron-right aria-hidden="true" 
+      span.sr-only Next
 
-  .logos
-    img.logo src="images/logo.jpg"
-    br
-    img.pueblos src="images/pueblos.jpg"
+    .logos
+      img.logo src="images/logo.jpg"
+      br
+      img.pueblos src="images/pueblos.jpg"
 
   / .title
     / h2 Rooms
@@ -80,10 +105,11 @@ section.white
       li declarado 2ª pueblo más bonita de España por TripAdviser    
 
 
-.carousel.slide id="carousel-city" data-ride="carousel"
+.carousel.slide id="carousel-cultural" data-ride="carousel" data-keyboard="true"
   /! Indicators
   ol.carousel-indicators
-    li.active data-slide-to="0" data-target="#carousel-city" 
+    li.active data-slide-to="0" data-target="#carousel-cultural" 
+    li        data-slide-to="1" data-target="#carousel-cultural" 
     / li        data-slide-to="1" data-target="#carousel-city" 
     / li        data-slide-to="2" data-target="#carousel-city" 
     / li        data-slide-to="3" data-target="#carousel-city" 
@@ -95,17 +121,17 @@ section.white
         img alt="View on the Cascso" src="http://calordevejer.com/wp-content/uploads/2013/03/IMG_33542.jpg" 
       .carousel-caption
         | View on the Casco
-    / .item.active
-    /   .carrousel-container
-    /     img alt="Zahara de los Atunes" src="http://www.blogcdn.com/slideshows/images/slides/262/864/5/S2628645/slug/l/zahara-de-los-atunes-beach-in-barbate-costa-de-la-luz-cadiz-andalusia-spain-1.jpg" 
-    /   .carousel-caption
-    /     | Zahara de los Atunes
+    .item
+      .carrousel-container
+        img alt="Zahara de los Atunes" src="http://www.blogcdn.com/slideshows/images/slides/262/864/5/S2628645/slug/l/zahara-de-los-atunes-beach-in-barbate-costa-de-la-luz-cadiz-andalusia-spain-1.jpg" 
+      .carousel-caption
+        | Zahara de los Atunes
 
   /! Controls
-  a.left.carousel-control data-slide="prev" href="#carousel-city" role="button" 
+  a.left.carousel-control data-slide="prev" href="#carousel-cultural" role="button" 
     span.glyphicon.glyphicon-chevron-left aria-hidden="true" 
     span.sr-only Previous
-  a.right.carousel-control data-slide="next" href="#carousel-city" role="button" 
+  a.right.carousel-control data-slide="next" href="#carousel-cultural" role="button" 
     span.glyphicon.glyphicon-chevron-right aria-hidden="true" 
     span.sr-only Next
 
@@ -121,12 +147,11 @@ section.white
     h2.text-left Gastronomía
     p Vejer tiene una gastronomía de gran calidad. Disfruta de los productos del campo, el pescado (atún y mariscos), la carne de retinto y vinos típicos de la tierra. Descubre restaurantes de cocina típica andaluza y platos Vejeriegos. También los restaurantes innovadores le sorprenderá con sus platos creativos y cocina moderna.
 
-
-.carousel.slide id="carousel-city" data-ride="carousel"
+.carousel.slide id="carousel-gastronomia" data-ride="carousel"
   /! Indicators
   ol.carousel-indicators
-    li.active data-slide-to="0" data-target="#carousel-city" 
-    / li        data-slide-to="1" data-target="#carousel-city" 
+    li.active data-slide-to="0" data-target="#carousel-gastronomia" 
+    li        data-slide-to="1" data-target="#carousel-gastronomia" 
     / li        data-slide-to="2" data-target="#carousel-city" 
     / li        data-slide-to="3" data-target="#carousel-city" 
     / li data-slide-to="2" data-target="#carousel-example-generic" 
@@ -137,11 +162,11 @@ section.white
         img alt="Plaza de Espana" src="http://1.bp.blogspot.com/-gXm7abUnRHA/VAgDzSj_lRI/AAAAAAAA2UE/NkK-MLBYX-w/s1600/IMG_2620.JPG" 
       .carousel-caption
         | Plaza de Espana
-    / .item 
-    /   .carrousel-container
-    /     img alt="View on the Cascso" src="http://calordevejer.com/wp-content/uploads/2013/03/IMG_33542.jpg" 
-    /   .carousel-caption
-    /     | View on the Casco
+    .item 
+      .carrousel-container
+        img alt="View on the Cascso" src="http://calordevejer.com/wp-content/uploads/2013/03/IMG_33542.jpg" 
+      .carousel-caption
+        | View on the Casco
     / .item.active
     /   .carrousel-container
     /     img alt="Zahara de los Atunes" src="http://www.blogcdn.com/slideshows/images/slides/262/864/5/S2628645/slug/l/zahara-de-los-atunes-beach-in-barbate-costa-de-la-luz-cadiz-andalusia-spain-1.jpg" 
@@ -149,10 +174,10 @@ section.white
     /     | Zahara de los Atunes
 
   /! Controls
-  a.left.carousel-control data-slide="prev" href="#carousel-city" role="button" 
+  a.left.carousel-control data-slide="prev" href="#carousel-gastronomia" role="button" 
     span.glyphicon.glyphicon-chevron-left aria-hidden="true" 
     span.sr-only Previous
-  a.right.carousel-control data-slide="next" href="#carousel-city" role="button" 
+  a.right.carousel-control data-slide="next" href="#carousel-gastronomia" role="button" 
     span.glyphicon.glyphicon-chevron-right aria-hidden="true" 
     span.sr-only Next
 
@@ -170,39 +195,45 @@ section.white
     p La Costa de la Luz debe su nombre a su vivísima luz y el intenso reflejo del sol en la arena y el mar. Sus costas bordean el océano Atlántico y sus playas extensas con arena dorada fina tienen muchas dunas y vegetación en estado casi salvaje. Con más de 300 días de sol al año, la Costa de la Luz permite disfrutar casi todo el año de las mejores playas de España.  
 
 
-.carousel.slide id="carousel-city" data-ride="carousel"
-  /! Indicators
-  ol.carousel-indicators
-    li.active data-slide-to="0" data-target="#carousel-city" 
-    / li        data-slide-to="1" data-target="#carousel-city" 
-    / li        data-slide-to="2" data-target="#carousel-city" 
-    / li        data-slide-to="3" data-target="#carousel-city" 
-    / li data-slide-to="2" data-target="#carousel-example-generic" 
-  /! Wrapper for slides
-  .carousel-inner role="listbox" 
-    / .item.active
-    /   .carrousel-container
-    /     img alt="Plaza de Espana" src="http://static.panoramio.com/photos/original/24898368.jpg" 
-    /   .carousel-caption
-    /     | Plaza de Espana
-    / .item 
-    /   .carrousel-container
-    /     img alt="View on the Cascso" src="http://calordevejer.com/wp-content/uploads/2013/03/IMG_33542.jpg" 
-    /   .carousel-caption
-    /     | View on the Casco
-    .item.active
-      .carrousel-container
-        img alt="Zahara de los Atunes" src="http://www.blogcdn.com/slideshows/images/slides/262/864/5/S2628645/slug/l/zahara-de-los-atunes-beach-in-barbate-costa-de-la-luz-cadiz-andalusia-spain-1.jpg" 
-      .carousel-caption
-        | Zahara de los Atunes
+span
+  .carousel.slide id="carousel-playas" data-ride="carousel"
+    /! Indicators
+    ol.carousel-indicators
+      li.active data-slide-to="0" data-target="#carousel-playas" 
+      li        data-slide-to="1" data-target="#carousel-playas" 
+      / li        data-slide-to="2" data-target="#carousel-city" 
+      / li        data-slide-to="3" data-target="#carousel-city" 
+      / li data-slide-to="2" data-target="#carousel-example-generic" 
+    /! Wrapper for slides
+    .carousel-inner role="listbox" 
+      / .item.active
+      /   .carrousel-container
+      /     img alt="Plaza de Espana" src="http://static.panoramio.com/photos/original/24898368.jpg" 
+      /   .carousel-caption
+      /     | Plaza de Espana
+      / .item 
+      /   .carrousel-container
+      /     img alt="View on the Cascso" src="http://calordevejer.com/wp-content/uploads/2013/03/IMG_33542.jpg" 
+      /   .carousel-caption
+      /     | View on the Casco
+      .item.active
+        .carrousel-container
+          img alt="Zahara de los Atunes" src="http://www.blogcdn.com/slideshows/images/slides/262/864/5/S2628645/slug/l/zahara-de-los-atunes-beach-in-barbate-costa-de-la-luz-cadiz-andalusia-spain-1.jpg" 
+        .carousel-caption
+          | Zahara de los Atunes
+      .item
+        .carrousel-container
+          img alt="Plaza de Espana" src="http://static.panoramio.com/photos/original/24898368.jpg" 
+        .carousel-caption
+          | Plaza de Espana
 
-  /! Controls
-  a.left.carousel-control data-slide="prev" href="#carousel-city" role="button" 
-    span.glyphicon.glyphicon-chevron-left aria-hidden="true" 
-    span.sr-only Previous
-  a.right.carousel-control data-slide="next" href="#carousel-city" role="button" 
-    span.glyphicon.glyphicon-chevron-right aria-hidden="true" 
-    span.sr-only Next
+    /! Controls
+    a.left.carousel-control data-slide="prev" href="#carousel-playas" role="button" 
+      span.glyphicon.glyphicon-chevron-left aria-hidden="true" 
+      span.sr-only Previous
+    a.right.carousel-control data-slide="next" href="#carousel-playas" role="button" 
+      span.glyphicon.glyphicon-chevron-right aria-hidden="true" 
+      span.sr-only Next
 
 a name="activo" 
 
