@@ -47,19 +47,31 @@
         </url>
         <url>
           <loc>http://www.vejerísimo.com/posts/2014-01-01-example-article.html</loc>
+<<<<<<< HEAD
           <lastmod>2015-03-27</lastmod>
+=======
+          <lastmod>2014-12-26</lastmod>
+>>>>>>> 2065fc1f403b2a00d36ebdaa0ff1fbfe14735d87
           <priority>0.9</priority>
           <changefreq>daily</changefreq>
         </url>
         <url>
           <loc>http://www.vejerísimo.com/posts/2014-01-02-example-article.html</loc>
+<<<<<<< HEAD
           <lastmod>2015-03-27</lastmod>
+=======
+          <lastmod>2014-12-26</lastmod>
+>>>>>>> 2065fc1f403b2a00d36ebdaa0ff1fbfe14735d87
           <priority>0.9</priority>
           <changefreq>daily</changefreq>
         </url>
         <url>
           <loc>http://www.vejerísimo.com/posts/2014-01-03-example-article.html</loc>
+<<<<<<< HEAD
           <lastmod>2015-03-27</lastmod>
+=======
+          <lastmod>2014-12-26</lastmod>
+>>>>>>> 2065fc1f403b2a00d36ebdaa0ff1fbfe14735d87
           <priority>0.9</priority>
           <changefreq>daily</changefreq>
         </url>
