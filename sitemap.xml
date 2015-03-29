@@ -21,7 +21,7 @@
               <a href="#rooms">Rooms</a>
             </li>
             <li>
-              <a href="#reservation">Reservations</a>
+              <a href="#reservations">Reservations</a>
             </li>
             <li>
               <a href="#contact">Contact</a>
@@ -41,7 +41,7 @@
       <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
         <url>
           <loc>http://www.vejerísimo.com/</loc>
-          <lastmod>2015-03-28</lastmod>
+          <lastmod>2015-03-29</lastmod>
           <priority>1.0</priority>
           <changefreq>daily</changefreq>
         </url>
