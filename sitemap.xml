@@ -21,10 +21,7 @@
               <a href="#rooms">Habitaciones</a>
             </li>
             <li>
-              <a href="#reservations">Reservar</a>
-            </li>
-            <li>
-              <a href="#vejer">Vejer de la Frontera</a>
+              <a href="#reservations">Tarifas y Reservas</a>
             </li>
             <li>
               <a href="#contact">Contact</a>
@@ -50,26 +47,8 @@
         </url>
         <url>
           <loc>http://www.vejerísimo.com/</loc>
-          <lastmod>2015-04-29</lastmod>
+          <lastmod>2015-05-16</lastmod>
           <priority>1.0</priority>
-          <changefreq>daily</changefreq>
-        </url>
-        <url>
-          <loc>http://www.vejerísimo.com/posts/2014-01-01-example-article.html</loc>
-          <lastmod>2015-03-27</lastmod>
-          <priority>0.9</priority>
-          <changefreq>daily</changefreq>
-        </url>
-        <url>
-          <loc>http://www.vejerísimo.com/posts/2014-01-02-example-article.html</loc>
-          <lastmod>2015-03-27</lastmod>
-          <priority>0.9</priority>
-          <changefreq>daily</changefreq>
-        </url>
-        <url>
-          <loc>http://www.vejerísimo.com/posts/2014-01-03-example-article.html</loc>
-          <lastmod>2015-03-27</lastmod>
-          <priority>0.9</priority>
           <changefreq>daily</changefreq>
         </url>
       </urlset>
