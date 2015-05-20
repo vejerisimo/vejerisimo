@@ -1,1 +1,1 @@
-(function(){!function(){}(jQuery)}).call(this);
+(function(){!function(e){return e(function(){return console.log("DOM is ready"),console.log(e("#carousel-top")),e(".carousel").on("swiperight",function(){return e(this).carousel("next")}),e(".carousel").on("swipeleft",function(){return e(this).carousel("prev")})})}(jQuery),$(document).ready(function(){$(".bxslider").bxSlider({mode:"fade",captions:!0})})}).call(this);

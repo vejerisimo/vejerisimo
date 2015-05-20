@@ -10,44 +10,18 @@
     <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button class="navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-        </div>
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="#rooms">Habitaciones</a>
-            </li>
-            <li>
-              <a href="#reservations">Tarifas y Reservas</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-            <li>
-              <a href="#facebook"><i class="fa fa-facebook-square fa-lg fa-inverse"></i></a>
-            </li>
-            <li>
-              <a href="#google-plus"><i class="fa fa-google-plus-square fa-lg fa-inverse"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
     <div class="container-fluid">
       <?xml version="1.0" encoding="UTF-8"?>
       <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
         <url>
-          <loc>http://www.vejerísimo.com/condiciones.html</loc>
-          <lastmod>2015-04-26</lastmod>
+          <loc>http://www.vejerísimo.com/</loc>
+          <lastmod>2015-05-20</lastmod>
           <priority>1.0</priority>
           <changefreq>daily</changefreq>
         </url>
         <url>
-          <loc>http://www.vejerísimo.com/</loc>
-          <lastmod>2015-05-16</lastmod>
+          <loc>http://www.vejerísimo.com/terms_and_conditions.html</loc>
+          <lastmod>2015-05-20</lastmod>
           <priority>1.0</priority>
           <changefreq>daily</changefreq>
         </url>
@@ -55,7 +29,7 @@
       
       <hr>
         <p class="text-center">
-          2014<a href="/">VEJERÍSIMO</a>
+          2014 <a href="/">VEJERÍSIMO</a>
         </p>
       </hr>
     </div>
