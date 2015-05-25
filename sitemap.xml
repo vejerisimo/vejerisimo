@@ -17,13 +17,13 @@
       <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
         <url>
           <loc>http://www.vejerísimo.com/</loc>
-          <lastmod>2015-05-22</lastmod>
+          <lastmod>2015-05-25</lastmod>
           <priority>1.0</priority>
           <changefreq>daily</changefreq>
         </url>
         <url>
           <loc>http://www.vejerísimo.com/es/</loc>
-          <lastmod>2015-05-22</lastmod>
+          <lastmod>2015-05-25</lastmod>
           <priority>0.9</priority>
           <changefreq>daily</changefreq>
         </url>
