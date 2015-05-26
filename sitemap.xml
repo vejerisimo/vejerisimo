@@ -28,6 +28,24 @@
           <changefreq>daily</changefreq>
         </url>
         <url>
+          <loc>http://www.vejerísimo.com/fr/</loc>
+          <lastmod>2015-05-25</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/nl/</loc>
+          <lastmod>2015-05-25</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/de/</loc>
+          <lastmod>2015-05-25</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
           <loc>http://www.vejerísimo.com/mobile/</loc>
           <lastmod>2015-05-25</lastmod>
           <priority>0.9</priority>
@@ -35,6 +53,24 @@
         </url>
         <url>
           <loc>http://www.vejerísimo.com/es/mobile/</loc>
+          <lastmod>2015-05-25</lastmod>
+          <priority>0.8</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/fr/mobile/</loc>
+          <lastmod>2015-05-25</lastmod>
+          <priority>0.8</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/nl/mobile/</loc>
+          <lastmod>2015-05-25</lastmod>
+          <priority>0.8</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/de/mobile/</loc>
           <lastmod>2015-05-25</lastmod>
           <priority>0.8</priority>
           <changefreq>daily</changefreq>
@@ -52,6 +88,24 @@
           <changefreq>daily</changefreq>
         </url>
         <url>
+          <loc>http://www.vejerísimo.com/fr/terms_and_conditions_de.html</loc>
+          <lastmod>2015-05-25</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/nl/terms_and_conditions_de.html</loc>
+          <lastmod>2015-05-25</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/de/terms_and_conditions_de.html</loc>
+          <lastmod>2015-05-25</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
           <loc>http://www.vejerísimo.com/terms_and_conditions_en.html</loc>
           <lastmod>2015-05-26</lastmod>
           <priority>1.0</priority>
@@ -59,6 +113,24 @@
         </url>
         <url>
           <loc>http://www.vejerísimo.com/es/terms_and_conditions_en.html</loc>
+          <lastmod>2015-05-26</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/fr/terms_and_conditions_en.html</loc>
+          <lastmod>2015-05-26</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/nl/terms_and_conditions_en.html</loc>
+          <lastmod>2015-05-26</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/de/terms_and_conditions_en.html</loc>
           <lastmod>2015-05-26</lastmod>
           <priority>0.9</priority>
           <changefreq>daily</changefreq>
@@ -76,6 +148,24 @@
           <changefreq>daily</changefreq>
         </url>
         <url>
+          <loc>http://www.vejerísimo.com/fr/terms_and_conditions_es.html</loc>
+          <lastmod>2015-05-26</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/nl/terms_and_conditions_es.html</loc>
+          <lastmod>2015-05-26</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/de/terms_and_conditions_es.html</loc>
+          <lastmod>2015-05-26</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
           <loc>http://www.vejerísimo.com/terms_and_conditions_fr.html</loc>
           <lastmod>2015-05-26</lastmod>
           <priority>1.0</priority>
@@ -88,6 +178,24 @@
           <changefreq>daily</changefreq>
         </url>
         <url>
+          <loc>http://www.vejerísimo.com/fr/terms_and_conditions_fr.html</loc>
+          <lastmod>2015-05-26</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/nl/terms_and_conditions_fr.html</loc>
+          <lastmod>2015-05-26</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/de/terms_and_conditions_fr.html</loc>
+          <lastmod>2015-05-26</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
           <loc>http://www.vejerísimo.com/terms_and_conditions_nl.html</loc>
           <lastmod>2015-05-26</lastmod>
           <priority>1.0</priority>
@@ -95,6 +203,24 @@
         </url>
         <url>
           <loc>http://www.vejerísimo.com/es/terms_and_conditions_nl.html</loc>
+          <lastmod>2015-05-26</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/fr/terms_and_conditions_nl.html</loc>
+          <lastmod>2015-05-26</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/nl/terms_and_conditions_nl.html</loc>
+          <lastmod>2015-05-26</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/de/terms_and_conditions_nl.html</loc>
           <lastmod>2015-05-26</lastmod>
           <priority>0.9</priority>
           <changefreq>daily</changefreq>
