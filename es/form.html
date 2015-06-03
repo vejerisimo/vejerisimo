@@ -34,13 +34,13 @@
         </div>
       </li>
       <li class="form-line jf-required" data-type="control_email">
-        <label class="form-label form-label-left form-label-auto" for="input_24">E-mail<span class="form-required">*</span></label>
+        <label class="form-label form-label-left form-label-auto" for="email">E-mail<span class="form-required">*</span></label>
         <div class="form-input jf-required" id="cid_24">
           <input class="form-textbox validate[required, Email]" id="input_24" name="email" size="50" type="email" value="" />
         </div>
       </li>
       <li class="form-line" data-type="control_phone" id="id_20">
-        <label class="form-label form-label-left form-label-auto" for="input_20" id="label_20">Teléfono</label>
+        <label class="form-label form-label-left form-label-auto" for="telephone_number" id="label_20">Teléfono</label>
         <div class="form-input jf-required" id="cid_20">
           <span class="form-sub-label-container"><input class="form-textbox" id="input_20_area" name="telephone_area" size="5" type="tel" /></span><span class="form-sub-label-container"><input class="form-textbox" id="input_20_phone" name="telephone_number" size="20" type="tel" /></span>
         </div>
@@ -345,7 +345,7 @@
         data: $('form[name=contact]').serializeArray(),
         dataType: "json"
     }).done(function() {
-      alert( "translation missing: es.form.thank_you" );
+      alert( "Muchas gracias! Nos pondremos en contacto con usted pronto." );
     });
     return false;
   });
