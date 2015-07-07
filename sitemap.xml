@@ -28,8 +28,32 @@
       <?xml version="1.0" encoding="UTF-8"?>
       <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
         <url>
-          <loc>http://www.vejerísimo.com/legal_notice.html</loc>
-          <lastmod>2015-06-22</lastmod>
+          <loc>http://www.vejerísimo.com/legal_notice_de.html</loc>
+          <lastmod>2015-07-08</lastmod>
+          <priority>1.0</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/legal_notice_en.html</loc>
+          <lastmod>2015-07-08</lastmod>
+          <priority>1.0</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/legal_notice_es.html</loc>
+          <lastmod>2015-07-08</lastmod>
+          <priority>1.0</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/legal_notice_fr.html</loc>
+          <lastmod>2015-07-08</lastmod>
+          <priority>1.0</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/legal_notice_nl.html</loc>
+          <lastmod>2015-07-08</lastmod>
           <priority>1.0</priority>
           <changefreq>daily</changefreq>
         </url>
@@ -139,7 +163,7 @@
       
       <hr>
         <p class="text-center">
-          (c) 2015 <a href="/">VEJERÍSIMO</a> - <a target="_blank" href="/legal_notice.html">Legal Notice</a>
+          (c) 2015 <a href="/">VEJERÍSIMO</a> - <a target="_blank" href="/legal_notice_en.html">Legal Notice</a>
         </p>
         <p class="text-center">
           <small>VTAR/CA/00496</small>
