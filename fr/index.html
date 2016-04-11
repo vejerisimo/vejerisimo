@@ -538,9 +538,10 @@
   </div>
 </section><div class="form-all">
   <form accept-charset="utf-8" action="" method="post" name="contact">
+    <div id="alert_placeholder"></div>
     <input type="hidden" value="51355991919367" />
     <ul class="form-section page-section">
-      <li class="form-input-wide" data-type="control_head">
+      <li class="form-input-wide">
         <div class="form-header-group">
           <div class="header-text httac htvam">
             <h2 class="form-header">
@@ -549,27 +550,27 @@
           </div>
         </div>
       </li>
-      <li class="form-line jf-required" data-type="control_textbox">
+      <li class="form-line">
         <label class="form-label form-label-left form-label-auto" for="name">Nom<span class="form-required">*</span></label>
-        <div class="form-input jf-required">
-          <input class="form-textbox validate[required]" data-type="input-textbox" name="name" size="20" type="text" value="" />
+        <div class="form-input">
+          <input class="form-textbox" name="name" required="" size="20" type="text" value="" />
         </div>
       </li>
-      <li class="form-line jf-required" data-type="control_email">
+      <li class="form-line">
         <label class="form-label form-label-left form-label-auto" for="email">E-mail<span class="form-required">*</span></label>
-        <div class="form-input jf-required" id="cid_24">
-          <input class="form-textbox validate[required, Email]" id="input_24" name="email" size="50" type="email" value="" />
+        <div class="form-input">
+          <input class="form-textbox" id="input_24" name="email" required="" size="50" type="email" value="" />
         </div>
       </li>
-      <li class="form-line" data-type="control_phone" id="id_20">
-        <label class="form-label form-label-left form-label-auto" for="telephone_number" id="label_20">Téléphone</label>
-        <div class="form-input jf-required" id="cid_20">
-          <span class="form-sub-label-container"><input class="form-textbox" id="input_20_area" name="telephone_area" size="5" type="tel" /></span><span class="form-sub-label-container"><input class="form-textbox" id="input_20_phone" name="telephone_number" size="20" type="tel" /></span>
+      <li class="form-line" id="id_20">
+        <label class="form-label form-label-left form-label-auto" for="telephone_number" id="label_20">Téléphone<span class="form-required">*</span></label>
+        <div class="form-input">
+          <span class="form-sub-label-container"><input class="form-textbox" id="input_20_phone" name="telephone_number" required="" size="20" type="tel" /></span>
         </div>
       </li>
-      <li class="form-line" data-type="control_birthdate" id="id_25">
+      <li class="form-line" id="id_25">
         <label class="form-label form-label-left form-label-auto" for="input_25" id="label_25">Arrivée</label>
-        <div class="form-input jf-required" id="cid_25">
+        <div class="form-input">
           <span class="form-sub-label-container" style="vertical-align: top"><select class="form-dropdown" id="input_25_month" name="arrival_month">
               <option></option>
               <option value="January">
@@ -735,9 +736,9 @@
             </select></span>
         </div>
       </li>
-      <li class="form-line" data-type="control_dropdown" id="id_10">
+      <li class="form-line" id="id_10">
         <label class="form-label form-label-left form-label-auto" for="input_10" id="label_10">Nombre de Nuits</label>
-        <div class="form-input jf-required" id="cid_10">
+        <div class="form-input">
           <select class="form-dropdown" id="input_10" name="days" style="width:60px">
             <option value=""></option>
             <option value="2">
@@ -782,9 +783,9 @@
           </select>
         </div>
       </li>
-      <li class="form-line" data-type="control_dropdown" id="id_30">
+      <li class="form-line" id="id_30">
         <label class="form-label form-label-left form-label-auto" for="input_30" id="label_30">Nombre de personnes</label>
-        <div class="form-input jf-required" id="cid_30">
+        <div class="form-input">
           <select class="form-dropdown" id="input_30" name="adults" style="width:60px">
             <option value=""></option>
             <option value="1">
@@ -814,9 +815,9 @@
           </select>
         </div>
       </li>
-      <li class="form-line" data-type="control_textarea">
+      <li class="form-line">
         <label class="form-label form-label-left form-label-auto" for="input_13">Commentaires</label>
-        <div class="form-input jf-required" id="cid_13">
+        <div class="form-input">
           <textarea class="form-textarea" cols="40" name="comment" rows="6"></textarea>
         </div>
       </li>
@@ -828,15 +829,46 @@
   &nbsp;
 </p>
 <script type="text/javascript">
-  $('form[name=contact]').submit(function(){
-    $.ajax({
-        url: "//formspree.io/info@vejerisimo.com",
-        method: "POST",
-        data: $('form[name=contact]').serializeArray(),
-        dataType: "json"
-    }).done(function() {
-      alert( "Merci! Nous vous contacterons dans les plus brefs délais." );
+  function showalert(message,alerttype) {
+  
+    $('#alert_placeholder').append('<div id="alertdiv" class="alert ' +  alerttype + '"><a class="close" data-dismiss="alert">×</a><span>'+message+'</span></div>')
+    setTimeout(function() {
+      $("#alertdiv").remove();
+    }, 5000);
+  }
+  
+  $('form[name=contact]').on('submit', function(event){
+  
+    $("#input_2").prop('disabled', true); // disable button
+  
+    //validate fields
+    var fail_log = [];
+    $( 'form[name=contact]' ).find( 'select, textarea, input' ).each(function(){
+        if( $( this ).prop( 'required' )) {
+            if ( ! $( this ).val() ) {
+                name = $( this ).attr( 'name' );
+                fail_log.push(name + " is required");
+                $( this ).addClass('required');
+            }
+        }
     });
+    if ( fail_log.length == 0 ) {
+      $.ajax({
+          url: "//formspree.io/info@vejerisimo.com",
+          method: "POST",
+          data: $('form[name=contact]').serializeArray(),
+          dataType: "json",
+      }).done(function() {
+        $("#input_2").prop('disabled', false); // disable button
+        alert( "Merci! Nous vous contacterons dans les plus brefs délais." );
+        // $( 'form[name=contact]' ).reset();
+      });
+  
+    } else {
+        showalert(fail_log.join(', '), 'alert-warning');
+        // alert( fail_log );
+    }
+    event.preventDefault();
     return false;
   });
 </script>
