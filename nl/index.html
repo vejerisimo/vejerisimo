@@ -866,7 +866,7 @@
   
     } else {
         showalert(fail_log.join(', '), 'alert-warning');
-        // alert( fail_log );
+        $("#input_2").prop('disabled', false); // disable button
     }
     event.preventDefault();
     return false;
