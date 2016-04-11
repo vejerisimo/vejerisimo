@@ -839,6 +839,8 @@
   
   $('form[name=contact]').on('submit', function(event){
   
+    event.preventDefault();
+    // $('form[name=contact]')[0].checkValidity(); // returns false but does not show feedback
     $("#input_2").prop('disabled', true); // disable button
   
     //validate fields
@@ -868,7 +870,7 @@
         showalert(fail_log.join(', '), 'alert-warning');
         $("#input_2").prop('disabled', false); // disable button
     }
-    event.preventDefault();
+  
     return false;
   });
 </script>
