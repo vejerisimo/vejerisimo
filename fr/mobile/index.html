@@ -454,19 +454,19 @@
       <li class="form-line">
         <label class="form-label form-label-left form-label-auto" for="name">Nom<span class="form-required">*</span></label>
         <div class="form-input">
-          <input class="form-textbox" name="name" required="" size="20" type="text" value="" />
+          <input class="form-textbox" name="name" required="required" size="20" type="text" value="" />
         </div>
       </li>
       <li class="form-line">
         <label class="form-label form-label-left form-label-auto" for="email">E-mail<span class="form-required">*</span></label>
         <div class="form-input">
-          <input class="form-textbox" id="input_24" name="email" required="" size="50" type="email" value="" />
+          <input class="form-textbox" id="input_24" name="email" required="required" size="50" type="email" value="" />
         </div>
       </li>
       <li class="form-line" id="id_20">
         <label class="form-label form-label-left form-label-auto" for="telephone_number" id="label_20">Téléphone<span class="form-required">*</span></label>
         <div class="form-input">
-          <span class="form-sub-label-container"><input class="form-textbox" id="input_20_phone" name="telephone_number" required="" size="20" type="tel" /></span>
+          <span class="form-sub-label-container"><input class="form-textbox" id="input_20_phone" name="telephone_number" required="required" size="20" type="tel" /></span>
         </div>
       </li>
       <li class="form-line" id="id_25">
@@ -731,11 +731,10 @@
 </p>
 <script type="text/javascript">
   function showalert(message,alerttype) {
-  
     $('#alert_placeholder').append('<div id="alertdiv" class="alert ' +  alerttype + '"><a class="close" data-dismiss="alert">×</a><span>'+message+'</span></div>')
     setTimeout(function() {
       $("#alertdiv").remove();
-    }, 5000);
+    }, 10000);
   }
   
   $('form[name=contact]').on('submit', function(event){
