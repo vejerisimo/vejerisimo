@@ -1,4 +1,4 @@
-/*!
+function showalert(t,e){$("#alert_placeholder").append('<div id="alertdiv" class="alert '+e+'"><a class="close" data-dismiss="alert">×</a><span>'+t+"</span></div>"),setTimeout(function(){$("#alertdiv").remove()},1e4)}/*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under the MIT license
