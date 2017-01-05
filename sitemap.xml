@@ -221,30 +221,6 @@
           <changefreq>daily</changefreq>
         </url>
         <url>
-          <loc>http://www.vejerísimo.com/en/mobile/map.html</loc>
-          <lastmod>2017-01-05</lastmod>
-          <priority>0.8</priority>
-          <changefreq>daily</changefreq>
-        </url>
-        <url>
-          <loc>http://www.vejerísimo.com/es/mobile/map.html</loc>
-          <lastmod>2017-01-05</lastmod>
-          <priority>0.8</priority>
-          <changefreq>daily</changefreq>
-        </url>
-        <url>
-          <loc>http://www.vejerísimo.com/fr/mobile/map.html</loc>
-          <lastmod>2017-01-05</lastmod>
-          <priority>0.8</priority>
-          <changefreq>daily</changefreq>
-        </url>
-        <url>
-          <loc>http://www.vejerísimo.com/nl/mobile/map.html</loc>
-          <lastmod>2017-01-05</lastmod>
-          <priority>0.8</priority>
-          <changefreq>daily</changefreq>
-        </url>
-        <url>
           <loc>http://www.vejerísimo.com/en/mobile/rooms.html</loc>
           <lastmod>2017-01-05</lastmod>
           <priority>0.8</priority>
