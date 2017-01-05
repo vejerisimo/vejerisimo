@@ -140,6 +140,54 @@
           <changefreq>daily</changefreq>
         </url>
         <url>
+          <loc>http://www.vejerísimo.com/mobile/form.html</loc>
+          <lastmod>2017-01-05</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/es/mobile/form.html</loc>
+          <lastmod>2017-01-05</lastmod>
+          <priority>0.8</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/fr/mobile/form.html</loc>
+          <lastmod>2017-01-05</lastmod>
+          <priority>0.8</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/nl/mobile/form.html</loc>
+          <lastmod>2017-01-05</lastmod>
+          <priority>0.8</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/mobile/house.html</loc>
+          <lastmod>2017-01-05</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/es/mobile/house.html</loc>
+          <lastmod>2017-01-05</lastmod>
+          <priority>0.8</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/fr/mobile/house.html</loc>
+          <lastmod>2017-01-05</lastmod>
+          <priority>0.8</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/nl/mobile/house.html</loc>
+          <lastmod>2017-01-05</lastmod>
+          <priority>0.8</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
           <loc>http://www.vejerísimo.com/mobile/</loc>
           <lastmod>2017-01-05</lastmod>
           <priority>0.9</priority>
@@ -159,6 +207,54 @@
         </url>
         <url>
           <loc>http://www.vejerísimo.com/nl/mobile/</loc>
+          <lastmod>2017-01-05</lastmod>
+          <priority>0.8</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/mobile/map.html</loc>
+          <lastmod>2017-01-05</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/es/mobile/map.html</loc>
+          <lastmod>2017-01-05</lastmod>
+          <priority>0.8</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/fr/mobile/map.html</loc>
+          <lastmod>2017-01-05</lastmod>
+          <priority>0.8</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/nl/mobile/map.html</loc>
+          <lastmod>2017-01-05</lastmod>
+          <priority>0.8</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/mobile/rooms.html</loc>
+          <lastmod>2017-01-05</lastmod>
+          <priority>0.9</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/es/mobile/rooms.html</loc>
+          <lastmod>2017-01-05</lastmod>
+          <priority>0.8</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/fr/mobile/rooms.html</loc>
+          <lastmod>2017-01-05</lastmod>
+          <priority>0.8</priority>
+          <changefreq>daily</changefreq>
+        </url>
+        <url>
+          <loc>http://www.vejerísimo.com/nl/mobile/rooms.html</loc>
           <lastmod>2017-01-05</lastmod>
           <priority>0.8</priority>
           <changefreq>daily</changefreq>
