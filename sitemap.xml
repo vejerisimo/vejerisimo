@@ -20,7 +20,7 @@
     <meta content="A Guest House situated in the heart of Vejer de la Frontera" name="twitter:title" />
     <meta content="We offer 4 double rooms situated around a lovely patio with lots of cozy corners and a sunny roof terrace. We promise you an unforgettable stay!" name="twitter:description" />
     <meta content="http://www.vejerisimo.com/images/top_1m.jpg" name="twitter:image" />
-    <title>VEJERÍSIMO</title><!--[if lt IE 9]><script src="js/ie8.js" type="text/javascript"></script><![endif]--><script src="js/all.js" type="text/javascript"></script><link href="css/default.css" media="screen" rel="stylesheet" type="text/css" />
+    <title>VEJERÍSIMO</title><!--[if lt IE 9]><script src="js/ie8.js" type="text/javascript"></script><![endif]--><script src="js/all.js" type="text/javascript"></script>
   </head>
   <body>
     <script src="js/mobile_detect.js" type="text/javascript"></script>
@@ -30,6 +30,8 @@
         window.location='/en/mobile'
       }
     </script>
+    <link href="css/default.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand" rel="stylesheet" type="text/css" />
     <div class="container-fluid">
       <?xml version="1.0" encoding="UTF-8"?>
       <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -41,61 +43,61 @@
         </url>
         <url>
           <loc>http://www.vejerísimo.com/legal-notice-de.html</loc>
-          <lastmod>2015-07-08</lastmod>
+          <lastmod>2017-01-07</lastmod>
           <priority>1.0</priority>
           <changefreq>daily</changefreq>
         </url>
         <url>
           <loc>http://www.vejerísimo.com/legal-notice-en.html</loc>
-          <lastmod>2015-07-08</lastmod>
+          <lastmod>2017-01-07</lastmod>
           <priority>1.0</priority>
           <changefreq>daily</changefreq>
         </url>
         <url>
           <loc>http://www.vejerísimo.com/legal-notice-es.html</loc>
-          <lastmod>2015-07-08</lastmod>
+          <lastmod>2017-01-07</lastmod>
           <priority>1.0</priority>
           <changefreq>daily</changefreq>
         </url>
         <url>
           <loc>http://www.vejerísimo.com/legal-notice-fr.html</loc>
-          <lastmod>2015-07-08</lastmod>
+          <lastmod>2017-01-07</lastmod>
           <priority>1.0</priority>
           <changefreq>daily</changefreq>
         </url>
         <url>
           <loc>http://www.vejerísimo.com/legal-notice-nl.html</loc>
-          <lastmod>2015-07-08</lastmod>
+          <lastmod>2017-01-07</lastmod>
           <priority>1.0</priority>
           <changefreq>daily</changefreq>
         </url>
         <url>
           <loc>http://www.vejerísimo.com/terms-and-conditions-de.html</loc>
-          <lastmod>2015-05-25</lastmod>
+          <lastmod>2017-01-07</lastmod>
           <priority>1.0</priority>
           <changefreq>daily</changefreq>
         </url>
         <url>
           <loc>http://www.vejerísimo.com/terms-and-conditions-en.html</loc>
-          <lastmod>2016-06-08</lastmod>
+          <lastmod>2017-01-07</lastmod>
           <priority>1.0</priority>
           <changefreq>daily</changefreq>
         </url>
         <url>
           <loc>http://www.vejerísimo.com/terms-and-conditions-es.html</loc>
-          <lastmod>2016-06-08</lastmod>
+          <lastmod>2017-01-07</lastmod>
           <priority>1.0</priority>
           <changefreq>daily</changefreq>
         </url>
         <url>
           <loc>http://www.vejerísimo.com/terms-and-conditions-fr.html</loc>
-          <lastmod>2016-06-08</lastmod>
+          <lastmod>2017-01-07</lastmod>
           <priority>1.0</priority>
           <changefreq>daily</changefreq>
         </url>
         <url>
           <loc>http://www.vejerísimo.com/terms-and-conditions-nl.html</loc>
-          <lastmod>2016-06-08</lastmod>
+          <lastmod>2017-01-07</lastmod>
           <priority>1.0</priority>
           <changefreq>daily</changefreq>
         </url>
@@ -221,25 +223,25 @@
         </url>
         <url>
           <loc>http://www.vejerísimo.com/en/mobile/rooms.html</loc>
-          <lastmod>2017-01-05</lastmod>
+          <lastmod>2017-01-07</lastmod>
           <priority>0.8</priority>
           <changefreq>daily</changefreq>
         </url>
         <url>
           <loc>http://www.vejerísimo.com/es/mobile/rooms.html</loc>
-          <lastmod>2017-01-05</lastmod>
+          <lastmod>2017-01-07</lastmod>
           <priority>0.8</priority>
           <changefreq>daily</changefreq>
         </url>
         <url>
           <loc>http://www.vejerísimo.com/fr/mobile/rooms.html</loc>
-          <lastmod>2017-01-05</lastmod>
+          <lastmod>2017-01-07</lastmod>
           <priority>0.8</priority>
           <changefreq>daily</changefreq>
         </url>
         <url>
           <loc>http://www.vejerísimo.com/nl/mobile/rooms.html</loc>
-          <lastmod>2017-01-05</lastmod>
+          <lastmod>2017-01-07</lastmod>
           <priority>0.8</priority>
           <changefreq>daily</changefreq>
         </url>
@@ -258,8 +260,6 @@
     <script type="text/javascript">
       (function(d,e,j,h,f,c,b){d.GoogleAnalyticsObject=f;d[f]=d[f]||function(){(d[f].q=d[f].q||[]).push(arguments)},d[f].l=1*new Date();c=e.createElement(j),b=e.getElementsByTagName(j)[0];c.async=1;c.src=h;b.parentNode.insertBefore(c,b)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-63217615-1", location.hostname);ga("send","pageview");
     </script>
-    <link href="http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand" rel="stylesheet" type="text/css" />
     <link href="images/favicon.jpg" rel="shortcut icon" type="image/jpg" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   </body>
 </html>
