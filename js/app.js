@@ -1,0 +1,1 @@
+(function(){$(function(){return console.log("DOM is ready"),console.log($("#carousel-top")),$(".carousel").on("swiperight",function(){return $(this).carousel("prev")}),$(".carousel").on("swipeleft",function(){return $(this).carousel("next")})})}).call(this);
