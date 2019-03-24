@@ -260,31 +260,31 @@
   </url>
   <url>
     <loc>http://www.vejerísimo.com/en/mobile/</loc>
-    <lastmod>2019-01-24</lastmod>
+    <lastmod>2019-03-24</lastmod>
     <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.vejerísimo.com/es/mobile/</loc>
-    <lastmod>2019-01-24</lastmod>
+    <lastmod>2019-03-24</lastmod>
     <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.vejerísimo.com/fr/mobile/</loc>
-    <lastmod>2019-01-24</lastmod>
+    <lastmod>2019-03-24</lastmod>
     <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.vejerísimo.com/nl/mobile/</loc>
-    <lastmod>2019-01-24</lastmod>
+    <lastmod>2019-03-24</lastmod>
     <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.vejerísimo.com/de/mobile/</loc>
-    <lastmod>2019-01-24</lastmod>
+    <lastmod>2019-03-24</lastmod>
     <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
@@ -344,6 +344,36 @@
   </url>
   <url>
     <loc>http://www.vejerísimo.com/de/mobile/house/</loc>
+    <lastmod>2019-03-24</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.vejerísimo.com/en/mobile/vejer/</loc>
+    <lastmod>2019-03-24</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.vejerísimo.com/es/mobile/vejer/</loc>
+    <lastmod>2019-03-24</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.vejerísimo.com/fr/mobile/vejer/</loc>
+    <lastmod>2019-03-24</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.vejerísimo.com/nl/mobile/vejer/</loc>
+    <lastmod>2019-03-24</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.vejerísimo.com/de/mobile/vejer/</loc>
     <lastmod>2019-03-24</lastmod>
     <priority>0.7</priority>
     <changefreq>daily</changefreq>
