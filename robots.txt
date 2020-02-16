@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://www.vejerísimo.com/sitemap.xml
+Sitemap: https://www.vejerísimo.com/sitemap.xml
