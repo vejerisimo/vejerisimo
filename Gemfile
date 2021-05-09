@@ -7,7 +7,7 @@ gem 'middleman-simple-thumbnailer'
 gem 'middleman-sprockets'
 gem 'middleman-minify-html'
 gem "middleman-livereload" # , "~> 3.1.0"
-gem 'middleman-deploy', '~> 1.0'
+# gem 'middleman-deploy', '~> 1.0'
 
 group :development do
 end
