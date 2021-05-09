@@ -1,0 +1,7 @@
+.row
+  .col-md-12
+    h3 Please wait ...
+javascript:
+  console.log('locale in local storage', localStorage.getItem('locale') )
+  var locale = localStorage.getItem('locale') || 'en';
+  window.location='/'+locale+'/'

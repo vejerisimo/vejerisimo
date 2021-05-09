@@ -1,0 +1,128 @@
+---
+es:
+  intro:
+    title1: "CASA ÚNICA DE 4 HABITACIONES y 4 CUARTO DE BAÑOS"
+    title2: "CON TERRAZA, PATIO Y COCINA"
+    p1: "VEJERÍSIMO es una casa rural ubicada en un callejón tranquilo en el corazón del casco antiguo de Vejer de la Frontera, muy cerca de los restaurantes, bares y lugares de interés. Al lado de la casa empieza la muralla antigua con “La Puerta Cerrada”, una de las 4 puertas principales."
+    p2: "La casa dispone de 4 habitaciones dobles con baño en-suite, situadas alrededor de un patio típico de arcos. Es una casa de estilo único: conserva su autenticidad pero ofrece todas las comodidades de este tiempo. La casa tiene muchos rincones acogedores: lée un libro en el patio típico al lado de la biblioteca o disfruta de la terraza con tumbonas y rincones chill-out. Le ofrecemos una estancia exeptional y inolvidable."
+  header:
+    top: "Inicio"
+    rooms: "Habitaciones"
+    reservations: "Tarifas y Reservas"
+    contact: "Contact"
+  rooms:
+    title: "HABITACIONES"
+    intro: "Todas las habitaciones disponen de TV, WIFI gratuito, ventilador de techo, calefacción, y secador de pelo. Las habitaciones miden aproximamente 20 m2."
+    acogedora:
+      a: "Planta baja"
+      b: "Gran cama de matrimonio cómoda 160x190cm"
+      c: "Baño en-suite espacioso"
+    duplex:
+      a: "Habitación de 2 plantas con una cómoda escalera interna"
+      b: "2 accesos: al patio y a la primera planta"
+      c: "Planta baja: cuarto de baño, cuarto de aseo separado y nevera grande"
+      d: "Primera planta: gran cama de 160x190cm"
+    patio:
+      a: "Primera planta"
+      b: "Gran cama de matrimonio cómoda 160x190cm"
+      c: "Baño en-suite espacioso"
+    muralla:
+      a: "Primera planta"
+      b: "Gran cama de matrimonio cómoda 160x190cm"
+      c: "Baño en-suite espacioso"
+  prices:
+      title: "Prices"
+      low:
+        title: "CASA PRIVADA 4 habitaciones + 4 baños en-suite"
+        price: "(max. 8p) desde €200/noche"
+      june:
+        # title: "ALQUILER POR HABITACIÓN (HOTEL) cama de matrimonio + baño en-suite privado (max. 2p)"
+        # price: "???"
+      medium:
+        # title: "Habitación con baño privado"
+        # price: "desde €70/noche"
+      high:
+        title: "<br/><br/><br/>ALQUILER POR HABITACIÓN (HOTEL) cama de matrimonio + baño en-suite privado (max. 2p)"
+        # price: "desde €75/noche"
+      house:
+        title: "<br/><br/><br/>Habitación con baño privado desde €70/noche"
+      detail: "DESAYUNO NO INCLUIDO"
+      closed: ""
+      last_minute: "<a href='email:info@vejerisimo.com'>PÓNGASE EN CONTACTO</a> CON NOSOTROS PARA NUESTRAS OFERTAS"
+      extra: ""
+      terms: ""
+  house:
+    casa:
+      title: "LA CASA"
+      description: "Descubre las zonas dondé puede relajar y disfrutar el maximo de su estancia."
+    estar:
+      title: "SALA DE ESTAR Y COCINA"
+      description: "Tiene una cocina totalmente equipada, un comedor y zona de estar con TV y WIFI."
+    patio:
+      title: "EL PATIO"
+      description: "El patio exterior tradicional tiene una biblioteca."
+    azotea:
+      title: "LA AZOTEA"
+      description: "La terraza orientada al sur tiene vistas al pueblo, al campo y al mar. En los días claros se puede ver Marruecos y el Estrecho de Gibraltar. Elije su rincón favorito para disfrutar de un aperitivo, un libro o el sol."
+    desayuno:
+      title: "DESAYUNO"
+      description: "Debido a las diversas posibilidades de disfrutar de un desayuno en el pueblo, no ofrecemos desayuno en la casa. Numerosos bares y pastelerías cercanos ofrecen un delicioso desayuno a precios democráticos."
+  vejer:
+    title: "VEJER"
+    title1: "VEJER DE LA FRONTERA"
+    title2: "Un turismo tranquilo en"
+    title3: "un magnífico entorno natural"
+    description: "Vejer de la Frontera está situado sobre una colina y tiene vistas espectaculares al mar, la sierra, el río y Africa. Respire el aire andaluz en este pueblo blanco rodeado de naturaleza. Sus callejuelas blancas estrechas nos llevan atrás en el tiempo y evocan escenarios medievales de toque árabe. Discubre rincones pintorescos, puertas medievales, patios con flores y una importante tradición artesanal. Vejer es también un destino gastronómico de primer nivel. La espléndida playa del Palmar con su arena blanca está a sólo 10 minutos."
+    resto:
+      title: "GASTRONOMÍA"
+      description: "Vejer tiene una gastronomía de gran calidad. Descubre restaurantes de cocina típica andaluza y platos Vejeriegos. También los restaurantes innovadores le sorprenderá con sus platos creativos y cocina moderna."
+    tourism:
+      title: "DEPORTE Y TURISMO ACTIVO"
+      description: "Vejer de la Frontera es un lugar ideal para los amantes del Turismo Activo. La zona ofrece diversas posibilidades deportivas al aire libre y divertidas actividades"
+    playa:
+      title: "EL PARAISO DE PLAYA Y SOL"
+      description: "La Costa de la Luz debe su nombre a su vivísima luz y el intenso reflejo del sol en la arena y el mar. Sus costas bordean el océano Atlántico y sus playas extensas con arena dorada fina tienen muchas dunas y vegetación en estado casi salvaje. Con más de 300 días de sol al año, la Costa de la Luz permite disfrutar casi todo el año de las mejores playas de España."
+      caption1: 'El Palmar (9 km): un paraíso inmenso de arena fina'
+      caption2: 'Barbate (10 km): la meca de los amantes de la gastronomía del mar'
+      caption3: 'Zahora (15 km): hermosas vistas del litoral y del Cabo de Trafalgar'
+      caption4: 'Caños de Meca (19 km): un ambiente joven, relajado y alternativo'
+      caption5: ''
+      caption6: ''
+    sunshinetour:
+      title: "Circuito Hípico de Sol"
+      description: "El Centro Hípico Montenmedio organiza cada año varias competiciones,  destacando ‘El Circuito Hípico de Sol’, una de las competiciones invernal al aire libre más importante del mundo. Los participantes en el campeonato elijen desde hace años nuestro alojamiento. VEJERÍSIMO  ofrece tranquilidad, autenticidad, modernidad y cercanía a restaurantes,  tiendas y bares. Elija la fórmula más adecuada a sus necesidades y <a href='mailto:info@vejerisimo.com'>pida presupuesto</a> sin compromiso:"
+      fullhouse:
+        title: "Casa entera"
+        description: "4 habitaciones + 4 baños en-suite (max. 8p)"
+      perroom:
+        title: "Alquiler por habitación (hotel)"
+        description: "Habitación cama de matrimonio + baño en-suite privado (max. 2p)"
+  form:
+    title: Reservas Y Preguntas
+    thank_you: Muchas gracias! Nos pondremos en contacto con usted pronto.
+    name: Nombre
+    email: E-mail
+    telephone: Teléfono
+    arrival: Fecha de llegada
+    nights: Número de noches
+    persons: Número de personas
+    adults: Adultos
+    kids: Niños
+    comments: Comentario
+    send: Enviar
+    date:
+      month:
+        jan: Enero
+        feb: Febrero
+        mar: Marzo
+        apr: Abril
+        may: Mayo
+        jun: Junio
+        jul: Julio
+        aug: Agosto
+        sep: Septiembre
+        oct: Octubre
+        nov: Noviembre
+        dec: Diciembre
+  footer:
+    legal_notice: Legal Notice

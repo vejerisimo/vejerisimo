@@ -1,0 +1,24 @@
+section.contact.red
+  .content
+    .text-center
+      // img.logo.text-center src=image_path("logo_#{I18n.locale}.jpg") alt="logo vejerisimo"
+      = image_tag "logo_#{I18n.locale}.jpg", resize_to: '100x100', alt: "logo vejerisimo", class: 'logo text-center'
+
+    p.center itemscope='' itemtype="https://schema.org/Person"
+      a href="mailto:info@vejerisimo.com" itemprop="email"
+        | info@vejerisimo.com
+    p.center
+      a href="tel:+34 638 18 86 82" itemprop="tel"
+        | +34 638 18 86 82
+    p.center
+      a href="tel:+34 648 87 08 41" itemprop="tel"
+        | +34 648 87 08 41
+    p.center
+      | Calle Trafalgar 28
+      br
+      | Vejer de la Frontera
+      br
+      | 11150 Cádiz (Andalucia)
+    / p.center
+    /   a.btn.btn-default href="mailto:info@vejerisimo.com" title="contact us at info@vejerisimo.com"
+    /     | Email

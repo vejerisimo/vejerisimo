@@ -1,0 +1,58 @@
+html
+  head
+    meta[charset="utf-8"]
+    meta[http-equiv="X-UA-Compatible" content="IE=edge;chrome=1"]
+    meta[name="viewport" content="width=device-width, initial-scale=1.0"]
+    meta[name="description" content="#{config[:site_description]}"]
+    meta[name="keywords" content="#{config[:site_keywords]}"]
+
+    meta content="Sun, 10 Feb 2013 14:00:46 GMT " http-equiv="last-modified" /
+    meta content="Private" http-equiv="cache-control" /
+    meta content="600" http-equiv="Expires" /
+
+    meta[property="og:description" content="A Guest House situated in the heart of Vejer de la Frontera"]
+    meta[property="og:url" content="https://www.vejerisimo.com"]
+    meta[property="og:image" content=image_url(image_path('top_1m.jpg')) ]
+    meta[property="og:type" content="website"]
+    meta[property="og:site_name" content="Vejerisimo"]
+    meta[property="article:author" content="Wim Handekyn"]
+    meta[property="article:publisher" content="koen.handekyn@quine.be"]
+
+    meta[content="summary" name="twitter:card"]
+    meta[content="@vejerisimo" name="twitter:site"]
+    meta[content="A Guest House situated in the heart of Vejer de la Frontera" name="twitter:title"]
+    meta[content="We offer 4 double rooms situated around a lovely patio with lots of cozy corners and a sunny roof terrace. We promise you an unforgettable stay!" name="twitter:description"]
+    meta[content=image_url(image_path('top_1m.jpg')) name="twitter:image"]
+
+    link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.vejerisimo.com/en/mobile/"
+    link rel="alternate" media="handheld" href="https://www.vejerisimo.com/en/mobile/"
+    link rel="shortcut icon" type="image/jpg" href=image_path('favicon.jpg')
+
+    = stylesheet_link_tag "default", :async => true
+
+    title
+      = page_title
+  body
+    = javascript_include_tag "mobile_detect"
+    javascript:
+      var md = new MobileDetect(window.navigator.userAgent);
+      console.log('locale in local storage', localStorage.getItem('locale') )
+      var locale = localStorage.getItem('locale') || 'en';
+      if (md.phone()) { window.location='/'+locale+'/mobile' }
+
+    .container-fluid
+      = yield
+      hr
+        p.text-center
+          | (c) 2015
+          =<> link_to "#{config[:site_title]}", "/"
+          | -
+          =< link_to t('footer.legal_notice'), "/legal-notice-#{I18n.locale}.html", :target => "_blank"
+        p.text-center
+          small
+            | VTAR/CA/00496
+      hr
+
+    link href='https://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand' rel='stylesheet' type='text/css' async=true
+    = javascript_include_tag "default", :async => true
+    = partial "analytics"

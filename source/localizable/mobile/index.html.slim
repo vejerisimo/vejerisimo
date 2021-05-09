@@ -1,0 +1,73 @@
+---
+layout: mobile
+---
+
+= partial "header_mobile"
+
+section.white
+  .content
+    p.intro style="text-align: justify" =t('intro.p1')
+
+  br
+  #prices
+    h5
+      =t('prices.low.title')
+      =<t('prices.low.price')
+    / h4
+    /   =t('prices.june.title')
+    /   =<t('prices.june.price')
+    h5
+      =t('prices.medium.title')
+      =<t('prices.medium.price')
+    h5
+      =t('prices.high.title')
+      =<t('prices.high.price')
+    h5
+      small
+        =t('prices.house.title')
+    h6
+      small
+        br =t('prices.detail')
+        br =t('prices.closed')
+    h6
+      br =t('prices.last_minute')
+      small
+        br =t('prices.extra')
+        br
+          a< _data-toggle="modal" _data-target="#modal" href="/terms-and-conditions-#{I18n.locale}/" target="_blank" =t('prices.terms')
+
+
+br
+h5: a href="/#{I18n.locale}/mobile/form" = t('form.title')
+br
+hr
+
+.image-container
+  = image_tag "intro_rooms.jpg", resize_to: '375x999', alt: "rooms", class: 'top'
+  .image-overlay
+    .main
+      a href="/#{I18n.locale}/mobile/rooms" = t('rooms.title')
+
+section.white
+  .content
+    br
+
+.image-container
+  = image_tag "intro_house.jpg", resize_to: '375x999', alt: "house", class: 'top'
+  .image-overlay
+    .main
+      a href="/#{I18n.locale}/mobile/house" = t('house.casa.title')
+
+section.white
+  .content
+    br
+
+.image-container
+  = image_tag "intro_vejer.jpg", resize_to: '375x999', alt: "vejer", class: 'top'
+  .image-overlay
+    .main
+      a href="/#{I18n.locale}/mobile/vejer" = t('vejer.title')
+
+javascript:
+  console.log("setting locale in locale storage #{I18n.locale}")
+  localStorage.setItem('locale', "#{I18n.locale}");

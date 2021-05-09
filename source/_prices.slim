@@ -1,0 +1,46 @@
+= partial 'components/carousel', locals: { \
+  id: 'carousel-prices', \
+  items: [ 'prices_1'], \
+  }
+
+a.anchor name="reservations"
+section.white#prices
+  .content
+    / h1 =t('prices.title')
+    h4
+      =t('prices.low.title')
+      =<t('prices.low.price')
+    / h4
+    /   =t('prices.june.title')
+    /   =<t('prices.june.price')
+    h4
+      =t('prices.medium.title')
+      =<t('prices.medium.price')
+    h4
+      =t('prices.high.title')
+      =<t('prices.high.price')
+    h4
+      small
+        =t('prices.house.title')
+    h5
+      small
+        br =t('prices.detail')
+        br =t('prices.closed')
+    h5
+      br =t('prices.last_minute')
+      small
+        br =t('prices.extra')
+        br
+          a< _data-toggle="modal" _data-target="#modal" href="/terms-and-conditions-#{I18n.locale}/" target="_blank" =t('prices.terms')
+
+
+    table style="margin: 1em auto"
+      tr
+        td style="padding-rigth: 20px;"
+          == partial 'booking'
+        td style="padding-rigth: 20px; padding-left: 20px"
+          == partial 'hotels_combined'
+
+/ #modal.fade aria-hidden="true" role="dialog" tabindex="-1"
+/   .modal-dialog.modal-lg
+/     .modal-content

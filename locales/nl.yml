@@ -1,0 +1,124 @@
+---
+nl:
+  intro:
+    title1: "INTIEM EN PERSOONLIJK"
+    title2: "LOGEREN BIJ BELGEN"
+    p1: "VEJERÍSIMO is een Guest House uitgebaat door een Belgisch koppel in het hart van het historisch centrum van Vejer de la Frontera. Het is gelegen in een rustig straatje vlakbij de restaurants, typische bars en de vele bezienswaardigheden. Naast het huis start de oude stadswal met de “Puerta Cerrada” (gesloten deur), één van de 4 oude hoofdingangen van het dorp."
+    p2: "Rond de typische patio bevinden zich 4 tweepersoonskamers met en-suite badkamer. Het huis heeft een unieke stijl: het combineert authenticiteit met hedendaags comfort. Lees een boek op de patio naast de bibliotheek, geniet van het dakterras, neem een siësta in je kamer, … Geniet met volle teugen! Wij garanderen je een uitzonderlijk en onvergetelijk verblijf."
+  header:
+    top: "Home"
+    rooms: "Kamers"
+    reservations: "Info & Reservaties"
+    contact: "Contact"
+  rooms:
+    title: "KAMERS"
+    intro: "Alle kamers beschikken over TV, gratis WIFI, plafondventilator, verwarming en haardroger. De kamers zijn gemiddeld 20 m2 groot met leuke vintage decoratie."
+    acogedora:
+      a: "Benedenverdieping"
+      b: "Comfortabel tweepersoonsbed 160x190cm"
+      c: "Ruime badkamer en-suite"
+    duplex:
+      a: "Kamer met 2 verdiepingen voorzien van een binnentrap"
+      b: "2 toegangen: vanaf de patio en de eerste verdieping"
+      c: "Benedenverdieping: ruime badkamer, apart toilet en een koelkast"
+      d: "Eerste verdieping: comfortabel tweepersoonsbed 160x190cm"
+    patio:
+      a: "Eerste verdieping"
+      b: "Comfortabel tweepersoonsbed 160x190cm"
+      c: "Ruime badkamer en-suite"
+    muralla:
+      a: "Eerste verdieping"
+      b: "Comfortabel tweepersoonsbed 160x190cm"
+      c: "Ruime badkamer en-suite"
+  prices:
+      title: "Prijzen"
+      high:
+        title: "AUGUSTUS"
+      june:
+        title: "JUNI"
+      medium:
+        title: "JUNI, JULI, SEPTEMBER"
+      low:
+        title: "LAAG SEIZOEN"
+      house:
+        title: "HET VOLLEDIGE HUIS HUREN - PRIJS OP AANVRAAG"
+      detail: "Ontbijt niet inbegrepen"
+      closed: "Gesloten in november, december en januari"
+      last_minute: "<a href='email:info@vejerisimo.com'>CONTACTEER</a> ONS VOOR ONZE LAST-MINUTE AANBIEDINGEN"
+      extra: "INFORMEER OVER ONZE <a href='/rondrit_op_maat_2017.pdf'>RONDRIT</a> BIJ BELGISCHE B&B's"
+      terms: "Algemene voorwaarden"
+  house:
+    casa:
+      title: "HET HUIS"
+      description: "Ontdek de gemeenschappelijke ruimtes waar je extra kan relaxen en genieten van je verblijf."
+    estar:
+      title: "KEUKEN/SALON"
+      description: "Bevat een volledig ingerichte keuken, een eetruimte, een zetelhoekje met TV en WIFI en je kan er ook een koffie of thee klaarmaken."
+    patio:
+      title: "DE PATIO"
+      description: "In de traditionele buitenpatio is er een hoekje voorzien voor de bibliotheek en wat toeristische info."
+    azotea:
+      title: "HET DAKTERRAS"
+      description: "Het zuidgerichte dakterras heeft zichten op het dorp, het platteland en de zee. Op heldere dagen is Marokko en de Straat van Gibraltar zichtbaar. Kies je favoriet hoekje om te genieten van een aperitief en een hapje, verlies jezelf in een boek of haal energie uit de zon."
+    desayuno:
+      title: "ONTBIJT"
+      description: "Binnen een straal van 300 meter zijn er tal van typische bars en patisserieën met een smakelijk ontbijt aan democratische prijzen. Wij bieden ook een volledig uitgeruste keuken aan om uw ontbijt zelf klaar te maken. Er is ook aan een koffie- en theehoekje gedacht."
+  vejer:
+    title: "VEJER"
+    title1: "VEJER DE LA FRONTERA"
+    title2: "waar je echt tot rust komt"
+    title3: ""
+    description: "Vejer de la Frontera is een prachtige Pueblo Blanco (wit dorp) omringd door een indrukwekkende natuur. Vorig jaar nog door TripAdviser uitgeroepen tot het tweede mooiste dorp van Spanje. Vanaf één van de uitkijkpunten heb je adembenemende zichten op de zee, de bergen, het platteland en zelfs op het continent Afrika die amper op 17 km ligt. Slenter door de helderwitte straatjes en ontdek schilderachtige hoekjes, middeleeuwse poorten, bloemrijke patio’s en de nog sterk aanwezige artisanale traditie. <br/><br/>Keer terug in de tijd en ontdek middeleeuwse taferelen met Moorse invloeden. Hier ontdek je er het échte, authentieke Andalusië. De flamenco bijvoorbeeld is in Vejer nog nauwelijks gecommercialiseerd. Een mooie plek om dit te ervaren is de sfeervolle Peña Flamenca waar je kleinschalige flamenco-optredens kunt bewonderen in een zeer intieme setting. Vejer heeft ook een gastronomie van hoog niveau en het uitgestrekte witte zandstrand van El Palmar bevindt zich op amper 10 minuten."
+    resto:
+      title: "GASTRONOMIE"
+      description: "Laat je verassen in de innoverende restaurants met creatieve gerechten en moderne recepten. Ontdek de typische Andalusische keuken en de authentieke gerechten van Vejer. Houd je van lekker eten, dan zal je hier zeker niet op je honger zitten!"
+    tourism:
+      title: "SPORT EN ACTIEF  TOERISME"
+      description: "Vejer de la Frontera is een ideale plek voor liefhebbers van actief toerisme. Je vindt er verrassende activiteiten en een zee aan mogelijkheden om openluchtsporten te beoefenen."
+    playa:
+      title: "ADEMBENEMENDE STRANDEN BOORDEVOL ZON"
+      description: "De Costa de la Luz (Kust van het Licht) dankt zijn naam aan het bijzondere felle zonlicht dat weerkaatst op de oceaan en de witte zandstranden. Het Spanje aan de Atlantische oceaan heeft zijn authentieke Andalusische karakter nog grotendeels bewaard. Herbron jezelf in de prachtige duinen en de ongerepte natuur. Met gemiddeld 300 dagen zon per jaar kan je aan de Costa de la Luz bijna het hele jaar door genieten van de beste stranden van Spanje."
+      caption1: 'El Palmar (9 km): een immens paradijs van fijn zand'
+      caption2: 'Barbate (10 km): voor liefhebbers van lekkers uit de zee'
+      caption3: 'Zahora (15 km): adembenemende zichten op de kust en de Kaap van Trafalgar'
+      caption4: 'Caños de Meca (19 km): een jonge, relaxte sfeer met een alternatieve toets'
+      caption5: ''
+      caption6: ''
+    sunshinetour:
+      title: "Sunshine Tour"
+      description: "Het paardencentrum Montenmedio organiseert ieder jaar verschillende wedstrijden, waaronder de ‘Sunshine Tour’, één van de belangrijkste winterse wedstrijden ter wereld. De deelnemers kiezen sinds jaren VEJERÍSIMO als accomodatie tijdens de wedstrijd. VEJERÍSIMO biedt rust, autenticiteit en moderniteit. Het is gelegen vlakbij de restaurants, typische bars en winkels. Kies de formule dat best bij je past en <a href='mailto:info@vejerisimo.com'>contacteer</a> ons voor een prijsofferte:"
+      fullhouse:
+        title: "Volledig huis"
+        description: "4 kamers + 4 badkamers en-suite (max. 8p)"
+      perroom:
+        title: "Per kamer (hotel)"
+        description: "Kamer met tweepersoonsbed + badkamer en-suite (max. 2p)"
+  form:
+    title: "Reservatie & Inlichtingen"
+    thank_you: Dank u! We contacteren u spoedig.
+    name: Naam
+    email: E-mail
+    telephone: Telefoon
+    arrival: Aankomst
+    nights: Aantal nachten
+    persons: Aantal personen
+    adults: Aantal volwassenen
+    kids: Aantal Kinderen
+    comments: Vraag / Commentaar
+    send: Verzenden
+    date:
+      month:
+        jan: Jan
+        feb: Feb
+        mar: Maa
+        apr: Apr
+        may: Mei
+        jun: Jun
+        jul: Jul
+        aug: Aug
+        sep: Sep
+        oct: Oct
+        nov: Nov
+        dec: Dec
+  footer:
+    legal_notice: Legal Notice

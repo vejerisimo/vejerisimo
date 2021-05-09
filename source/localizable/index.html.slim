@@ -1,0 +1,32 @@
+h1 TEST
+h1 TEST
+h1 TEST
+h1 TEST
+h1 TEST
+h1 TEST
+
+
+= partial "header"
+a.anchor name="top"
+= partial 'top'
+= partial 'intro'
+= partial 'prices'
+= partial 'contact_form'
+
+.callout-a
+a.anchor name="rooms"
+= partial 'rooms', locals: { v: "" }
+
+.callout-b
+= partial 'house', locals: { v: "" }
+
+.callout-c
+#partial_vejer
+= partial 'vejer'
+
+a.anchor name="contact"
+div data-async-url="/#{I18n.locale}/partial_address/"
+
+javascript:
+  console.log("setting locale in locale storage #{I18n.locale}")
+  localStorage.setItem('locale', "#{I18n.locale}");

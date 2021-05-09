@@ -1,0 +1,63 @@
+---
+layout: mobile
+---
+
+= partial "header_mobile"
+
+section.white
+  .content
+    .row
+      .col-md-9
+        h4.text-left =t('house.estar.title')
+        p
+          =  t('house.estar.description')
+
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-house-1', \
+      items: [ "estar_1m", "estar_2m", "estar_3m", "estar_4m" ], \
+      }
+
+    .row
+      .col-md-3
+      .col-md-9
+        h4.text-right =t('house.patio.title')
+        p.text-right =t('house.patio.description')
+
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-house-2', \
+      items: [ "patio_1m", "patio_2m", "patio_3m", "patio_4m" ], \
+      }
+
+    .row
+      .col-md-9
+        h4.text-left =t('house.azotea.title')
+        p.text-left =t('house.azotea.description')
+
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-house-3', \
+      items: [ "azotea_1m", "azotea_2m", "azotea_3m", "azotea_4m", "azotea_5m", "azotea_6m" ], \
+      }
+
+    .row
+      .col-md-9
+        h4.text-right =t('house.desayuno.title')
+        p.text-right =t('house.desayuno.description')
+
+    h2.text-center
+      a href="/#{I18n.locale}/mobile/" << Back <<
+
+hr
+
+script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"
+script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"
+
+javascript:
+  $(function() {
+    return $(".carousel.slide.lazy-img").on("slide.bs.carousel", function(ev) {
+      console.log("loading images");
+      var lazy;
+      lazy = $(ev.relatedTarget).find("img[data-src]");
+      lazy.attr("src", lazy.data('src'));
+      lazy.removeAttr("data-src");
+    });
+  });
