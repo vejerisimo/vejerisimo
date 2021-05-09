@@ -20,8 +20,7 @@ $font-size-h4:            ceil(($font-size-base * 1.2)) !default; // ~18px
 $headings-font-family:    'Quicksand' !default;
 $btn-link-disabled-color:         #5983C3 !default;
 
-@import "sass-bootstrap/lib/bootstrap";
-
+@import "./sass-bootstrap/lib/bootstrap";
 
 body {
   -webkit-font-smoothing: antialiased;
