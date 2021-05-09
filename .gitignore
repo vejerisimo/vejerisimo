@@ -20,5 +20,5 @@
 .DS_Store
 
 # Ignore Gemfile.lock
-/Gemfile.lock
+# /Gemfile.lock
 .gitconfig
