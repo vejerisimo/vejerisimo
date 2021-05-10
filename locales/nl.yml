@@ -33,7 +33,7 @@ nl:
   prices:
     for:
       house: "Volledig huis vanaf €200 / nacht"
-      rooms: "Kamer vanaf €70 / nacht"
+      room: "Kamer vanaf €70 / nacht"
     title: "Prijzen"
     high:
       title: "AUGUSTUS"
