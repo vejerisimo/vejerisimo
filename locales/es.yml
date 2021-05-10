@@ -31,26 +31,29 @@ es:
       b: "Gran cama de matrimonio cómoda 160x190cm"
       c: "Baño en-suite espacioso"
   prices:
-      title: "Prices"
-      low:
-        title: "CASA PRIVADA 4 habitaciones + 4 baños en-suite"
-        price: "(max. 8p) desde €200/noche"
-      june:
-        # title: "ALQUILER POR HABITACIÓN (HOTEL) cama de matrimonio + baño en-suite privado (max. 2p)"
-        # price: "???"
-      medium:
-        # title: "Habitación con baño privado"
-        # price: "desde €70/noche"
-      high:
-        title: "<br/><br/><br/>ALQUILER POR HABITACIÓN (HOTEL) cama de matrimonio + baño en-suite privado (max. 2p)"
-        # price: "desde €75/noche"
-      house:
-        title: "<br/><br/><br/>Habitación con baño privado desde €70/noche"
-      detail: "DESAYUNO NO INCLUIDO"
-      closed: ""
-      last_minute: "<a href='email:info@vejerisimo.com'>PÓNGASE EN CONTACTO</a> CON NOSOTROS PARA NUESTRAS OFERTAS"
-      extra: ""
-      terms: ""
+    for:
+      house: "Volledig huis vanaf €200 / nacht"
+      room: "Kamer vanaf €70 / nacht"
+    title: "Prices"
+    low:
+      title: "CASA PRIVADA 4 habitaciones + 4 baños en-suite"
+      price: "(max. 8p) desde €200/noche"
+    june:
+      # title: "ALQUILER POR HABITACIÓN (HOTEL) cama de matrimonio + baño en-suite privado (max. 2p)"
+      # price: "???"
+    medium:
+      # title: "Habitación con baño privado"
+      # price: "desde €70/noche"
+    high:
+      title: "<br/><br/><br/>ALQUILER POR HABITACIÓN (HOTEL) cama de matrimonio + baño en-suite privado (max. 2p)"
+      # price: "desde €75/noche"
+    house:
+      title: "<br/><br/><br/>Habitación con baño privado desde €70/noche"
+    detail: "DESAYUNO NO INCLUIDO"
+    closed: ""
+    last_minute: "<a href='email:info@vejerisimo.com'>PÓNGASE EN CONTACTO</a> CON NOSOTROS PARA NUESTRAS OFERTAS"
+    extra: ""
+    terms: ""
   house:
     casa:
       title: "LA CASA"
