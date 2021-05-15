@@ -36,7 +36,7 @@ fr:
         title: "Maison complet"
         description: "4 chambre double + 4 salles de bain + cuisine"
         price: "€200 - €400 / nuit"
-      room: "<br/><br/>Chambre double<br/>avec salle de bain<br/><br/>€70 - €110 / nuit"
+      room: "Chambre double<br/>avec salle de bain<br/><br/>€70 - €110 / nuit"
     title: "Prices"
     detail: "Prix dépendant saison<br/><br/>Petit déjeuner non compris"
     closed: ""
