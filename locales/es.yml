@@ -36,7 +36,7 @@ es:
         title: "Casa entera"
         description: "4 habitaciones doble + 4 cuartos de baño + cocina"
         price: "€200 - €400 / noche"
-      room: "<br/><br/>Habitación doble<br/>con baño<br/><br/>€70 - €110 / noche"
+      room: "Habitación doble<br/>con baño<br/><br/>€70 - €110 / noche"
     detail: "Prices season dependent<br/><br/>DESAYUNO NO INCLUIDO"
     prices: "Prices"
     closed: ""
