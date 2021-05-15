@@ -32,8 +32,8 @@ es:
       c: "Baño en-suite espacioso"
   prices:
     for:
-      house: "Casa entera desde €200 / noche"
-      room: "Habitación doble €70 / noche"
+      house: "Casa entera desde €200 hasta €400 / noche (depende temporada)"
+      room: "Habitación doble desde €70 hasta €110 / noche (depende temporada)"
     title: "Prices"
     low:
       title: "CASA PRIVADA 4 habitaciones + 4 baños en-suite"
