@@ -32,20 +32,10 @@ fr:
       c: "Salle de bain spacieuse attenante"
   prices:
     for:
-      house: "Volledig huis vanaf €200 / nacht"
-      room: "Kamer vanaf €70 / nacht"
-    title: "Prix"
-    high:
-      title: "AOÛT"
-    june:
-      title: "JUIN"
-    medium:
-      title: "JUIN, JUILLET, SEPTEMBRE"
-    low:
-      title: "BASSE SAISON"
-    house:
-      title: "LOUER LA MAISON ENTIEREMENT - PRIX SUR DEMANDE"
-    detail: "Petit déjeuner non compris"
+      house: "Full house<br/><br/>€200 - €400 / night"
+      room: "<br/><br/>Double room<br/>with bathroom<br/><br/>€70 - €110 / night"
+    title: "Prices"
+    detail: "Prices season dependent<br/><br/>Petit déjeuner non compris"
     closed: ""
     last_minute: "<a href='email:info@vejerisimo.com'>Contactez-nous</a> pour nos offres de dernière minute"
     extra: ""
