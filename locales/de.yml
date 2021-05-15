@@ -32,10 +32,10 @@ de:
       c: "Großzügiges, modernes Badezimmer"
   prices:
     for:
-      house: "Full house<br/><br/>€200 - €400 / night"
-      room: "<br/><br/>Double room<br/>with bathroom<br/><br/>€70 - €110 / night"
+      house: "Gesamtes Haus<br/><br/>€200 - €400 / nacht"
+      room: "<br/><br/>Doppelzimmer<br/>mit Bad<br/><br/>€70 - €110 / nacht"
     title: "Prices"
-    detail: "Prices season dependent<br/><br/>Frühstück nicht inklusive"
+    detail: "Preise saisonabhängig<br/><br/>Frühstück nicht inklusive"
     closed: "Im November, Dezember und Januar geschlossen"
     last_minute: "<a href='email:info@vejerisimo.com'>Kontaktieren</a> sie uns für ihr last minute-angebot!"
     extra: ""
