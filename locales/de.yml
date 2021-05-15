@@ -32,7 +32,10 @@ de:
       c: "Großzügiges, modernes Badezimmer"
   prices:
     for:
-      house: "Gesamtes Haus<br/><br/>€200 - €400 / nacht"
+      house:
+        title: "Gesamtes Haus"
+        description: "4 Doppelzimmer + 4 Badezimmer + Küche"
+        price: "€200 - €400 / nacht"
       room: "<br/><br/>Doppelzimmer<br/>mit Bad<br/><br/>€70 - €110 / nacht"
     title: "Prices"
     detail: "Preise saisonabhängig<br/><br/>Frühstück nicht inklusive"
