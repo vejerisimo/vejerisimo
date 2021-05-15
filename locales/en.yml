@@ -43,30 +43,14 @@ en:
       c: "Spacious ensuite bathroom"
   prices:
     for:
-      house: "Volledig huis vanaf €200 / nacht"
-      room: "Kamer vanaf €70 / nacht"  
+      house: "Full house<br/><br/>€200 - €400 / night"
+      room: "<br/><br/>Double room<br/>with bathroom<br/><br/>€70 - €110 / night"
     title: "Prices"
-    low:
-      title: "YOUR PRIVATE HOUSE (up to 8p)"
-      price: "starting from €200 / night"
-    june:
-      title: ""
-      price: ""
-    medium:
-      title: ""
-      price: ""
-    high:
-      title: ""
-      price: ""
-    house:
-      title: "Per room (hotel) with double bed & bathroom en-suite (max. 2p)"
-      title: "Standard room from €70/night"
-      title: "Duplex room from €75/night"
-    detail: "Breakfast not included"
-    closed: ""
+    detail: "Prices season dependent<br/><br/>Breakfast not included"
+    closed: "November, December, January"
     last_minute: "<a href='email:info@vejerisimo.com'>Contact us</a> for our 'exceptional times' offers"
     extra: ""
-    terms: ""
+    terms: "terms and conditions"
   house:
     casa:
       title: "THE HOUSE"
