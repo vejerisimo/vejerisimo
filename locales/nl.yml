@@ -32,20 +32,9 @@ nl:
       c: "Ruime badkamer en-suite"
   prices:
     for:
-      house: "Volledig huis vanaf €200 / nacht"
-      room: "Kamer vanaf €70 / nacht"
+      house: "Volledig huis van €200 - €400 / nacht (afhankelijk seizoen)"
+      room: "Kamer van €70 - €110 / nacht (afhankelijk seizoen)"
     title: "Prijzen"
-    high:
-      title: "AUGUSTUS"
-    june:
-      title: "JUNI"
-    medium:
-      title: "JUNI, JULI, SEPTEMBER"
-    low:
-      title: "LAAG SEIZOEN"
-      price: "Vanaf €200 / nacht"        
-    house:
-      title: "HET VOLLEDIGE HUIS HUREN - PRIJS OP AANVRAAG"
     detail: "Ontbijt niet inbegrepen"
     closed: "Gesloten in november, december en januari"
     last_minute: "<a href='email:info@vejerisimo.com'>CONTACTEER</a> ONS VOOR ONZE LAST-MINUTE AANBIEDINGEN"
