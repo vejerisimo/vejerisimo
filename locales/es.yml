@@ -32,8 +32,8 @@ es:
       c: "Baño en-suite espacioso"
   prices:
     for:
-      house: "Volledig huis vanaf €200 / nacht"
-      room: "Kamer vanaf €70 / nacht"
+      house: "Casa entera desde €200 / noche"
+      room: "Habitación doble €70 / noche"
     title: "Prices"
     low:
       title: "CASA PRIVADA 4 habitaciones + 4 baños en-suite"
