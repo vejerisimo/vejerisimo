@@ -31,22 +31,25 @@ de:
       b: "Komfortables Doppelbett, 160 x 190 cm"
       c: "Großzügiges, modernes Badezimmer"
   prices:
-      title: "Preise 2018"
-      high:
-        title: "AUGUST, SEMANA SANTA"
-      low:
-        title: "NEBENSAISON"
-      june:
-        title: "JUNI"
-      high:
-        title: "AUGUST"
-      medium:
-        title: "JUNI, JULY, SEPTEMBER"
-      detail: "Frühstück nicht inklusive"
-      closed: "Im November, Dezember und Januar geschlossen"
-      last_minute: "<a href='email:info@vejerisimo.com'>Kontaktieren</a> sie uns für ihr last minute-angebot!"
-      extra: ""
-      terms: "Termine und preise"
+    for:
+      house: "Volledig huis vanaf €200 / nacht"
+      room: "Kamer vanaf €70 / nacht"
+    title: "Preise 2018"
+    high:
+      title: "AUGUST, SEMANA SANTA"
+    low:
+      title: "NEBENSAISON"
+    june:
+      title: "JUNI"
+    high:
+      title: "AUGUST"
+    medium:
+      title: "JUNI, JULY, SEPTEMBER"
+    detail: "Frühstück nicht inklusive"
+    closed: "Im November, Dezember und Januar geschlossen"
+    last_minute: "<a href='email:info@vejerisimo.com'>Kontaktieren</a> sie uns für ihr last minute-angebot!"
+    extra: ""
+    terms: "Termine und preise"
   house:
     casa:
       title: "DAS HAUS"
