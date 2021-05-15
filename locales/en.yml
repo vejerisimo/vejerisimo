@@ -43,7 +43,10 @@ en:
       c: "Spacious ensuite bathroom"
   prices:
     for:
-      house: "Full house<br/><br/>€200 - €400 / night"
+      house: 
+        title: "Full house"
+        description: "4 Rooms + 4 Bathrooms + Kitchen"
+        price: "€200 - €400 / night"
       room: "<br/><br/>Double room<br/>with bathroom<br/><br/>€70 - €110 / night"
     title: "Prices"
     detail: "Prices season dependent<br/><br/>Breakfast not included"
