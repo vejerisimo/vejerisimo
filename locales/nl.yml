@@ -32,8 +32,8 @@ nl:
       c: "Ruime badkamer en-suite"
   prices:
     for:
-      house: "Volledig huis van €200 - €400 / nacht (afhankelijk seizoen)"
-      room: "Kamer van €70 - €110 / nacht (afhankelijk seizoen)"
+      house: "(afhankelijk seizoen)<br/>Volledig huis<br/>€200 - €400 / nacht"
+      room: "2-persoonskamer met badkamer<br/>€70 - €110 / nacht"
     title: "Prijzen"
     detail: "Ontbijt niet inbegrepen"
     closed: "Gesloten in november, december en januari"
