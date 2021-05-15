@@ -42,28 +42,31 @@ en:
       b: "Comfortable double bed 160x190cm"
       c: "Spacious ensuite bathroom"
   prices:
-      title: "Prices"
-      low:
-        title: "YOUR PRIVATE HOUSE (up to 8p)"
-        price: "starting from €200 / night"
-      june:
-        title: ""
-        price: ""
-      medium:
-        title: ""
-        price: ""
-      high:
-        title: ""
-        price: ""
-      house:
-        title: "Per room (hotel) with double bed & bathroom en-suite (max. 2p)"
-        title: "Standard room from €70/night"
-        title: "Duplex room from €75/night"
-      detail: "Breakfast not included"
-      closed: ""
-      last_minute: "<a href='email:info@vejerisimo.com'>Contact us</a> for our 'exceptional times' offers"
-      extra: ""
-      terms: ""
+    for:
+      house: "Volledig huis vanaf €200 / nacht"
+      room: "Kamer vanaf €70 / nacht"  
+    title: "Prices"
+    low:
+      title: "YOUR PRIVATE HOUSE (up to 8p)"
+      price: "starting from €200 / night"
+    june:
+      title: ""
+      price: ""
+    medium:
+      title: ""
+      price: ""
+    high:
+      title: ""
+      price: ""
+    house:
+      title: "Per room (hotel) with double bed & bathroom en-suite (max. 2p)"
+      title: "Standard room from €70/night"
+      title: "Duplex room from €75/night"
+    detail: "Breakfast not included"
+    closed: ""
+    last_minute: "<a href='email:info@vejerisimo.com'>Contact us</a> for our 'exceptional times' offers"
+    extra: ""
+    terms: ""
   house:
     casa:
       title: "THE HOUSE"
