@@ -32,20 +32,10 @@ de:
       c: "Großzügiges, modernes Badezimmer"
   prices:
     for:
-      house: "Volledig huis vanaf €200 / nacht"
-      room: "Kamer vanaf €70 / nacht"
-    title: "Preise 2018"
-    high:
-      title: "AUGUST, SEMANA SANTA"
-    low:
-      title: "NEBENSAISON"
-    june:
-      title: "JUNI"
-    high:
-      title: "AUGUST"
-    medium:
-      title: "JUNI, JULY, SEPTEMBER"
-    detail: "Frühstück nicht inklusive"
+      house: "Full house<br/><br/>€200 - €400 / night"
+      room: "<br/><br/>Double room<br/>with bathroom<br/><br/>€70 - €110 / night"
+    title: "Prices"
+    detail: "Prices season dependent<br/><br/>Frühstück nicht inklusive"
     closed: "Im November, Dezember und Januar geschlossen"
     last_minute: "<a href='email:info@vejerisimo.com'>Kontaktieren</a> sie uns für ihr last minute-angebot!"
     extra: ""
