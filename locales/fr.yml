@@ -31,22 +31,25 @@ fr:
       b: "Lit double confortable 160x190 cm"
       c: "Salle de bain spacieuse attenante"
   prices:
-      title: "Prix"
-      high:
-        title: "AOÛT"
-      june:
-        title: "JUIN"
-      medium:
-        title: "JUIN, JUILLET, SEPTEMBRE"
-      low:
-        title: "BASSE SAISON"
-      house:
-        title: "LOUER LA MAISON ENTIEREMENT - PRIX SUR DEMANDE"
-      detail: "Petit déjeuner non compris"
-      closed: ""
-      last_minute: "<a href='email:info@vejerisimo.com'>Contactez-nous</a> pour nos offres de dernière minute"
-      extra: ""
-      terms: "Conditions Générales"
+    for:
+      house: "Volledig huis vanaf €200 / nacht"
+      room: "Kamer vanaf €70 / nacht"
+    title: "Prix"
+    high:
+      title: "AOÛT"
+    june:
+      title: "JUIN"
+    medium:
+      title: "JUIN, JUILLET, SEPTEMBRE"
+    low:
+      title: "BASSE SAISON"
+    house:
+      title: "LOUER LA MAISON ENTIEREMENT - PRIX SUR DEMANDE"
+    detail: "Petit déjeuner non compris"
+    closed: ""
+    last_minute: "<a href='email:info@vejerisimo.com'>Contactez-nous</a> pour nos offres de dernière minute"
+    extra: ""
+    terms: "Conditions Générales"
   house:
     casa:
       title: "LA MAISON"
