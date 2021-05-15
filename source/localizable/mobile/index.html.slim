@@ -10,12 +10,14 @@ section.white
 
   br
   #prices
+    .center
+      = image_tag "house.png", resize_to: '96x96'
     h5 =t('prices.for.house.title')
-    h6
-      small
-        br =t('prices.for.house.description')    
-    h5 =t('prices.for.house.price')        
+    h6 =t('prices.for.house.description')    
+    h5 =t('prices.for.house.price')      
     br
+    .center
+      = image_tag "room.png", resize_to: '96x96'    
     h5 =t('prices.for.room')
     h6
       small
