@@ -32,10 +32,10 @@ fr:
       c: "Salle de bain spacieuse attenante"
   prices:
     for:
-      house: "Full house<br/><br/>€200 - €400 / night"
-      room: "<br/><br/>Double room<br/>with bathroom<br/><br/>€70 - €110 / night"
+      house: "Maison complet<br/><br/>€200 - €400 / nuit"
+      room: "<br/><br/>Chambre double<br/>avec salle de bain<br/><br/>€70 - €110 / nuit"
     title: "Prices"
-    detail: "Prices season dependent<br/><br/>Petit déjeuner non compris"
+    detail: "Prix dépendant saison<br/><br/>Petit déjeuner non compris"
     closed: ""
     last_minute: "<a href='email:info@vejerisimo.com'>Contactez-nous</a> pour nos offres de dernière minute"
     extra: ""
