@@ -44,12 +44,13 @@ html
       = yield
       hr
         p.text-center
-          | (c) 2015
+          | (c) 2021
           =<> link_to "#{config[:site_title]}", "/"
           | -
           =< link_to t('footer.legal_notice'), "/legal-notice-#{I18n.locale}.html", :target => "_blank"
         p.text-center
           small
+            | info@vejerisimo.com - (+34)638188682
             | VTAR/CA/00496
       hr
 
