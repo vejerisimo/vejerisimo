@@ -1,5 +1,9 @@
 ---
 nl:
+  room_1_1: Bed with towels
+  room_1_2: Shower in microcement, toilet and heater
+  room_1_3: XXX
+  room_4_4: Bed with towels and view of the outside
   intro:
     title1: "INTIEM EN PERSOONLIJK"
     title2: "LOGEREN BIJ BELGEN"
@@ -32,7 +36,7 @@ nl:
       c: "Ruime badkamer en-suite"
   prices:
     for:
-      house: 
+      house:
         title: "Volledig huis"
         description: "4 kamers - 4 badkamers - keuken"
         price: "€200 - €400 / nacht"

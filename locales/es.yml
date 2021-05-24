@@ -1,5 +1,9 @@
 ---
 es:
+  room_1_1: Bed with towels
+  room_1_2: Shower in microcement, toilet and heater
+  room_1_3: XXX
+  room_1_4: XXX
   intro:
     title1: "ALOJAMIENTO BOUTIQUE DE 4 HABITACIONES y 4 CUARTO DE BAÑOS"
     title2: "(alquilamos la casa entera o por habitación)"
@@ -30,9 +34,9 @@ es:
       a: "Primera planta"
       b: "Gran cama de matrimonio cómoda 160x190cm"
       c: "Baño en-suite espacioso"
-  prices:  
+  prices:
     for:
-      house: 
+      house:
         title: "Casa entera"
         description: "4 habitaciones doble + 4 cuartos de baño + cocina"
         price: "€200 - €400 / noche"

@@ -2,6 +2,8 @@
 en:
   room_1_1: Bed with towels
   room_1_2: Shower in microcement, toilet and heater
+  room_1_3: XXX
+  room_1_4: XXX
   estar_1: estar 1
   estar_2: estar 2
   patio_1: patio 1
@@ -43,7 +45,7 @@ en:
       c: "Spacious ensuite bathroom"
   prices:
     for:
-      house: 
+      house:
         title: "Full house"
         description: "4 Rooms + 4 Bathrooms + Kitchen"
         price: "€200 - €400 / night"

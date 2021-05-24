@@ -17,7 +17,8 @@ a.anchor name="rooms"
 = partial 'vejer'
 
 a.anchor name="contact"
-div data-async-url="/#{I18n.locale}/partial_address/"
+/ div data-async-url="/#{I18n.locale}/partial_address/"
+= partial 'address'
 
 javascript:
   console.log("setting locale in locale storage #{I18n.locale}")

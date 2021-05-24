@@ -1,5 +1,9 @@
 ---
 fr:
+  room_1_1: Bed with towels
+  room_1_2: Shower in microcement, toilet and heater
+  room_1_3: XXX
+  room_1_4: XXX
   intro:
     title1: "UNE AMBIANCE"
     title2: "INTIME ET PERSONELLE"
@@ -32,7 +36,7 @@ fr:
       c: "Salle de bain spacieuse attenante"
   prices:
     for:
-      house: 
+      house:
         title: "Maison complet"
         description: "4 chambre double + 4 salles de bain + cuisine"
         price: "€200 - €400 / nuit"
