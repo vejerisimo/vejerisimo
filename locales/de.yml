@@ -44,7 +44,7 @@ de:
     title: "Prices"
     detail: "Preise saisonabhängig<br/><br/>Frühstück nicht inklusive"
     closed: "Im November, Dezember und Januar geschlossen"
-    last_minute: "<a href='email:info@vejerisimo.com'>Kontaktieren</a> sie uns für ihr last minute-angebot!"
+    last_minute: "<a href='mailto:info@vejerisimo.com'>Kontaktieren</a> sie uns für ihr last minute-angebot!"
     extra: ""
     terms: "Termine und preise"
   house:

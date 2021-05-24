@@ -44,7 +44,7 @@ es:
     detail: "Precios según temporada<br/><br/>DESAYUNO NO INCLUIDO"
     prices: "Prices"
     closed: ""
-    last_minute: "<a href='email:info@vejerisimo.com'>PÓNGASE EN CONTACTO</a> CON NOSOTROS PARA NUESTRAS OFERTAS"
+    last_minute: "<a href='mailto:info@vejerisimo.com'>PÓNGASE EN CONTACTO</a> CON NOSOTROS PARA NUESTRAS OFERTAS"
     extra: ""
     terms: "Condiciones Generales"
   house:

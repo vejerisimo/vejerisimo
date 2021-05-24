@@ -44,7 +44,7 @@ fr:
     title: "Prices"
     detail: "Prix dépendant saison<br/><br/>Petit déjeuner non compris"
     closed: ""
-    last_minute: "<a href='email:info@vejerisimo.com'>Contactez-nous</a> pour nos offres de dernière minute"
+    last_minute: "<a href='mailto:info@vejerisimo.com'>Contactez-nous</a> pour nos offres de dernière minute"
     extra: ""
     terms: "Conditions Générales"
   house:

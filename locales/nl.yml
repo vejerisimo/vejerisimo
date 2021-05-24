@@ -44,7 +44,7 @@ nl:
     title: "Prijzen"
     detail: "Prijzen in functie van seizoen<br/><br/>Ontbijt niet inbegrepen"
     closed: "Gesloten in november, december en januari"
-    last_minute: "<a href='email:info@vejerisimo.com'>CONTACTEER</a> ONS VOOR ONZE LAST-MINUTE AANBIEDINGEN"
+    last_minute: "<a href='mailto:info@vejerisimo.com'>CONTACTEER</a> ONS VOOR ONZE LAST-MINUTE AANBIEDINGEN"
     extra: "INFORMEER OVER ONZE <a href='/rondrit_op_maat_2017.pdf'>RONDRIT</a> BIJ BELGISCHE B&B's"
     terms: "Algemene voorwaarden"
   house:

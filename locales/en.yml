@@ -53,7 +53,7 @@ en:
     title: "Prices"
     detail: "Prices season dependent<br/><br/>Breakfast not included"
     closed: "November, December, January"
-    last_minute: "<a href='email:info@vejerisimo.com'>Contact us</a> for our 'exceptional times' offers"
+    last_minute: "<a href='mailto:info@vejerisimo.com'>Contact us</a> for our 'exceptional times' offers"
     extra: ""
     terms: "terms and conditions"
   house:
