@@ -41,6 +41,7 @@ nl:
         description: "4 kamers - 4 badkamers - keuken"
         price: "€200 - €400 / nacht"
       room: "2-persoonskamer<br/>met badkamer<br/><br/>€70 - €110 / nacht"
+      parking: "Informeer over parking"
     title: "Prijzen"
     detail: "Prijzen in functie van seizoen<br/><br/>Ontbijt niet inbegrepen"
     closed: "Gesloten in november, december en januari"
