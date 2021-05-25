@@ -5,8 +5,8 @@ nl:
   room_1_3: XXX
   room_4_4: Bed with towels and view of the outside
   intro:
-    title1: "INTIEM EN PERSOONLIJK"
-    title2: "LOGEREN BIJ BELGEN"
+    title1: "INTIEM EN PERSOONLIJK LOGEREN BIJ BELGEN"
+    title2: "Huur het volledig huis (8p) of per kamer (2p)"
     p1: "VEJERÍSIMO is een Guest House uitgebaat door een Belgisch koppel in het hart van het historisch centrum van Vejer de la Frontera. Het is gelegen in een rustig straatje vlakbij de restaurants, typische bars en de vele bezienswaardigheden. Naast het huis start de oude stadswal met de “Puerta Cerrada” (gesloten deur), één van de 4 oude hoofdingangen van het dorp."
     p2: "Rond de typische patio bevinden zich 4 tweepersoonskamers met en-suite badkamer. Het huis heeft een unieke stijl: het combineert authenticiteit met hedendaags comfort. Lees een boek op de patio naast de bibliotheek, geniet van het dakterras, neem een siësta in je kamer, … Geniet met volle teugen! Wij garanderen je een uitzonderlijk en onvergetelijk verblijf."
   header:
@@ -16,7 +16,7 @@ nl:
     contact: "Contact"
   rooms:
     title: "KAMERS"
-    intro: "Alle kamers beschikken over TV, gratis WIFI, plafondventilator, verwarming en haardroger. De kamers zijn gemiddeld 20 m2 groot met leuke vintage decoratie."
+    intro: "Alle kamers beschikken over TV, wifi, plafondventilator, verwarming en haardroger. De kamers zijn gemiddeld 20 m2 groot met originele vintage decoratie."
     acogedora:
       a: "Benedenverdieping"
       b: "Comfortabel tweepersoonsbed 160x190cm"
@@ -38,10 +38,10 @@ nl:
     for:
       house:
         title: "Volledig huis"
-        description: "4 kamers - 4 badkamers - keuken"
+        description: "4 kamers - 4 badkamers - keuken - dakterras"
         price: "€200 - €400 / nacht"
-      room: "2-persoonskamer<br/>met badkamer<br/><br/>€70 - €110 / nacht"
-      parking: "Informeer over parking"
+      room: "2-persoonskamer<br/>met privé badkamer<br/><br/>€70 - €110 / nacht"
+      parking: "1 parkeerplaats beschikbaar op 150m van het huis"
     title: "Prijzen"
     detail: "Prijzen in functie van seizoen<br/><br/>Ontbijt niet inbegrepen"
     closed: "Gesloten in november, december en januari"
@@ -54,7 +54,7 @@ nl:
       description: "Ontdek de gemeenschappelijke ruimtes waar je extra kan relaxen en genieten van je verblijf."
     estar:
       title: "KEUKEN/SALON"
-      description: "Bevat een volledig ingerichte keuken, een eetruimte, een zetelhoekje met TV en WIFI en je kan er ook een koffie of thee klaarmaken."
+      description: "Bevat een volledig ingerichte keuken, vaatwas, wasmachine, een eetruimte, een zetelhoekje met TV, wifi en je kan er ook een koffie of thee klaarmaken."
     patio:
       title: "DE PATIO"
       description: "In de traditionele buitenpatio is er een hoekje voorzien voor de bibliotheek en wat toeristische info."
