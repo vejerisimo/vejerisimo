@@ -41,6 +41,7 @@ de:
         description: "4 Doppelzimmer + 4 Badezimmer + Küche"
         price: "€200 - €400 / nacht"
       room: "Doppelzimmer<br/>mit Bad<br/><br/>€70 - €110 / nacht"
+      parking: "1 Parkplatz 150m vom Hause zur Verfügung<br/>Preis auf Anfrage"
     title: "Prices"
     detail: "Preise saisonabhängig<br/><br/>Frühstück nicht inklusive"
     closed: "Im November, Dezember und Januar geschlossen"
@@ -53,7 +54,7 @@ de:
       description: "Entdecken Sie die Gemeinschaftsräume, die einladen zum Entspannen und Träumen."
     estar:
       title: "MODERNE WOHNKÜCHE"
-      description: "Wir bieten Ihnen eine voll ausgestattete Küche mit Essbereich, sowie Sofaecke mit TV und WLAN. Zudem finden Sie hier stets kostenlos Kaffee und Tee."
+      description: "Wir bieten Ihnen eine voll ausgestattete Küche mit Geschirrspüler, Waschmaschine, Essbereich, sowie Sofaecke mit TV und WLAN. Zudem finden Sie hier stets kostenlos Kaffee und Tee."
     patio:
       title: "DER PATIO"
       description: "Das Herzstück des Gästehauses ist ein liebevoll restaurierter, traditioneller Innenhof."
