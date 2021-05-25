@@ -5,8 +5,8 @@ es:
   room_1_3: XXX
   room_1_4: XXX
   intro:
-    title1: "ALOJAMIENTO BOUTIQUE DE 4 HABITACIONES y 4 CUARTO DE BAÑOS"
-    title2: "(alquilamos la casa entera o por habitación)"
+    title1: "ALOJAMIENTO BOUTIQUE<br/>4 HABITACIONES y 4 CUARTO DE BAÑOS"
+    title2: "alquilamos la casa entera o por habitación"
     p1: "VEJERÍSIMO es una casa única ubicada en un callejón tranquilo en el corazón del casco antiguo de Vejer de la Frontera, muy cerca de los restaurantes, bares y lugares de interés. Al lado de la casa empieza la muralla antigua con “La Puerta Cerrada”, una de las 4 puertas principales."
     p2: "La casa dispone de 4 habitaciones dobles con baño en-suite, situadas alrededor de un patio típico de arcos. Es una casa de estilo único: conserva su autenticidad pero ofrece todas las comodidades de este tiempo. La casa tiene muchos rincones acogedores: lée un libro en el patio típico al lado de la biblioteca o disfruta de la terraza con tumbonas y rincones chill-out. Le ofrecemos una estancia exeptional y inolvidable."
   header:
@@ -16,7 +16,7 @@ es:
     contact: "Contact"
   rooms:
     title: "HABITACIONES"
-    intro: "Todas las habitaciones disponen de TV, WIFI gratuito, ventilador de techo, calefacción y secador de pelo. Las habitaciones miden aproximadamente 20 m2."
+    intro: "Todas las habitaciones disponen de TV, wifi, ventilador de techo, calefacción y secador de pelo. Las habitaciones miden aproximadamente 20 m2."
     acogedora:
       a: "Planta baja"
       b: "Gran cama de matrimonio cómoda 160x190cm"
@@ -38,9 +38,10 @@ es:
     for:
       house:
         title: "Casa entera"
-        description: "4 habitaciones doble + 4 cuartos de baño + cocina"
+        description: "4 habitaciones dobles + 4 cuartos de baño + cocina"
         price: "€200 - €400 / noche"
-      room: "Habitación doble<br/>con baño<br/><br/>€70 - €110 / noche"
+      room: "Habitación doble<br/>con baño privado<br/><br/>€70 - €110 / noche"
+      parking: "1 plaza de parking disponible a 150m de la casa"
     detail: "Precios según temporada<br/><br/>DESAYUNO NO INCLUIDO"
     prices: "Prices"
     closed: ""
