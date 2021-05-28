@@ -14,7 +14,7 @@ en:
   intro:
     title1: "BOUTIQUE HOUSE: 4 ROOMS & 4 BATHROOMS"
     title2: "RENT THE WHOLE HOUSE (8p) OR PER ROOM (2p)<br/>"
-    p1: "<br/>VEJERÍSIMO is a Boutique Guest House situated in a quiet little street in the heart of the historic center of Vejer de la Frontera. The restaurants, typical bars and places of interest are just a footstep away. Next to the house you will find the old city wall with “La Puerta Cerrada” (Closed Door), one of the 4 old entrances to the village."
+    p1: "<br/>VEJERÍSIMO is a Boutique Guest House situated in a quiet little street in the heart of the historic center of Vejer de la Frontera. The restaurants, typical bars and places of interest are just a footstep away."
     p2: "The centuries-old house has been restored maintaining Moorish features but with a 21th century twist. The house has 4 double rooms situated around a typical patio. It has a lot of cozy corners: read a book next to the patio’s library or enjoy the roof terrace with its long chairs and chill-out corners. We promise you an unforgettable stay!"
   header:
     top: "Top"
@@ -47,9 +47,9 @@ en:
     for:
       house:
         title: "Full house"
-        description: "4 Rooms + 4 Bathrooms + Kitchen"
+        description: "4 Rooms + 4 Bathrooms + Kitchen + rooftop terrace"
         price: "€200 - €400 / night"
-      room: "Double room<br/>with bathroom<br/><br/>€70 - €110 / night"
+      room: "Double room + private bathroom + comunal kitchen<br/><br/>€70 - €110 / night"
       parking: "1 parking place available <br/>at 150m from the house<br/><br/>price on demand"
     title: "Prices"
     detail: "Prices season dependent<br/><br/>Breakfast not included"
