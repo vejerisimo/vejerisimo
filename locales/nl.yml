@@ -7,7 +7,7 @@ nl:
   intro:
     title1: "INTIEM EN PERSOONLIJK LOGEREN BIJ BELGEN"
     title2: "Huur het volledig huis (8p) of per kamer (2p)<br/>"
-    p1: "<br/>VEJERÍSIMO is een Guest House uitgebaat door een Belgisch koppel in het hart van het historisch centrum van Vejer de la Frontera. Het is gelegen in een rustig straatje vlakbij de restaurants, typische bars en de vele bezienswaardigheden. Naast het huis start de oude stadswal met de “Puerta Cerrada” (gesloten deur), één van de 4 oude hoofdingangen van het dorp."
+    p1: "<br/>VEJERÍSIMO is een Guest House uitgebaat door een Belgisch koppel in het hart van het historisch centrum van Vejer de la Frontera. Het is gelegen in een rustig straatje vlakbij de restaurants, typische bars en de vele bezienswaardigheden."
     p2: "Rond de typische patio bevinden zich 4 tweepersoonskamers met en-suite badkamer. Het huis heeft een unieke stijl: het combineert authenticiteit met hedendaags comfort. Lees een boek op de patio naast de bibliotheek, geniet van het dakterras, neem een siësta in je kamer, … Geniet met volle teugen! Wij garanderen je een uitzonderlijk en onvergetelijk verblijf."
   header:
     top: "Home"
@@ -38,9 +38,9 @@ nl:
     for:
       house:
         title: "Volledig huis"
-        description: "4 kamers - 4 badkamers - keuken - dakterras"
+        description: "4 kamers + 4 badkamers + keuken + dakterras"
         price: "€200 - €400 / nacht"
-      room: "2-persoonskamer<br/>met privé badkamer<br/><br/>€70 - €110 / nacht"
+      room: "2-persoonskamer + privé badkamer + gemeenschappelijke keuken<br/><br/>€70 - €110 / nacht"
       parking: "1 parkeerplaats beschikbaar<br/>op 150m van het huis<br/><br/>prijs op aanvraag"
     title: "Prijzen"
     detail: "Prijzen in functie van seizoen<br/><br/>Ontbijt niet inbegrepen"
