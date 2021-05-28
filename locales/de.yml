@@ -7,7 +7,7 @@ de:
   intro:
     title1: "IN BEHAGLICHER ATMOSPHÄRE MIT PERSÖNLICHER BETREUUNG"
     title2: "MIETEN SIE DAS GANZE HAUS (8p) ODER PRO ZIMMER (2p)<br/>"
-    p1: "<br/>VEJERÍSIMO ist ein modernes Gästehaus, in einer ruhigen kleinen Straße gelegen, mitten im Herzen der historischen Altstadt von Vejer de la Frontera. Hier finden Sie die typischen andalusischen Bars, hervorragenden Restaurants und beliebtesten Sehenswürdigkeiten ganz in Ihrer Nähe. Die authentische Stadtmauer mit dem bekannten Stadttor “La Puerta Cerrada”, die verschlossene Pforte, befindet sich in direkter Nachbarschaft. Sie ist eine von vier historischen Toren der Altstadt."
+    p1: "<br/>VEJERÍSIMO ist ein modernes Gästehaus, in einer ruhigen kleinen Straße gelegen, mitten im Herzen der historischen Altstadt von Vejer de la Frontera. Hier finden Sie die typischen andalusischen Bars, hervorragenden Restaurants und beliebtesten Sehenswürdigkeiten ganz in Ihrer Nähe."
     p2: "Das viele hundert Jahre alte Haus wurde liebevoll restauriert, unter Berücksichtigung seiner originalen maurische Architektur. Hier vereint sich das traditionelle andalusische Ambiente mit dem Luxus des 21. Jahrhunderts. Das Gästehaus besitzt vier Doppelzimmer, angeordnet um einen typischen Innenhof, den Patio. Hier finden Sie  gemütliche Ecken und private Räume. Lesen Sie ein Buch aus der kleinen Bücherei im Erdgeschoss, entspannen Sie auf einer komfortablen Liege oder genießen Sie die atemberaubende Aussicht auf einer der Dachterrassen. Wir versprechen Ihnen einen unvergesslichen Aufenthalt!"
   header:
     top: "Top"
@@ -34,13 +34,14 @@ de:
       a: "Erste Etage"
       b: "Komfortables Doppelbett, 160 x 190 cm"
       c: "Großzügiges, modernes Badezimmer"
+      d: "Kleiner Tisch vor dem Zimmer"
   prices:
     for:
       house:
         title: "Gesamtes Haus"
         description: "4 Doppelzimmer + 4 Badezimmer + Küche"
         price: "€200 - €400 / nacht"
-      room: "Doppelzimmer<br/>mit Bad<br/><br/>€70 - €110 / nacht"
+      room: "Doppelzimmer + privates Badezimmer + Gemeinsame Küche<br/><br/>€70 - €110 / nacht"
       parking: "1 Parkplatz 150m vom Hause zur Verfügung<br/><br/>Preis auf Anfrage"
     title: "Prices"
     detail: "Preise saisonabhängig<br/><br/>Frühstück nicht inklusive"
