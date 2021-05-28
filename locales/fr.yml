@@ -34,6 +34,7 @@ fr:
       a: "Premier étage"
       b: "Lit double confortable 160x190 cm"
       c: "Salle de bain spacieuse attenante"
+      d: "Petite table en façe de la chambre"
   prices:
     for:
       house:
