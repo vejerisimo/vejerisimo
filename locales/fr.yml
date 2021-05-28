@@ -7,7 +7,7 @@ fr:
   intro:
     title1: "UNE AMBIANCE INTIME ET PERSONELLE"
     title2: "Louez la maison complète (8p) ou par chambre (2p)<br/>"
-    p1: "<br/>VEJERÍSIMO est une maison d’hôtes exploitée par un couple belge qui se situe dans une ruelle tranquille au cœur de l’ancien village de Vejer de la Frontera. Tout près, vous y trouverez des restaurants, petits bars sympas et endroits chaleureux. La maison se trouve à côté de l’ancienne muraille et de 'La Puerta Cerrada' (La Porte Fermée), une des 4 portes principales du village."
+    p1: "<br/>VEJERÍSIMO est une maison d’hôtes exploitée par un couple belge qui se situe dans une ruelle tranquille au cœur de l’ancien village de Vejer de la Frontera. Tout près, vous y trouverez des restaurants, petits bars sympas et endroits chaleureux."
     p2: "La maison centenaire dispose de 4 chambres doubles, situées autour d’un patio typique. Elle a été entièrement rénovée en gardant des accents mauresques et en combinant tout le confort moderne de notre temps. Vous y découvrirez aussi des petits coins sympas: sa bibliothèque, le patio fleuri et sa terrasse où vous pourrez vous relaxer dans les chaises longues. Nous vous garantissons un séjour exceptionnel et inoubliable!"
   header:
     top: "Accueil"
@@ -38,9 +38,9 @@ fr:
     for:
       house:
         title: "Maison complet"
-        description: "4 chambre double + 4 salles de bain + cuisine"
+        description: "4 chambre double + 4 salles de bain + cuisine + terrasse"
         price: "€200 - €400 / nuit"
-      room: "Chambre double<br/>avec salle de bain<br/><br/>€70 - €110 / nuit"
+      room: "Chambre double + salle de bain + cuisine commune<br/><br/>€70 - €110 / nuit"
       parking: "1 place de parking privé disponible<br/>a 150m de la maison<br/><br/>tarifs sur demande"
     title: "Prices"
     detail: "Prix dépendant saison<br/><br/>Petit déjeuner non compris"
