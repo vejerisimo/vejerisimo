@@ -34,6 +34,7 @@ es:
       a: "Primera planta"
       b: "Gran cama de matrimonio cómoda 160x190cm"
       c: "Baño en-suite espacioso"
+      d: "Mesita en frente de la habitación"
   prices:
     for:
       house:
