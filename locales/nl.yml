@@ -34,6 +34,7 @@ nl:
       a: "Eerste verdieping"
       b: "Comfortabel tweepersoonsbed 160x190cm"
       c: "Ruime badkamer en-suite"
+      d: "Klein tafeltje net buiten de kamer"
   prices:
     for:
       house:
