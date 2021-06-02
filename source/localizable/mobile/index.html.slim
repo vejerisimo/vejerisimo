@@ -7,10 +7,9 @@ layout: mobile
 section.white
   .content
     h1.left
-      p.hidden-xs
-        =>t('intro.title1')
+      =>t('intro.title1')
     h1
-      small.hidden-xs style="text-align: left"
+      small style="text-align: left"
         =>t('intro.title2')
     p.intro style="text-align: justify" =t('intro.p1')
     / p.intro style="text-align: justify" =t('intro.p2')
@@ -43,7 +42,7 @@ section.white
     h5 =t('prices.for.house.price')      
     br
     .center
-      = image_tag "room.png", resize_to: '96x96'    
+      = image_tag "room.png", resize_to: '96x96'
     h5 =t('prices.for.room')
     .center
       = image_tag "parking.jpg", resize_to: '163x163'
