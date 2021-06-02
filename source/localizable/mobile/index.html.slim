@@ -6,7 +6,14 @@ layout: mobile
 
 section.white
   .content
+    h1.left
+      p.hidden-xs
+        =>t('intro.title1')
+    h1
+      small.hidden-xs style="text-align: left"
+        =>t('intro.title2')
     p.intro style="text-align: justify" =t('intro.p1')
+    / p.intro style="text-align: justify" =t('intro.p2')
 
 .image-container
   = image_tag "intro_rooms.jpg", resize_to: '375x999', alt: "rooms", class: 'top'
