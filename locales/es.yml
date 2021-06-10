@@ -5,8 +5,8 @@ es:
   room_1_3: XXX
   room_1_4: XXX
   intro:
-    title1: "ALOJAMIENTO BOUTIQUE<br/>4 HABITACIONES y 4 CUARTO DE BAÑOS"
-    title2: "alquilamos la casa entera (8p) o por habitación (2p)<br/>"
+    title1: "ALOJAMIENTO BOUTIQUE<br/>4 HABITACIONES y 4 CUARTOS DE BAÑOS"
+    title2: "alquiler entero (8p) o por habitación (2p)<br/>"
     p1: "<br/>VEJERÍSIMO es una casa con encanto ubicada en un callejón tranquilo en el corazón del casco antiguo de Vejer de la Frontera, muy cerca de los restaurantes, bares y lugares de interés."
     p2: "La casa dispone de 4 habitaciones dobles con baño en-suite, situadas alrededor de un patio típico de arcos. Es una casa de estilo único: conserva su autenticidad pero ofrece todas las comodidades de este tiempo. La casa tiene muchos rincones acogedores: lée un libro en el patio típico al lado de la biblioteca o disfruta de la terraza con tumbonas y rincones chill-out. Le ofrecemos una estancia exeptional y inolvidable."
   header:
@@ -43,7 +43,7 @@ es:
         price: "€200 - €400 / noche"
       room: "Habitación doble + baño privado + cocina común<br><br/>€70 - €110 / noche"
       parking: "1 plaza de parking disponible<br/>a 150m de la casa<br/><br/>precio bajo demanda"
-    detail: "Precios según temporada<br/><br/>DESAYUNO NO INCLUIDO"
+    detail: "Precios según temporada<br/>DESAYUNO NO INCLUIDO"
     prices: "Prices"
     closed: ""
     last_minute: "<a href='mailto:info@vejerisimo.com'>PÓNGASE EN CONTACTO</a> CON NOSOTROS PARA NUESTRAS OFERTAS"
@@ -52,7 +52,7 @@ es:
   house:
     casa:
       title: "LA CASA"
-      description: "Descubre las zonas dondé puede relajar y disfrutar al maximo de su estancia."
+      description: "Descubre las zonas dondé puede relajar y disfrutar al máximo de su estancia."
     estar:
       title: "SALA DE ESTAR Y COCINA"
       description: "Cocina totalmente equipada con lavadora y lavavajillas, comedor y zona de estar con TV y wifi."
@@ -76,7 +76,7 @@ es:
       description: "Vejer tiene una gastronomía de gran calidad. Descubre restaurantes de cocina típica andaluza y platos Vejeriegos. También los restaurantes innovadores le sorprenderá con sus platos creativos y cocina moderna."
     tourism:
       title: "DEPORTE Y TURISMO ACTIVO"
-      description: "Vejer de la Frontera es un lugar ideal para los amantes del Turismo Activo. La zona ofrece diversas posibilidades deportivas al aire libre y divertidas actividades."
+      description: "Vejer de la Frontera es un lugar ideal para los amantes del Turismo Activo.<br/>La zona ofrece diversas posibilidades deportivas al aire libre y divertidas actividades."
     playa:
       title: "EL PARAISO DE PLAYA Y SOL"
       description: "La Costa de la Luz debe su nombre a su vivísima luz y el intenso reflejo del sol en la arena y el mar. Sus costas bordean el océano Atlántico y sus playas extensas con arena dorada fina tienen muchas dunas y vegetación en estado casi salvaje. Con más de 300 días de sol al año, la Costa de la Luz permite disfrutar casi todo el año de las mejores playas de España."
@@ -91,9 +91,9 @@ es:
       description: "El Centro Hípico Montenmedio organiza cada año varias competiciones,  destacando ‘El Circuito Hípico de Sol’, una de las competiciones invernal al aire libre más importante del mundo. Los participantes en el campeonato elijen desde hace años nuestro alojamiento. VEJERÍSIMO  ofrece tranquilidad, autenticidad, modernidad y cercanía a restaurantes,  tiendas y bares. Elija la fórmula más adecuada a sus necesidades y <a href='mailto:info@vejerisimo.com'>pida presupuesto</a> sin compromiso:"
       fullhouse:
         title: "Casa entera"
-        description: "4 habitaciones + 4 baños en-suite (max. 8p)"
+        description: "4 habitaciones dobles + 4 cuartos de baño + cocina + sala de estar + terraza (max. 8p)"
       perroom:
-        title: "Alquiler por habitación (hotel)"
+        title: "Alquiler por habitación (hotel) + cocina compartida"
         description: "Habitación cama de matrimonio + baño en-suite privado (max. 2p)"
   form:
     title: Reservas Y Preguntas
