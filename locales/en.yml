@@ -48,7 +48,7 @@ en:
     for:
       house:
         title: "Full house"
-        description: "4 Rooms + 4 Bathrooms + Kitchen + rooftop terrace"
+        description: "4 Rooms + 4 Bathrooms + kitchen + rooftop terrace"
         price: "€200 - €400 / night"
       room: "Double room + private bathroom + comunal kitchen<br/><br/>€70 - €110 / night"
       parking: "1 parking place available <br/>at 150m from the house<br/><br/>price on demand"
@@ -91,10 +91,10 @@ en:
       description: "The equestrian center Montenmedio organizes various competitions every year, including the 'Sunshine Tour', one of the most important winter races in the world. For years the participants have been choosing VEJERÍSIMO as accommodation during the competition. VEJERÍSIMO offers peace, authenticity and modernity. It is located near the restaurants, typical bars and shops. Choose the formula that suits you best and <a href='mailto:info@vejerisimo.com'>contact us</a> for a price offer:"
       fullhouse:
         title: "Private house"
-        description: "4 rooms + 4 bathrooms en-suite (max. 8p)"
+        description: "4 rooms + 4 en-suite bathrooms + kitchen + rooftop terrace (max. 8p)"
       perroom:
         title: "Per room (hotel)"
-        description: "Room with double bed + bathroom en-suite (max. 2p)"
+        description: "Room with double bed + bathroom en-suite + comunal kitchen (max. 2p)"
     playa:
       title: "BREATHTAKING BEACHES WITH LOTS OF SUN"
       description: "The Costa de la Luz (Coast of Light) takes its name from the brilliant white sunlight that reflects on the ocean en the white sanded beaches. It faces the Atlantic Ocean and has endless beaches backed by dunes and pine forests. With an average of over 300 days of sunshine a year you can enjoy Spain’s best beaches all year long."
