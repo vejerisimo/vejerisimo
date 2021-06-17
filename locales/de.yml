@@ -91,10 +91,10 @@ de:
       description: "Das ‘Equestrian Center Montenmedio’ organisiert jedes Jahr mehrere Wettbewerbe, darunter ‘Sunshine Tour’, der wichtigste Outdoor-Winterwettbewerb der Welt. Teilnehmer dieser Meisterschaft wählen seit Jahren Vejerísimo als ihre Unterkunft, da sie die Ruhe, Authentizität, moderne Ausstattung und die Nähe zu Restaurants / Geschäften / Bars sehr schätzen. Wählen Sie Ihre passende Form für Ihren Aufenthalt und fordern Sie ein <a href='mailto:info@vejerisimo.com'>Angebot</a> an:"
       fullhouse:
         title: "Miete ganzes Haus"
-        description: "4 Doppelzimmer + 4 Badezimmer (max. 8P)"
+        description: "4 Doppelzimmer + 4 Badezimmer + Küche + Dachterrasse (max. 8P)"
       perroom:
         title: "Miete pro Zimmer (hotel)"
-        description: "Zimmer mit Doppelbett + privates Badezimmer (max. 2P)"
+        description: "Zimmer mit Doppelbett + privates Badezimmer + Gemeinsame Küche (max. 2P)"
   form:
     title: RESERVIERUNGEN UND FRAGEN
     name: Name
