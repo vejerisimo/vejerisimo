@@ -5,10 +5,10 @@ fr:
   room_1_3: XXX
   room_1_4: XXX
   intro:
-    title1: "UNE AMBIANCE INTIME ET PERSONELLE"
+    title1: "MAISON D'HÔTES<br/>4 chambres + 4 salles de bain"
     title2: "Louez la maison complète (8p) ou par chambre (2p)<br/>"
     p1: "<br/>VEJERÍSIMO est une maison d’hôtes exploitée par un couple belge qui se situe dans une ruelle tranquille au cœur de l’ancien village de Vejer de la Frontera. Tout près, vous y trouverez des restaurants, petits bars sympas et endroits chaleureux."
-    p2: "La maison centenaire dispose de 4 chambres doubles, situées autour d’un patio typique. Elle a été entièrement rénovée en gardant des accents mauresques et en combinant tout le confort moderne de notre temps. Vous y découvrirez aussi des petits coins sympas: sa bibliothèque, le patio fleuri et sa terrasse où vous pourrez vous relaxer dans les chaises longues. Nous vous garantissons un séjour exceptionnel et inoubliable!"
+    p2: "La maison centenaire dispose de 4 chambres doubles, situées autour d’un patio typique. Elle a été entièrement rénovée en gardant des accents mauresques et en combinant tout le confort moderne de notre temps. Vous y découvrirez aussi des petits coins sympas: sa bibliothèque, le patio et sa terrasse où vous pourrez vous relaxer dans les chaises longues. Nous vous garantissons un séjour exceptionnel et inoubliable!"
   header:
     top: "Accueil"
     rooms: "Chambres"
@@ -24,7 +24,7 @@ fr:
     duplex:
       a: "Chambre à 2 étages avec escalier intérieur privé"
       b: "2 accès: au patio et au premier étage"
-      c: "Rez-de-chaussée: salle de bain spacieuse, toilette séparée et un agréable petit salon"
+      c: "Rez-de-chaussée: salle de bain spacieuse, toilette séparée et grand réfrigirateure"
       d: "Premier étage: lit double confortable 160x190 cm"
     patio:
       a: "Premier étage"
@@ -38,13 +38,13 @@ fr:
   prices:
     for:
       house:
-        title: "Maison complet"
+        title: "Maison complète"
         description: "4 chambre double + 4 salles de bain + cuisine + terrasse"
         price: "€200 - €400 / nuit"
       room: "Chambre double + salle de bain + cuisine commune<br/><br/>€70 - €110 / nuit"
       parking: "1 place de parking privé disponible<br/>a 150m de la maison<br/><br/>tarifs sur demande"
     title: "Prices"
-    detail: "Prix dépendant saison<br/>Petit déjeuner non compris"
+    detail: "Prix selon saison<br/>Petit déjeuner non compris"
     closed: ""
     last_minute: "<a href='mailto:info@vejerisimo.com'>Contactez-nous</a> pour nos offres de dernière minute"
     extra: ""
@@ -78,7 +78,7 @@ fr:
       title: "SPORT ET TOURISME ACTIF"
       description: "Vejer de la Frontera est un endroit idéal pour les amateurs de tourisme actif. La région offre de nombreuses possibilités de sports de plein air et d’autres activités locales."
     playa:
-      title: "DES ÉPOUSTOUFLANTES PLAGES DEBORDANTES DE SOLEIL"
+      title: "PLAGES ÉPOUSTOUFLANTES DEBORDANTES DE SOLEIL"
       description: "La Costa de la Luz doit son nom à sa lumière vive et le reflet intense du soleil sur le sable et la mer. Ses côtes bordent l’océan Atlantique et ses vastes plages de sable fin et doré se mélangent aux nombreuses dunes. Avec plus de 300 jours de soleil par an, la Costa de la Luz permet de profiter presque toute l’année des meilleures plages de l’Espagne et de sa végétation quasi sauvage."
       caption1: 'El Palmar (9 km): un paradis immense de sable fin'
       caption2: 'Barbate (10 km): un paradis pour les amateurs de la cuisine de la mer'
@@ -90,11 +90,11 @@ fr:
       title: "Sunshine Tour"
       description: "Le centre hippique Montenmedio organise chaque année plusieurs compétitions, dont le ‘Sunshine Tour’, une des compétitions hivernales à l’aire libre les plus importantes au monde. Les participants au championnat choisissent depuis des années notre hébergement. VEJERÍSIMO vous offre tranquillité, authenticité, modernité et est situé à proximité des restaurants, bars et magasins. Choisissez la formule qui vous convient le mieux et <a href='mailto:info@vejerisimo.com'>contactez</a> nous pour une offre de prix:"
       fullhouse:
-        title: "Location de la maison entière "
-        description: "4 chambres + 4 salles de bain attenantes (max. 8p)"
+        title: "Location de la maison complète "
+        description: "4 chambres + 4 salles de bain attenantes + cuisine + terrasse (max. 8p)"
       perroom:
         title: "Location par chambre (hôtel)"
-        description: "Chambre lit doublé + salle de bain attenantes (max. 2p)"
+        description: "Chambre lit doublé + salle de bain attenantes + cuisine commune + terrasse (max. 2p)"
   form:
     title: "Réservations & Questions"
     thank_you: Merci! Nous vous contacterons dans les plus brefs délais.
