@@ -91,10 +91,10 @@ fr:
       description: "Le centre hippique Montenmedio organise chaque année plusieurs compétitions, dont le ‘Sunshine Tour’, une des compétitions hivernales à l’aire libre les plus importantes au monde. Les participants au championnat choisissent depuis des années notre hébergement. VEJERÍSIMO vous offre tranquillité, authenticité, modernité et est situé à proximité des restaurants, bars et magasins. Choisissez la formule qui vous convient le mieux et <a href='mailto:info@vejerisimo.com'>contactez</a> nous pour une offre de prix:"
       fullhouse:
         title: "Location de la maison complète "
-        description: "4 chambres + 4 salles de bain attenantes + cuisine + terrasse (max. 8p)"
+        description: "4 chambres + 4 salles de bain attenante + cuisine + terrasse (max. 8p)"
       perroom:
         title: "Location par chambre (hôtel)"
-        description: "Chambre lit doublé + salle de bain attenantes + cuisine commune + terrasse (max. 2p)"
+        description: "Chambre lit double + salle de bain attenante + cuisine commune (max. 2p)"
   form:
     title: "Réservations & Questions"
     thank_you: Merci! Nous vous contacterons dans les plus brefs délais.
