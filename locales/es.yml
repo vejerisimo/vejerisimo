@@ -55,7 +55,7 @@ es:
       description: "Descubre las zonas dondé puede relajar y disfrutar al máximo de su estancia."
     estar:
       title: "SALA DE ESTAR Y COCINA"
-      description: "Cocina totalmente equipada con lavadora y lavavajillas, comedor y zona de estar con TV y wifi."
+      description: "Cocina totalmente equipada con lavadora y lavavajillas, comedor y zona de estar con TV y wifi. Ofrecemos café y té."
     patio:
       title: "EL PATIO"
       description: "El patio exterior tradicional tiene una biblioteca."
@@ -90,7 +90,7 @@ es:
       title: "Circuito Hípico de Sol"
       description: "El Centro Hípico Montenmedio organiza cada año varias competiciones,  destacando ‘El Circuito Hípico de Sol’, una de las competiciones invernal al aire libre más importante del mundo. Los participantes en el campeonato elijen desde hace años nuestro alojamiento. VEJERÍSIMO  ofrece tranquilidad, autenticidad, modernidad y cercanía a restaurantes,  tiendas y bares. Elija la fórmula más adecuada a sus necesidades y <a href='mailto:info@vejerisimo.com'>pida presupuesto</a> sin compromiso:"
       fullhouse:
-        title: "Casa entera"
+        title: "Casa entera privada"
         description: "4 habitaciones dobles + 4 cuartos de baño + cocina + sala de estar + terraza (max. 8p)"
       perroom:
         title: "Alquiler por habitación (hotel) + cocina compartida"
