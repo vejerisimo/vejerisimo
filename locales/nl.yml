@@ -5,10 +5,10 @@ nl:
   room_1_3: XXX
   room_4_4: Bed with towels and view of the outside
   intro:
-    title1: "Boutique Guest House<br/>4 kamers met en-suite badkamer"
+    title1: "Boutique Guest House<br/>4 kamers en 4 badkamers"
     title2: "Huur het volledig huis (8p) of per kamer (2p)<br/>"
     p1: "<br/>VEJERÍSIMO is een Guest House uitgebaat door een Belgisch koppel in het hart van het historisch centrum van Vejer de la Frontera. Het is gelegen in een rustig straatje vlakbij de restaurants, typische bars en de vele bezienswaardigheden."
-    p2: "Rond de typische patio bevinden zich 4 tweepersoonskamers met en-suite badkamer. Het huis heeft een unieke stijl: het combineert authenticiteit met hedendaags comfort. Lees een boek op de patio naast de bibliotheek, geniet van het dakterras, neem een siësta in je kamer, … Geniet met volle teugen! Wij garanderen je een uitzonderlijk en onvergetelijk verblijf."
+    p2: "Rond de typische patio bevinden zich 4 tweepersoonskamers, elk met en-suite badkamer. Het huis heeft een unieke stijl: het combineert authenticiteit met hedendaags comfort. Lees een boek op de patio naast de bibliotheek, geniet van het dakterras, neem een siësta in je kamer, … Geniet met volle teugen! Wij garanderen je een uitzonderlijk en onvergetelijk verblijf."
   header:
     top: "Home"
     rooms: "Kamers"
@@ -47,7 +47,6 @@ nl:
     detail: "Prijzen in functie van seizoen<br/>Ontbijt niet inbegrepen"
     closed: "Gesloten in november, december en januari"
     last_minute: "<a href='mailto:info@vejerisimo.com'>CONTACTEER</a> ONS VOOR ONZE LAST-MINUTE AANBIEDINGEN"
-    extra: "INFORMEER OVER ONZE <a href='/rondrit_op_maat_2017.pdf'>RONDRIT</a> BIJ BELGISCHE B&B's"
     terms: "Algemene voorwaarden"
   house:
     casa:
