@@ -44,10 +44,10 @@ en:
       b: "Comfortable double bed 160x190cm"
       c: "Spacious ensuite bathroom"
       d: "Small table in front of the room"
-  prices:
-    for:
-      house:
-        title: "Full house"
+  prices: 
+    for: 
+      house: 
+        title: "Full house" 
         description: "4 Rooms + 4 Bathrooms + kitchen + rooftop terrace"
         price: "€200 - €400 / night"
     detail: "Prices season dependent"
