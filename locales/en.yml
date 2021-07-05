@@ -47,14 +47,14 @@ en:
   prices: 
     for: 
       house: 
-        title: "Full house" 
+        title: "Full house"
         description: "4 Rooms + 4 Bathrooms + kitchen + rooftop terrace"
         price: "€200 - €400 / night"
     detail: "Prices season dependent"
       room: "Double room + private bathroom + comunal kitchen<br/><br/>€70 - €110 / night"
-    detail: "Prices season dependent<br/>Breakfast not included"
+    detail2: "Prices season dependent<br/>Breakfast not included"
       parking: "1 parking place available <br/>at 150m from the house"
-    detail: "Prices season dependent"
+    detail3: "Prices season dependent"
     closed: "November, December, January"
     last_minute: "<a href='mailto:info@vejerisimo.com'>Contact us</a> for our last-minute offers"
     extra: ""
