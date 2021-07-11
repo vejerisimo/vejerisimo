@@ -37,6 +37,22 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+a {
+  text-decoration: underline;
+  text-decoration-color: gray;
+}
+
+.navbar  a {
+  text-decoration: none;
+}
+
+// a:after {
+//     content: '';
+//     height: 1px;
+//     background: gray;
+//     display: block;
+// }
+
 h2 {
   padding-top: 20px;
 }
