@@ -40,17 +40,21 @@ section.white
     h5 =t('prices.house.title')
     h6 =t('prices.house.description')
     h5 =t('prices.house.price')
-    br
     h6
       small
-        br =t('prices.seasondependent')
-        br =t('prices.breakfastexcl')  .center
+        br 
+          div =t('prices.seasondependent')
+          div =t('prices.breakfastexcl')
+    br
+    .center 
       = image_tag "room.png", resize_to: '150x150'
     h5 =t('prices.room')
     h6
       small
-        br =t('prices.seasondependent')
-        br =t('prices.breakfastexcl')
+        br
+          div =t('prices.seasondependent')
+          div =t('prices.breakfastexcl')
+    br
     .center
       = image_tag "parking.jpg", resize_to: '150x150'
     h5 =t('prices.parking')
