@@ -6,11 +6,6 @@ layout: mobile
 
 section.white
   .content
-    / br
-    / h5: a href="/#{I18n.locale}/mobile/form" = t('form.title')
-    / br
-    / hr
-
     #prices
         .center
           = image_tag "house.png", resize_to: '150x150'
@@ -73,8 +68,6 @@ section.white
           = t('form.telephone')
           span.form-required *
         .form-input
-          / span.form-sub-label-container
-          /   input#input_20_area.form-textbox name="telephone_area" size="5" type="tel" required="required"
           span.form-sub-label-container
             input#input_20_phone.form-textbox name="telephone_number" size="20" type="tel" required="required"
       li#id_25.form-line
@@ -128,15 +121,6 @@ section.white
   .content
     h2.text-center
       a href="/#{I18n.locale}/mobile/" << Back <<
-
-/ h5
-/   small
-/     a< _data-toggle="modal" _data-target="#modal" href="/terms-and-conditions-#{I18n.locale}/" target="_blank" =t('prices.terms')
-
-/ h2.text-center
-/   a href="/#{I18n.locale}/mobile/" << Back <<
-
-/ hr
 
 script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"
 / script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"

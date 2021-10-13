@@ -36,16 +36,15 @@ es:
       c: "Baño en-suite espacioso"
       d: "Mesita en frente de la habitación"
   prices:
-    title: "PRICES"
-    for:
-      house:
-        title: "Casa entera privada (8p)"
-        description: "4 habitaciones dobles + 4 cuartos de baño + cocina + terraza"
-        price: "€200 - €400 / noche"
-      room: "Habitación doble + baño privado + cocina común<br><br/>€70 - €110 / noche"
-      parking: "1 plaza de parking disponible<br/>a 150m de la casa<br/>precio bajo demanda"
+    title: "PRECIOS"
+    house:
+      title: "Casa entera privada (8p)"
+      description: "4 habitaciones dobles + 4 cuartos de baño + cocina + terraza"
+      price: "€200 - €400 / noche"
+    room: "Habitación doble + baño privado + cocina común<br><br/>€70 - €110 / noche"
+    parking: "1 plaza de parking disponible<br/>a 150m de la casa<br/>precio bajo demanda"
     detail: "Precios según temporada<br/>DESAYUNO NO INCLUIDO"
-    prices: "Prices"
+    prices: "Precios"
     closed: ""
     last_minute: "<a href='mailto:info@vejerisimo.com'>PÓNGASE EN CONTACTO</a> CON NOSOTROS PARA NUESTRAS OFERTAS"
     extra: ""
