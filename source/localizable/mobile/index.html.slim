@@ -14,9 +14,10 @@ section.white
     p.intro style="text-align: justify" =t('intro.p1')
     / p.intro style="text-align: justify" =t('intro.p2')
 
+
 .image-container
   = image_tag "intro_rooms.jpg", resize_to: '375x999', alt: "rooms", class: 'top'
-  .image-overlay
+  .image-overlay onclick="window.location='/#{I18n.locale}/mobile/rooms'"
     .main
       a href="/#{I18n.locale}/mobile/rooms" = t('rooms.title')
 
@@ -26,7 +27,7 @@ section.white
 
 .image-container
   = image_tag "intro_house.jpg", resize_to: '375x999', alt: "house", class: 'top'
-  .image-overlay
+  .image-overlay onclick="window.location='/#{I18n.locale}/mobile/house'"
     .main
       a href="/#{I18n.locale}/mobile/house" = t('house.casa.title')
 
