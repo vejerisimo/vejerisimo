@@ -1,0 +1,186 @@
+---
+layout: mobile
+---
+
+= partial "header_mobile_small"
+
+section.white
+  .content
+    / br
+    / h5: a href="/#{I18n.locale}/mobile/form" = t('form.title')
+    / br
+    / hr
+
+    #prices
+        .center
+          = image_tag "house.png", resize_to: '150x150'
+        h5 =t('prices.house.title')
+        h6 =t('prices.house.description')
+        h5 =t('prices.house.price')
+        h6
+          small
+            br
+              div =t('prices.seasondependent')
+              div =t('prices.breakfastexcl')
+        br
+        .center
+          = image_tag "room.png", resize_to: '150x150'
+        h5 =t('prices.room')
+        h6
+          small
+            br
+              div =t('prices.seasondependent')
+              div =t('prices.breakfastexcl')
+        br
+        .center
+          = image_tag "parking.jpg", resize_to: '150x150'
+        h5 =t('prices.parking')
+        h6
+          small
+            br =t('prices.seasondependent')
+        h6
+          br =t('prices.last_minute')
+          small
+            br =t('prices.extra')
+            br
+              a< _data-toggle="modal" _data-target="#modal" href="/terms-and-conditions-#{I18n.locale}/" target="_blank" =t('prices.terms')
+
+
+.form-all
+  form accept-charset="utf-8" action="" method="post" name="contact"
+    #alert_placeholder
+    input type="hidden" value="51355991919367"
+    ul.form-section.page-section
+      li.form-input-wide
+        .form-header-group
+          .header-text.httac.htvam
+            h1.form-header
+              = t('form.title')
+      li.form-line
+        label.form-label.form-label-left.form-label-auto for="name"
+          = t('form.name')
+          span.form-required *
+        .form-input
+          input.form-textbox name="name" size="20" type="text" value="" required="required" /
+      li.form-line
+        label.form-label.form-label-left.form-label-auto for="email"
+          = t('form.email')
+          span.form-required *
+        .form-input
+          input#input_24.form-textbox name="email" size="50" type="email" value="" required="required"  /
+      li#id_20.form-line
+        label#label_20.form-label.form-label-left.form-label-auto for="telephone_number"
+          = t('form.telephone')
+          span.form-required *
+        .form-input
+          / span.form-sub-label-container
+          /   input#input_20_area.form-textbox name="telephone_area" size="5" type="tel" required="required"
+          span.form-sub-label-container
+            input#input_20_phone.form-textbox name="telephone_number" size="20" type="tel" required="required"
+      li#id_25.form-line
+        label#label_25.form-label.form-label-left.form-label-auto for="input_25"
+          = t('form.arrival')
+        .form-input
+          input#input_25.form-textbox name="arrival_month" size="50" type="date" value="" required="required"
+      li#id_10.form-line
+        label#label_10.form-label.form-label-left.form-label-auto for="input_10"
+          = t('form.nights')
+        .form-input
+          select#input_10.form-dropdown name="days" style="width:60px"
+            option value=""
+            option value="1"  1
+            option value="2"  2
+            option value="3"  3
+            option value="4"  4
+            option value="5"  5
+            option value="6"  6
+            option value="7"  7
+            option value="8"  8
+            option value="9"  9
+            option value="10"  10
+            option value="11"  11
+            option value="12"  12
+            option value="13"  13
+            option value="14(+)"  14(+)
+      li#id_30.form-line
+        label#label_30.form-label.form-label-left.form-label-auto for="input_30"
+          = t('form.persons')
+        .form-input
+          select#input_30.form-dropdown name="adults" style="width:60px"
+            option value=""
+            option value="1"  1
+            option value="2"  2
+            option value="3"  3
+            option value="4"  4
+            option value="5"  5
+            option value="6"  6
+            option value="7"  7
+            option value="8"  8
+      li.form-line
+        label.form-label.form-label-left.form-label-auto for="input_13"
+          = t('form.comments')
+        .form-input
+          textarea.form-textarea cols="40" name="comment" rows="6"
+    button#input_2.form-submit-button type="submit"
+      = t('form.send')
+
+section.white
+  .content
+    h2.text-center
+      a href="/#{I18n.locale}/mobile/" << Back <<
+
+/ h5
+/   small
+/     a< _data-toggle="modal" _data-target="#modal" href="/terms-and-conditions-#{I18n.locale}/" target="_blank" =t('prices.terms')
+
+/ h2.text-center
+/   a href="/#{I18n.locale}/mobile/" << Back <<
+
+/ hr
+
+script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"
+/ script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"
+
+javascript:
+  on_submit = function(event){
+
+    event.preventDefault();
+    // $('form[name=contact]')[0].checkValidity(); // returns false but does not show feedback
+    $("#input_2").prop('disabled', true); // disable button
+
+    //validate fields
+    var fail_log = [];
+    $( 'form[name=contact]' ).find( 'select, textarea, input' ).each(function(){
+        if( $( this ).prop( 'required' )) {
+            if ( ! $( this ).val() ) {
+                name = $( this ).attr( 'name' );
+                fail_log.push(name + " is required");
+                $( this ).addClass('required');
+            }
+        }
+    });
+    if ( fail_log.length == 0 ) {
+      $.ajax({
+          url: "//formspree.io/info@vejerisimo.com",
+          method: "POST",
+          data: $('form[name=contact]').serializeArray(),
+          dataType: "json",
+      }).done(function() {
+        window.location='/#{I18n.locale}/mobile/'
+        $("#input_2").prop('disabled', false); // disable button
+        alert( "#{t('form.thank_you')}" );
+        // $( 'form[name=contact]' ).reset();
+      });
+
+    } else {
+        alert(fail_log.join(', '), 'alert-warning');
+        $("#input_2").prop('disabled', false); // disable button
+    }
+
+    return false;
+  }
+
+  $(function() {
+    $('form[name=contact]').on('submit', on_submit);
+    console.log('mobile form initialised');
+  });

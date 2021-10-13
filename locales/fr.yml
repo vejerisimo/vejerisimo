@@ -36,6 +36,7 @@ fr:
       c: "Salle de bain spacieuse attenante"
       d: "Petite table en façe de la chambre"
   prices:
+    title: "PRICES"
     for:
       house:
         title: "Maison complète"

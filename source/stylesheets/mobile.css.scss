@@ -47,6 +47,11 @@ p {
   line-height: 1.3em;
 }
 
+a {
+  text-decoration: underline;
+  text-decoration-color: rgba(200,200,200,200);
+}
+
 .contain {
   -webkit-background-size: contain;
   -moz-background-size: contain;

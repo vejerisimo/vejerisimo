@@ -36,6 +36,7 @@ nl:
       c: "Ruime badkamer en-suite"
       d: "Klein tafeltje net buiten de kamer"
   prices:
+    title: "PRIJZEN"
     for:
       house:
         title: "Volledig huis"

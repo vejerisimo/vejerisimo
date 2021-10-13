@@ -36,6 +36,7 @@ de:
       c: "Großzügiges, modernes Badezimmer"
       d: "Kleiner Tisch vor dem Zimmer"
   prices:
+    title: "PRICES"
     for:
       house:
         title: "Gesamtes Haus"

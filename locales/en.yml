@@ -45,6 +45,7 @@ en:
       c: "Spacious ensuite bathroom"
       d: "Small table in front of the room"
   prices:
+    title: "PRICES"
     house:
       title: "Full house"
       description: "4 Rooms + 4 Bathrooms + kitchen + rooftop terrace"

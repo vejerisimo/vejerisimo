@@ -36,6 +36,7 @@ es:
       c: "Baño en-suite espacioso"
       d: "Mesita en frente de la habitación"
   prices:
+    title: "PRICES"
     for:
       house:
         title: "Casa entera privada (8p)"

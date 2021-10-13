@@ -50,6 +50,11 @@ html
     = stylesheet_link_tag "mobile", :async => true
     = partial "analytics"
 
+    p.center style="position: fixed; bottom: 5px; right: 5px;"
+      /a href="https://api.whatsapp.com/send?phone=0034638188682" itemprop="whatsapp"
+      a href="https://wa.me/34638188682" itemprop="whatsapp"
+        img src="#{image_path("WhatsApp_Logo_1.png")}" width="64px" height="64px"
+
 javascript:
   $('.carousel').on('touchstart', function(event){
       const xClick = event.originalEvent.touches[0].pageX;
