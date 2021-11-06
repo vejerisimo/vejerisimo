@@ -1,5 +1,7 @@
 ---
 fr:
+  booking:
+    online: Book Online
   room_1_1: Bed with towels
   room_1_2: Shower in microcement, toilet and heater
   room_1_3: XXX
@@ -10,6 +12,7 @@ fr:
     p1: "<br/>VEJERÍSIMO est une maison d’hôtes exploitée par un couple belge qui se situe dans une ruelle tranquille au cœur de l’ancien village de Vejer de la Frontera. Tout près, vous y trouverez des restaurants, petits bars sympas et endroits chaleureux."
     p2: "La maison centenaire dispose de 4 chambres doubles, situées autour d’un patio typique. Elle a été entièrement rénovée en gardant des accents mauresques et en combinant tout le confort moderne de notre temps. Vous y découvrirez aussi des petits coins sympas: sa bibliothèque, le patio et sa terrasse où vous pourrez vous relaxer dans les chaises longues. Nous vous garantissons un séjour exceptionnel et inoubliable!"
   header:
+    book: "Book"
     top: "Accueil"
     rooms: "Chambres"
     reservations: "Info & Réservations"
