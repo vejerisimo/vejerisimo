@@ -39,15 +39,15 @@ de:
       c: "Großzügiges, modernes Badezimmer"
       d: "Kleiner Tisch vor dem Zimmer"
   prices:
-    title: "PRICES"
     house:
       title: "Gesamtes Haus"
       description: "4 Doppelzimmer + 4 Badezimmer + Küche + Dachterrasse"
       price: "€200 - €400 / nacht"
     room: "Doppelzimmer + privates Badezimmer + Gemeinsame Küche<br/><br/>€70 - €110 / nacht"
     parking: "1 Parkplatz 150m vom Hause zur Verfügung<br/>Preis auf Anfrage"
+    seasondependent: "Preise saisonabhängig"
+    breakfastexcl: "Frühstück nicht inklusive"
     title: "Prices"
-    detail: "Preise saisonabhängig<br/>Frühstück nicht inklusive"
     closed: "Im November, Dezember und Januar geschlossen"
     last_minute: "<a href='mailto:info@vejerisimo.com'>Kontaktieren</a> sie uns für ihr last minute-angebot!"
     extra: ""
