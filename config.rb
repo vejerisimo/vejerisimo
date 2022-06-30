@@ -18,8 +18,6 @@ set :site_keywords, 'Vejer, Andalusia, Spain, Hotel, Bed & Breakfast, Casa, Tien
 # If false, you can get plain bootstrap style.
 # set :theme_name, 'flatly'
 set :theme_name, false
-# set @analytics_account, like "XX-12345678-9"
-@analytics_account = "UA-63217615-1"
 
 # Slim settings
 Slim::Engine.set_options :pretty => true
