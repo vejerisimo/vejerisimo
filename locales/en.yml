@@ -51,7 +51,7 @@ en:
     title: "PRICES"
     house:
       title: "Full house"
-      description: "4 Rooms + 4 Bathrooms + kitchen + rooftop terrace"
+      description: "<ul><li>4 Rooms</li><li>4 Bathrooms</li><li>kitchen</li><li>rooftop terrace</li></ul>"
       price: "€200 - €400 / night"
     seasondependent: "Prices season dependent"
     breakfastexcl: "Breakfast not included"
