@@ -15,10 +15,14 @@ section.white#prices
           div =t('prices.seasondependent')
           div =t('prices.breakfastexcl')    
     br
-    h5 =t('prices.room')
-    h5 =t('prices.room_title')
-    h6 =t('prices.room_description')
-    h5 =t('prices.room_price')
+    - if I18n.exists?('prices.room', I18n.locale)
+      h5 =t('prices.room') 
+    - if I18n.exists?('prices.room_title', I18n.locale)
+      h5 =t('prices.room_title')
+    - if I18n.exists?('prices.room_description', I18n.locale)
+      h6 =t('prices.room_description')
+    - if I18n.exists?('prices.room_price', I18n.locale)
+      h5 =t('prices.room_price')
     h5
       small
         br 
