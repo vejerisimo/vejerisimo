@@ -20,8 +20,9 @@ section.red
 
     = partial 'components/carousel_inline', locals: { \
       id: 'carousel-gastronomia', \
-      items: [ 'resto_1', 'resto_2', 'resto_4'], \
+      items: [ 'resto_1'], \
       }
+    // , 'resto_2', 'resto_4'
 
     .row
       .col-md-3
@@ -31,8 +32,9 @@ section.red
 
     = partial 'components/carousel_inline', locals: { \
       id: 'carousel-turismo', \
-      items: [ 'turismo_1', 'turismo_2', 'turismo_3', 'turismo_4'], \
+      items: [ 'turismo_1', 'turismo_3', 'turismo_4'], \
       }
+    // , 'turismo_4', 'turismo_2', 
 
 section.white
   .content
@@ -41,10 +43,11 @@ section.white
 
 = partial 'components/carousel', locals: { \
     id: 'carousel-playas', \
-    items: [ 'playa_1', 'playa_2', 'playa_3', 'playa_4', 'playa_6' ], \
+    items: [ 'playa_1', 'playa_2', 'playa_3', 'playa_4' ], \
     captions: [ t('vejer.playa.caption1'), t('vejer.playa.caption2'),  t('vejer.playa.caption3'), t('vejer.playa.caption4'),  t('vejer.playa.caption5'), t('vejer.playa.caption6'),
       ] \
     }
+// , 'playa_6'
 
 a.anchor name="sunshinetour"
 section.yellow
