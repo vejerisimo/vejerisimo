@@ -1,26 +1,34 @@
-.carousel.slide.lazy-img id="#{id}" data-ride="carousel" data-keyboard="true" data-interval="15000" data-pause="true"
-  /! Indicators
-  ol.carousel-indicators
-    li.active data-slide-to="0" data-target="##{id}"
-    - for i in (1..items.length-1)
-      li data-slide-to="#{i}" data-target="##{id}"
-  /! Wrapper for slides
-  .carousel-inner role="listbox"
-    - items.each_with_index do |item, index|
-      - if index==0
-        .item class='active'
-          .carrousel-container
-            img src=image_path("#{item}.jpg") alt="#{t(item)}" title="#{t(item)}"
-          - if locals[:captions] && locals[:captions][index]
-            .carousel-caption
-              = locals[:captions][index]
-      - else
-        .item
-          .carrousel-container
-            img src=image_path("#{item}.jpg") alt="#{t(item)}" title="#{t(item)}"
-          - if locals[:captions] && locals[:captions][index]
-            .carousel-caption
-              = locals[:captions][index]
+- if items.count > 1
+  .carousel.slide.lazy-img id="#{id}" data-ride="carousel" data-keyboard="true" data-interval="15000" data-pause="true"
+    /! Indicators
+    ol.carousel-indicators
+      li.active data-slide-to="0" data-target="##{id}"
+      - for i in (1..items.length-1)
+        li data-slide-to="#{i}" data-target="##{id}"
+    /! Wrapper for slides
+    .carousel-inner role="listbox"
+      - items.each_with_index do |item, index|
+        - if index==0
+          .item class='active'
+            .carrousel-container
+              img src=image_path("#{item}.jpg") alt="#{t(item)}" title="#{t(item)}"
+            - if locals[:captions] && locals[:captions][index]
+              .carousel-caption
+                = locals[:captions][index]
+        - else
+          .item
+            .carrousel-container
+              img src=image_path("#{item}.jpg") alt="#{t(item)}" title="#{t(item)}"
+            - if locals[:captions] && locals[:captions][index]
+              .carousel-caption
+                = locals[:captions][index]
 
-  = partial 'components/carousel_controls', locals: { id: "##{id}" }
-  = locals[:content]
+    = partial 'components/carousel_controls', locals: { id: "##{id}" }
+    = locals[:content]
+- else
+  - item = items.first
+  .carousel.slide.lazy-img
+    .carousel-inner
+      .item class='active'
+        .carrousel-container
+          img src=image_path("#{item}.jpg") alt="#{t(item)}" title="#{t(item)}"
