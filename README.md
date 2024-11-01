@@ -1,6 +1,6 @@
 vejerisimo
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a5b17758-b3a5-4c23-b483-10de757135fd/deploy-status)](https://app.netlify.com/sites/vejerisimo-current/deploys)
+[![pages-build-deployment](https://github.com/vejerisimo/vejerisimo.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/vejerisimo/vejerisimo.github.io/actions/workflows/pages/pages-build-deployment)
 
 website readme
 
@@ -20,7 +20,3 @@ website readme
     git commit -m "update"
     (publish)
     git push origin gh-pages
-
-
-removed from bower
-    "jquery-mobile-bower": "~1.4",
