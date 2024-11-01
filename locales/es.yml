@@ -40,6 +40,7 @@ es:
       d: "Mesita en frente de la habitación"
   prices:
     title: "PRECIOS"
+
     house:
       title: "Casa entera privada (8p)"
       description: "4 habitaciones dobles + 4 cuartos de baño + cocina + terraza"

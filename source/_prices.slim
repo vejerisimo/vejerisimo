@@ -5,33 +5,38 @@
 
 a.anchor name="reservations"
 section.white#prices
-  .content  
-    h5 =t('prices.house.title')
-    h6 =t('prices.house.description')
-    h5 =t('prices.house.price')
-    h5
-      small
-        br 
+  .content
+    .pricing-container
+      .pricing-option
+        h2 =t('prices.rooms.title')
+        ul.feature-list
+          li =t('prices.rooms.description1')
+          li =t('prices.rooms.description2')
+          li =t('prices.rooms.description3')
+          li =t('prices.rooms.description4')
+          li =t('prices.rooms.parking')
+        .price =t('prices.rooms.price')
+        / h5: small=t('prices.seasondependent')
+        button.cta =t('prices.rooms.check_availability')
+        h5: small
           div =t('prices.seasondependent')
-          div =t('prices.breakfastexcl')    
-    br
-    - if I18n.exists?('prices.room', I18n.locale)
-      h5 =t('prices.room') 
-    - if I18n.exists?('prices.room_title', I18n.locale)
-      h5 =t('prices.room_title')
-    - if I18n.exists?('prices.room_description', I18n.locale)
-      h6 =t('prices.room_description')
-    - if I18n.exists?('prices.room_price', I18n.locale)
-      h5 =t('prices.room_price')
-    h5
-      small
-        br 
+          div =t('prices.breakfastexcl')
+      .pricing-option
+        h2 =t('prices.house.title')
+        ul.feature-list
+          li =t('prices.house.description1')
+          li =t('prices.house.description2')
+          li =t('prices.house.description3')
+          li =t('prices.house.description4')
+          li =t('prices.house.parking')
+        .price =t('prices.house.price')
+        / h5: small =t('prices.seasondependent')
+        button.cta =t('prices.house.check_availability')
+        h5: small
           div =t('prices.seasondependent')
-          div =t('prices.breakfastexcl')    
-    h5 =t('prices.parking')
-    h5
-      small
-        br =t('prices.seasondependent')
+          div =t('prices.breakfastexcl')
+    / br
+    / h5 =t('prices.parking')
     h5
       br =t('prices.last_minute')
       small

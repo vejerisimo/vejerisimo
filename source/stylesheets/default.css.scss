@@ -441,3 +441,30 @@ ul.additional_info {
     display: inline;
   }
 }
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.pricing-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1; /* Ensures all columns stretch equally */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.price { font-size: 24px; color: #333; margin: 15px 0; }
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+.feature-list li { padding: 5px 0; }
+.cta { background-color: rgb(128,63,66); color: #fff; padding: 10px; border: none; border-radius: 5px; cursor: pointer; }

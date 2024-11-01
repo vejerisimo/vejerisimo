@@ -40,10 +40,27 @@ nl:
       d: "Klein tafeltje net buiten de kamer"
   prices:
     title: "PRIJZEN"
+    # house:
+    #   description: "4 kamers + 4 badkamers + keuken + dakterras"
+    #   price: "€200 - €400 / nacht"
     house:
       title: "Volledig huis"
-      description: "4 kamers + 4 badkamers + keuken + dakterras"
+      description1: "4 kamers"
+      description2: "4 en suite badkamers"
+      description3: "Keuken"
+      description4: "Privaat dakterras"
       price: "€200 - €400 / nacht"
+      check_availability: "Beschikbaarheid controleren"
+      parking: "1 parkeerplaats inbegrepen (op 150m)"
+    rooms:
+      title: "Per Kamer"
+      description1: "Dubbelkamer"
+      description2: "En suite badkmaer"
+      description3: "Gemeenschappelijke keuken"
+      description4: "Dakterras"
+      price: "€70 - €110 / nacht"
+      check_availability: "Beschikbaarheid controleren"
+      parking: "Optionele parkeerplaats (op 150m)"
     room: "2-persoonskamer + privé badkamer + gemeenschappelijke keuken<br/><br/>€70 - €110 / nacht"
     parking: "1 parkeerplaats beschikbaar<br/>op 150m van het huis<br/>prijs op aanvraag"
     title: "Prijzen"
